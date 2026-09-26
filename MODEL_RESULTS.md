@@ -40,7 +40,7 @@ The ingredients, and nothing else:
 
 **7. Patterns of different strength.** A strong pattern **hosts** weak ones: a weak pattern that dies almost at once on its own lives 20–30 times longer inside a strong pattern's clumps, even when it is too weak to form structure alone. Two strong patterns **merge** and each outlives its lone self. *Strength: observed, with lone controls.*
 
-**8. Polarity: bind or part.** With participation as a complex amplitude, √bandwidth × e^{i·polarity} (P09), **patterns in step bind even more strongly, and patterns in opposite phase cancel each other's slowing where they meet, separate, and both die early.** At a quarter turn the result reduces exactly to simple addition, which serves as an internal consistency check. *Strength: observed; the phases were set by hand.*
+**8. Polarity: bind or part, and selection by surroundings.** With participation as a complex amplitude, √bandwidth × e^{i·polarity} (P09), **patterns in step bind even more strongly, and patterns in opposite phase cancel each other's slowing where they meet, separate, and both die early.** At a quarter turn the result reduces exactly to simple addition, which serves as an internal consistency check. A further test asked whether polarity is *selected*. Patterns do not winnow each other, since they stay where they form. But **each pattern's fate is set by its phase relative to the stuff around it:** within about a quarter turn of its surroundings it keeps its structure, and beyond about half a turn it cannot (16 of 17 drops). In scrambled surroundings, no mixed-phase layout keeps any. This matches the ontology's reading of polarity as relational, "chain-in-environment". *Strength: observed, pre-registered; the surroundings' phase was set by hand.*
 
 ---
 
@@ -64,7 +64,7 @@ These are resemblances, not claims.
   - a "present-only" rule produced a tangle that mimics three dimensions on one measure (see the caveat below).
   
   This extends the finding in [Negative_Results.md](Negative_Results.md).
-- **Choose polarity.** A polarity that turns with the flow of becoming adds up the same along every route, so it cannot produce phases that depend on history. In these models becoming always flows downhill, which never circulates, so any polarity rule read off the flow has this limit.
+- **Choose polarity from the flow.** A polarity that turns with the flow of becoming adds up the same along every route, so it cannot produce phases that depend on history. In these models becoming always flows downhill, which never circulates, so any polarity rule read off the flow has this limit.
 - **Push patterns apart without polarity.** Slowing belongs to the place and only ever adds, so everything with structure gathers.
 
 **An instrument caveat worth keeping.** How distance grows with size cannot, on its own, tell three-dimensional space from a critical tangle: both read about one-third. It must always be read alongside a shape measure.
@@ -73,6 +73,6 @@ These are resemblances, not claims.
 
 ## Open questions for the ontology
 
-1. **What sets the relative polarity of two patterns?** The models show what follows from a given phase difference, not where one comes from.
+1. **What sets the phase of the surroundings?** The models show that patterns survive by aligning with their medium. What aligns the medium is open.
 2. **Is the polarity connection (P05) a field of its own**, or is it read off something else?
 3. **The exact laws** for how long structure lasts under spending and under strong interaction. Both are approximate.
