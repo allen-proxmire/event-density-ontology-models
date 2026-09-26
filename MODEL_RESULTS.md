@@ -20,7 +20,7 @@ The ingredients, and nothing else:
 
 **These are models, not derivations.** Nothing below derives gravity, particles or cosmology, and nothing is a measurement of nature. Each result is scoped to the rules, sizes and settings run.
 
-**How it was run.** The observables were fixed before each model, not the success criteria. Every instrument was calibrated on cases with known answers, including a null. Expected behaviours were written down before each run. Every claim that failed is kept on record with its reason, and about a dozen were withdrawn or narrowed along the way. Two working sessions checked each other's results throughout.
+**How it was run.** The observables were fixed before each model, not the success criteria. Every instrument was calibrated on cases with known answers, including a null. Expected behaviours were written down before each run. Every claim that failed is kept on record with its reason, and about twenty were withdrawn or narrowed along the way. Two working sessions checked each other's results throughout.
 
 ---
 

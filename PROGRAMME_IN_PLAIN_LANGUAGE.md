@@ -43,7 +43,7 @@ Smaller findings: patterns fall apart below about five connections per event; ED
 
 **What happens, in order of discovery:**
 
-1. **Structure has a switch.** Clumps form when *interaction × commit rate × ħ × threshold* is above **1**. This was worked out on paper first, then confirmed exactly at two different ħ.
+1. **Structure has a switch.** Clumps form when *interaction × commit rate × ħ × threshold* is above **1**. This was worked out on paper first, then confirmed exactly at two different ħ — for a dense region. A spreading drop needs a little more (about 1.6, or 2.1 for long ħ), because clumping has to outrun the spreading.
 2. **The only memory is the present state.** A clump is wherever its stuff is. Remove the stuff and the clump is gone; move the stuff and the clump follows.
 3. **Your ink picture, in full.** Structure appears, then ends, either **from outside** (expansion thins it) or **from inside** (spending uses up its budget): uniform → structure → uniform.
 4. **A law for when structure dies.** Derived with nothing fitted, it predicts lifetimes under thinning, **including at a rate it was never built on.** It is exact for weakly interacting patterns and bracketed for strongly interacting ones, which shelter each other and die together.
@@ -74,7 +74,7 @@ Smaller findings: patterns fall apart below about five connections per event; ED
 
 Not all results carry the same weight, and they shouldn't be quoted as if they did.
 
-- **Proved or exact:** the handedness theorem; untunability in 2+1 (exact algebra); the structure switch at 1.
+- **Proved or exact:** the handedness theorem; untunability in 2+1 (exact algebra); the structure switch at 1 for a dense region.
 - **Laws, tested beyond the data they came from:** the death law for weakly interacting patterns; the clock floor, checked under a control it never had.
 - **Clean, reproduced observations:** the memory result; the full ink arc; hosting and merging; binding and parting; selection by surroundings; alignment inherited from the start; exclusion forbidding structure.
 - **Approximate:** ħ's sheltering trend; the square-root lifetime under spending; the grain model's switch, which depends on how the smooth model was translated into grains.
