@@ -1,0 +1,78 @@
+# What ED's ingredients do: models in supplied space
+
+*The model-building programme that followed the fourteen attempts, 2026-09-24 to 26. A companion to [RESULTS.md](RESULTS.md). The working record — every model, ledger entry, withdrawal, script and data file — is held separately and available on request.*
+
+---
+
+## What this is, and what it is not
+
+The fourteen attempts asked ED to **make** space, and it did not ([Negative_Results.md](Negative_Results.md)). ED's ontology does not claim to: three-plus-one is a declared input. So the programme changed question. **Space is supplied as a 3D grid, and the question is what ED's own ingredients do in it.**
+
+The ingredients, and nothing else:
+
+- becoming flows from concentrated toward diffuse;
+- committed becoming slows the clocks around it;
+- becoming commits above a threshold, irreversibly at that moment;
+- committed becoming dissolves after a fixed time, **ħ** — read here, following the author, as *how much memory a pattern can carry before it dissolves*, one fixed number for the whole substrate;
+- new places keep being born (expansion);
+- commitments use up a budget;
+- participation carries a **polarity**, a phase (primitive P09), transported with the stuff (P05).
+
+**These are models, not derivations.** Nothing below derives gravity, particles or cosmology, and nothing is a measurement of nature. Each result is scoped to the rules, sizes and settings run.
+
+**How it was run.** The observables were fixed before each model, not the success criteria. Every instrument was calibrated on cases with known answers, including a null. Expected behaviours were written down before each run. Every claim that failed is kept on record with its reason, and about a dozen were withdrawn or narrowed along the way. Two working sessions checked each other's results throughout.
+
+---
+
+## The results
+
+**1. Structure has a switch, and the switch has a formula.** Lasting structure forms when *interaction strength × commit rate × ħ × threshold* exceeds **1**. This was derived on paper, and then confirmed at the predicted value at two very different ħ, with nothing tuned. A spreading drop needs more (about 1.6–2.1), because clumping has to outrun the spreading. *Strength: derived and confirmed.*
+
+**2. The only memory is the present state.** Remove a clump's committed stuff and it re-forms on the spot. Spread its free stuff away and it never returns. Move that stuff and the clump follows it. Nothing stores where a clump was. This agrees with the ontology's *"nothing accumulates a record of itself"*. *Strength: direct test, three seeds.*
+
+**3. Structure is temporary, ended from outside or from inside.** Without an ending, clumps sustain themselves indefinitely. Expansion (new places being born) thins them until they cannot rebuild. Spending (commitments using up a budget) makes structure burn its own budget. **Either way the whole arc appears: uniform, then structure, then uniform again**, as the ontology's §12 describes. *Strength: observed, all runs; both endings.*
+
+**4. A law for when structure dies under thinning.** For weakly interacting patterns, a formula derived from the flow rule, with five measured inputs and nothing fitted, predicts lifetimes to within about 4%. It **still holds at an expansion rate it was never built on** (0.89 and 1.02). For strongly interacting patterns, clumps shelter each other and die together; that case is bracketed but not solved. *Strength: a law, tested out of sample, for weak interaction.*
+
+**5. ħ shelters structure, more the harder it is driven.** Against thinning, the effect is absent right at the switch and grows steadily above it (2.6× at the strongest setting). Under spending, a longer ħ lengthens structure's life, roughly as a square root, though measured tightly that is only a first approximation. *Strength: empirical and reproducible; not derived.*
+
+**6. Grain size and exclusion.** Made of discrete grains, the ink keeps the same switch, and the switch approaches the smooth-ink value as grains get denser. With **at most one grain per place, structure never forms at all**, because the amplifier works by piling up and one-per-place forbids the pile. *Strength: observed; the grain model's exact limit depends on a translation choice.*
+
+**7. Patterns of different strength.** A strong pattern **hosts** weak ones: a weak pattern that dies almost at once on its own lives 20–30 times longer inside a strong pattern's clumps, even when it is too weak to form structure alone. Two strong patterns **merge** and each outlives its lone self. *Strength: observed, with lone controls.*
+
+**8. Polarity: bind or part.** With participation as a complex amplitude, √bandwidth × e^{i·polarity} (P09), **patterns in step bind even more strongly, and patterns in opposite phase cancel each other's slowing where they meet, separate, and both die early.** At a quarter turn the result reduces exactly to simple addition, which serves as an internal consistency check. *Strength: observed; the phases were set by hand.*
+
+---
+
+## Where the models touch established physics
+
+These are resemblances, not claims.
+
+- Matter gathering where clocks run slow is how ED describes gravity, and it is what the models do.
+- Settled structures surviving while the loose material between them thins resembles bound galaxies in an expanding universe.
+- Complexity rising and then falling, and only when the parts interact, matches Aaronson, Carroll & Ouellette (arXiv:1405.6903).
+- The clumping mechanism has a known cousin, motility-induced phase separation (Cates & Tailleur 2015).
+- Opposite-polarity patterns cancelling each other's structure resembles matter meeting antimatter, which ED's concept files identify with opposite polarity. The becoming here is conserved throughout; what is destroyed is the patterns' ability to hold together, not the stuff itself.
+
+---
+
+## What the models could not do
+
+- **Make space.** Five further rules for growing extent from nothing were tried and closed:
+  - three counting rules turned out to favour clumps;
+  - a memory rule produced closeness instead of extent;
+  - a "present-only" rule produced a tangle that mimics three dimensions on one measure (see the caveat below).
+  
+  This extends the finding in [Negative_Results.md](Negative_Results.md).
+- **Choose polarity.** A polarity that turns with the flow of becoming adds up the same along every route, so it cannot produce phases that depend on history. In these models becoming always flows downhill, which never circulates, so any polarity rule read off the flow has this limit.
+- **Push patterns apart without polarity.** Slowing belongs to the place and only ever adds, so everything with structure gathers.
+
+**An instrument caveat worth keeping.** How distance grows with size cannot, on its own, tell three-dimensional space from a critical tangle: both read about one-third. It must always be read alongside a shape measure.
+
+---
+
+## Open questions for the ontology
+
+1. **What sets the relative polarity of two patterns?** The models show what follows from a given phase difference, not where one comes from.
+2. **Is the polarity connection (P05) a field of its own**, or is it read off something else?
+3. **The exact laws** for how long structure lasts under spending and under strong interaction. Both are approximate.

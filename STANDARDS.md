@@ -60,10 +60,10 @@ Only the third is evidence about the world.
 2. **A toy world shows regularities.** Facts about the toy.
 3. **The model matches real data it wasn't tuned to.** Evidence.
 
-### 7. Freeze predictions before the data
+### 7. Fix what you will measure before the data
 
-- **Write the number, the parameters and the rules down first.** State the pass/fail criteria in advance.
-- **Apply them to data you haven't looked at.**
+- **Write the measurements, the parameters and the rules down first**, together with what you expect to see. Fix the *observables*, not a pass/fail verdict: a success criterion chosen before a system is understood can steer the work toward the wrong target.
+- **Apply them to data you haven't looked at**, and where possible test a formula on a case it was not built from.
 - **Don't adjust the formula after a miss and call the new version confirmed.** When every outcome can be explained, no outcome is evidence.
 
 ### 8. Count the free parameters
@@ -113,9 +113,11 @@ The rules above are the standing ones. These are the practices the testing actua
 
 **Expected results written before the run.** Every test states what each outcome would mean *before* it produces one, including which outcome would end the line of work.
 
-**Instruments calibrated on known answers.** A measurement is not used on an unknown until it reproduces the right answer on objects whose answer is already known. Two instruments failed that check and were replaced rather than used.
+**Instruments calibrated on known answers**, including a null case and an intermediate one, not only the target. A measurement is not used on an unknown until it reproduces the right answer on objects whose answer is already known. Two instruments failed that check and were replaced rather than used.
 
 **Build the test that can destroy the result.** Where a finding is attractive, the next test is the one designed to remove it. Five results were withdrawn this way.
+
+**Three layers kept apart.** Observations (measured), conclusions (follow by arithmetic or calibration), interpretations (need a comparison or a reading). Replacing an interpretation is progress; replacing an observation means an instrument was wrong.
 
 **Closed records.** Once concluded, a piece of work is referenced and never edited. Corrections go in new documents that say what they correct.
 

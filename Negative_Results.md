@@ -78,3 +78,17 @@ Fourteen model builds, each with its meanings fixed and its expected results rec
 **Five results were withdrawn on their own checks**, including one that matched a number to within 8% and was dropped once it moved when a setting moved, and one that rested on three correlated seeds and did not survive eight independent ones.
 
 The complete record — ledgers, dated notes, code and data — is held separately and available on request.
+
+---
+
+## 7. After the attempts: further rules for making space, closed
+
+The model programme that followed the attempts ([MODEL_RESULTS.md](MODEL_RESULTS.md)) tried five more rules for growing extent from a pattern with none. All closed:
+
+| rule | outcome |
+|---|---|
+| **Three rules rewarding local structure** (thickening, loop counts, local flatness) | each is maximised by clumps; the flatness rule cannot tell a lattice from a dense bipartite clump |
+| **Walkers carrying a fading memory of direction** | produced closeness, not extent |
+| **Space read from the present only** (events that have passed are out of reach) | produced a tangle near the breaking point that mimics three dimensions on one measure |
+
+**Instrument caveat, kept permanently:** how distance grows with size cannot on its own tell three-dimensional space from a critical tangle, since both read about one-third. It must be read alongside a shape measure.
