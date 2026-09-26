@@ -34,11 +34,13 @@ Space was taken as given, as the ontology declares, and a drop of ink was put in
 
 **4. ħ shelters structure, because settled matter doesn't thin.** When committed matter is made to thin as well, the protection almost disappears. The sheltering depends on how hard structure is driven: absent right at the switch, and growing steadily above it (2.6× at the strongest setting).
 
-**5. A law for when clumps die, the strongest single result.** A formula built from the flow rule, with nothing fitted and five measured inputs, predicts clump lifetimes to within about 4% on the runs it was built from, and about 11% on a rate it had never seen. **It was then applied at an expansion rate it had never seen, and still landed (0.89 and 1.02).** That is a law, not just a description of one run. It holds for weak interaction. For strong interaction the clumps shelter *each other*, holding the space between them up, so no clump dies alone. That case is boxed in between two formulas but not yet solved.
+**5. A law for when clumps die, the strongest single result.** A formula built from the flow rule, with nothing fitted and five measured inputs, predicts clump lifetimes to within about 4% on the runs it was built from. **It was then applied at an expansion rate it was never built on, and still landed — 0.89 and 1.02 against the truth, so within about 11% out of sample.** That is a law, not just a description of one run. It holds for weak interaction. For strong interaction the clumps shelter *each other*, holding the space between them up, so no clump dies alone. That case is boxed in between two formulas but not yet solved.
 
 **6. The return trip happens from inside, too (B-5).** If each commitment spends a little of the budget, structure uses itself up and the ink returns to perfectly smooth, with no expansion. Longer memory and slower spending both lengthen the middle, less than proportionally: roughly as the square root at first sight. Measured tightly (seeds agreeing to 1%), the square root turns out to be a **good first approximation, not an exact law**. The true dependence is a little steeper, partly because slower spending lets more be spent before structure gives up.
 
 **7. Graininess delays the switch; exclusion removes it.** Made of grains, the ink still has B-3's switch and clumping, and the switch falls as the grains get denser. Made of grains that can't share a place, it never clumps.
+
+**8. The two endings together (B-6).** Structure can be ended from outside (expansion) or from inside (spending). With long memory the two act independently and their rates simply add; with short memory they reinforce each other, ending structure up to 29% sooner than either alone would.
 
 ---
 
@@ -108,7 +110,6 @@ Every one of these is kept on record with its reason, and each correction made a
 - The death law for **strong** interaction, where clumps shelter each other and die together.
 - The grain model's many-grains limit, which depends on how B-3's threshold is translated into grains.
 - The exact timing law for the return by spending (the square root is only a first approximation).
-- **Expansion and spending together (B-6, done):** with long memory the two endings act independently and their rates simply add; with short memory they reinforce each other, ending structure up to 29% sooner.
 
 ---
 
