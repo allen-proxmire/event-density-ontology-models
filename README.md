@@ -71,7 +71,9 @@ The open question it reaches from every direction: **ED says what may happen, no
 | [RESULTS.md](RESULTS.md) | the findings, each with its scope |
 | [CDT_Constraint.md](CDT_Constraint.md) | result 1 in full, written for readers who know causal dynamical triangulations |
 | [Constraints.md](Constraints.md) | what ED forbids, what it fixes, what it leaves open |
+| [PROGRAMME_IN_PLAIN_LANGUAGE.md](PROGRAMME_IN_PLAIN_LANGUAGE.md) | **the whole testing programme in plain language**: the story, what was established, how strongly, and where ED stands |
 | [MODEL_RESULTS.md](MODEL_RESULTS.md) | what ED's own ingredients do in supplied three-dimensional space: models, not derivations |
+| [MODELS_IN_PLAIN_LANGUAGE.md](MODELS_IN_PLAIN_LANGUAGE.md) | the model results in plain language, ingredient by ingredient |
 | [Negative_Results.md](Negative_Results.md) | what ED was tested for and did not do, and how thoroughly that was checked |
 | [Handedness/](Handedness/) | the theorem: statement, proof, assumptions, and a script that checks it |
 | [STANDARDS.md](STANDARDS.md) | the working rules everything here was held to |
