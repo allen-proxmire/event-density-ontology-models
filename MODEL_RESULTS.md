@@ -1,12 +1,12 @@
 # What ED's ingredients do: models in supplied space
 
-*The model-building programme that followed the fourteen attempts, 2026-09-24 to 26. A companion to [RESULTS.md](RESULTS.md). The working record — every model, ledger entry, withdrawal, script and data file — is held separately and available on request.*
+*2026-09-24 to 26. A companion to [RESULTS.md](RESULTS.md). The working record — every model, ledger entry, withdrawal, script and data file — is held separately and available on request.*
 
 ---
 
 ## What this is, and what it is not
 
-The fourteen attempts asked ED to **make** space, and it did not ([Negative_Results.md](Negative_Results.md)). ED's ontology does not claim to: three-plus-one is a declared input. So the programme changed question. **Space is supplied as a 3D grid, and the question is what ED's own ingredients do in it.**
+Early attempts asked ED to **make** space. That was a known long shot, since ED's ontology does not claim to make space (three-plus-one is a declared input), and it did not succeed ([Negative_Results.md](Negative_Results.md)). What those attempts learned shaped the model used here, in which **space is supplied as a 3D grid, and the question is what ED's own ingredients do in it.**
 
 The ingredients, and nothing else:
 
@@ -20,7 +20,7 @@ The ingredients, and nothing else:
 
 **These are models, not derivations.** Nothing below derives gravity, particles or cosmology, and nothing is a measurement of nature. Each result is scoped to the rules, sizes and settings run.
 
-**How it was run.** The observables were fixed before each model, not the success criteria. Every instrument was calibrated on cases with known answers, including a null. Expected behaviours were written down before each run. Every claim that failed is kept on record with its reason, and about twenty were withdrawn or narrowed along the way. Two working sessions checked each other's results throughout.
+**How it was run.** The observables were fixed before each model, not the success criteria. Every instrument was calibrated on cases with known answers, including a null. Expected behaviors were written down before each run. Every claim that failed is kept on record with its reason, and about twenty were withdrawn or narrowed along the way. Two working sessions checked each other's results throughout.
 
 ---
 
@@ -52,7 +52,7 @@ These are resemblances, not claims.
 
 - Matter gathering where clocks run slow is how ED describes gravity, and it is what the models do.
 - Settled structures surviving while the loose material between them thins resembles bound galaxies in an expanding universe.
-- Complexity rising and then falling, and only when the parts interact, matches Aaronson, Carroll & Ouellette (arXiv:1405.6903).
+- Complexity rising and then falling, only when the parts interact, matches Aaronson, Carroll & Ouellette (arXiv:1405.6903).
 - The clumping mechanism has a known cousin, motility-induced phase separation (Cates & Tailleur 2015).
 - Opposite-polarity patterns cancelling each other's structure resembles matter meeting antimatter, which ED's concept files identify with opposite polarity. The becoming here is conserved throughout; what is destroyed is the patterns' ability to hold together, not the stuff itself.
 
@@ -64,8 +64,7 @@ These are resemblances, not claims.
   - three counting rules turned out to favour clumps;
   - a memory rule produced closeness instead of extent;
   - a "present-only" rule produced a tangle that mimics three dimensions on one measure (see the caveat below).
-  
-  This extends the finding in [Negative_Results.md](Negative_Results.md).
+
 - **Choose polarity from the flow.** A polarity that turns with the flow of becoming adds up the same along every route, so it cannot produce phases that depend on history. In these models becoming always flows downhill, which never circulates, so any polarity rule read off the flow has this limit.
 - **Push patterns apart without polarity.** Slowing belongs to the place and only ever adds, so everything with structure gathers.
 
