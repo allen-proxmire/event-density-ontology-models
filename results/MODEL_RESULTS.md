@@ -1,0 +1,87 @@
+# What ED's ingredients do: models in supplied space
+
+*Allen Proxmire, 2026-09-24 to 27. A companion to [RESULTS.md](RESULTS.md). How the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md); the code for every result is in [../method/models/](../method/models/).*
+
+---
+
+## The setting
+
+ED's ontology declares three-plus-one dimensions as an input; it does not claim to make space. So these models **supply space as a 3D grid and ask what ED's own ingredients do in it.**
+
+The ingredients, and nothing else:
+
+- becoming flows from concentrated toward diffuse;
+- committed becoming slows the clocks around it;
+- becoming commits above a threshold, irreversibly at that moment;
+- committed becoming dissolves after **ħ**, read (the author's meaning) as *how much memory a pattern can carry before it dissolves* — one fixed number for the whole substrate;
+- new places keep being born (expansion);
+- commitments use up a budget (spending);
+- participation carries a **polarity**, a phase (primitive P09), transported with the stuff (P05).
+
+In the author's reading, **the rate of commitment is the local clock**: committing and dissolving tick at the local clock rate, as flow does, while new places arrive on one shared beat. Results 1–11 were first measured with committing and dissolving on a common clock; result 12 records what changes, and what does not, when they run on the local one.
+
+**These are models, not derivations.** They show what the ingredients do, not what nature does. Each result is scoped to the rules, sizes and settings run.
+
+---
+
+## The results
+
+**1. Structure has a switch, and the switch has a formula.** Lasting structure forms when *interaction strength × commit rate × ħ × threshold* exceeds **1**. The value was derived on paper first — the background density cancels from the algebra — and then found exactly there in the runs, at two very different ħ, with nothing tuned. It holds unchanged when committing and dissolving run on the local clock (result 12). A spreading drop needs somewhat more (about 1.6–2.1), because clumping has to outrun the spreading. *Strength: derived, then confirmed under both clock rules.*
+
+**2. The only memory is the present state.** Remove a clump's committed stuff and it re-forms on the spot. Spread its free stuff away and it never returns. Move that stuff and the clump follows it. Nothing stores where a clump was — as the ontology says, *nothing accumulates a record of itself.* *Strength: direct test, three seeds.*
+
+**3. Structure is temporary, and ED supplies both of its endings.** Left alone, clumps sustain themselves indefinitely. Expansion — new places being born — thins them from outside until they cannot rebuild. Spending — commitments using up a budget — makes structure burn its own budget from inside. **Either way the whole arc appears: uniform, then structure, then uniform again**, the ontology's picture of every structure as a temporary attractor (§12). *Strength: observed in every run, under both endings.*
+
+**4. A derived estimate for when structure dies.** From the flow rule, with nothing fitted and five inputs measured at structure's peak, a formula for how long a clump survives while space is being added. For weakly interacting patterns it gives the life remaining after the peak to within about a factor of two. For strongly interacting patterns, clumps shelter each other and die together, and the estimate brackets that case rather than solving it. With committing on the local clock (result 12), clumps sit inside a halo of their own free becoming and barely leak, which the estimate does not include. *Strength: derived, with the right ingredients; an estimate, not a law.*
+
+**5. ħ shelters structure, more the harder it is driven.** Against thinning, the sheltering is absent right at the switch and grows steadily above it (2.6× at the strongest setting). Under spending, a longer ħ lengthens structure's life, roughly as a square root. *Strength: empirical and reproducible.*
+
+**6. Grains keep the behaviour; exclusion forbids it.** Made of discrete grains, the ink keeps the same switch and the same runaway clumping, and the switch falls steadily as grains get denser. With **at most one grain per place, structure never forms**, because the amplifier works by piling up and one-per-place forbids the pile. *Strength: observed; the grain switch's exact value depends on how the smooth threshold is translated into grain counts.*
+
+**7. Strong patterns host weak ones, and merge with each other.** A weak pattern that dies almost at once on its own lives 20–30 times longer inside a strong pattern's clumps, even when it is too weak to form structure alone. Two strong patterns merge, and each outlives its lone self. Slowed clocks belong to the place, so a strong pattern's slowing shelters everything nearby. *Strength: observed, with lone controls.*
+
+**8. Polarity decides whether patterns bind or part, and is selected by the surroundings.** With participation as a complex amplitude, √bandwidth × e^{i·polarity} (P09), **patterns in step bind even more strongly, and patterns in opposite phase cancel each other's slowing where they meet, separate, and both die early** — a resemblance to matter meeting antimatter, noted and not claimed. At a quarter turn the result reduces exactly to simple addition, an internal consistency check. **Each pattern's fate is set by its phase relative to the stuff around it:** within about a quarter turn of its surroundings it keeps its structure, and beyond about half a turn it cannot (16 of 17 drops). This is the ontology's reading of polarity as relational — "chain-in-environment" — seen as behaviour. *Strength: observed, pre-registered.*
+
+**9. What structure needs from polarity: local agreement at commitment.** Where committing preserves phase, the medium's phase is inherited from the start: structure condensing out of a uniform, single-phase field (the ontology's One Being) is fully aligned and runs the whole arc, holding its alignment to three digits throughout. The ontology's own commitment primitive, P11, goes further — commitment randomizes phase, which is ED's account of decoherence. With P11 in place, **structure forms and lasts when commitments agree in phase with a common local target**, and then it does so from any start. The agreement itself is what does the work: a filter blind to phase, rejecting exactly as often, does nothing. Agreement and quantity both matter — tightening the window raises agreement (0.63, 0.90, 0.97) but costs commitments, and structure needs enough of both. The local target can be the medium's own phase, a fixed constant or a frozen random pattern; all three work alike, so what counts is **local agreement itself**. *Strength: observed, pre-registered, with a matched phase-blind control; seeds agree on lifetime and to within 0.004 on peak.*
+
+**10. After the start, a medium orders itself — and one rate decides whether it does.** Under P11 with local agreement at commitment, **neighbouring regions come into phase over time**: agreement between adjacent regions rises from about 0.7 to between 0.93 and 0.99 over a run, on both seeds. And the whole medium follows: from a scrambled start, essentially all committed stuff comes to share **one** phase, reaching within 1–2% of full alignment by about 4,000–5,000 steps, while a fifth to a quarter of all the becoming is still committed. **This order is produced, not supplied** — the filter is never told what to order toward. It is the first behaviour in this programme that makes a medium more ordered than it started. It arrives after structure has peaked, so it accompanies structure's decline rather than preceding it.
+
+**The rate that decides it is ED's own slowing.** Polarity is a phase on a rule's update cycle, and updates run on the local clock, so phase advances more slowly inside a clump — a clock carried up a mountain. Tie polarity's turning weakly to the local clock and the ordering stands; tie it as strongly as 1/ħ and it inverts. Structure's lifetime is the same either way. So **the models bound a number the ontology leaves open: the tie between polarity's turning and the local clock must be well below 1/ħ for ED to order its own medium.** Route dependence is real and small for anything passing through a clump — about a hundredth of a turn, one clump-site's worth of slowing, with a same-route control reading exactly zero; the large effect is on what *stays* in a slowed place. *Strength: observed, pre-registered, two seeds agreeing on direction and size.*
+
+**11. Where a new event goes costs little, once space is given.** ED does not say where new becoming appears, and uniform thinning — the models' default — is itself one answer: new places appear evenly everywhere. Four readings from the ontology's own text were compared: evenly everywhere; where becoming is densest; where clocks run fastest; and at commitments (*every event enters the universe through a commitment*). Each removed exactly the same total per step, matched to one part in 10¹⁵, with its pattern both live and frozen.
+
+**The choice costs at most about a fifth of structure's life and changes nothing else measured.** Where becoming is densest costs 11–17%; at commitments 17–23%; where clocks run fastest, nothing measurable. The full arc survives under every reading, the whole-medium ordering of result 10 still reaches its ceiling, and clump counts move by about 5%. **So in supplied space, ED does not need to answer "where" in order to work.**
+
+**Why placement washes out is a matter of rates.** Clumps are constantly swapping free becoming with their own committed store, about 400 times faster than thinning removes anything, so whatever thinning takes from a clump is topped up at once from its reserves. **A clump feels how much new space arrives, not where.** "Evenly" put about 64% of its thinning at clumps and "fastest clocks" about 33%, and the clumps came out the same to within about 1%. "At commitments" is a distinct statement from spending (result 3): with spending off in both, it still shortens structure, 10,000 steps against 13,000 and 35,000 against 44,000. *Strength: observed, pre-registered, two seeds agreeing on lifetimes. No reading is ruled in or out: a reading that leaves structure alive longer is not thereby the true one. Scope: one grid size, two base models; this asks where new capacity appears within supplied space, not whether new events build space.*
+
+**12. When the rate of commitment is the local clock.** Committing and dissolving gain the local clock rate — commit at `κ·r·(ρ−θ)`, dissolve at `c·r/ħ` — so every process at a place runs on that place's clock, while new places arrive on one shared beat.
+
+- **The switch is unchanged.** The clock rate multiplies both sides of the commit/dissolve balance and cancels, so the steady committed amount is unchanged; the same cancellation leaves the relation between slow, long-range disturbances untouched and only slows their timescale. Measured: no structure at 0.8 or 0.9, structure at 1.1 and 1.25, at two ħ, exactly as under the common clock. **Result 1 holds under both readings of the clock.**
+- **Dense places run slow.** Clumps grow and merge along the same path about four times more slowly, so at any given time there are more of them, each less dense.
+- **Structure is ended from outside.** Spending works through dissolving, and dense places now dissolve slowly, so they spend slowly. With spending the only ending, structure is still alive at 150,000 steps with 20–30% of its budget used. With both endings, life doubles in one base model (18,000 → 36,000) and lengthens in the other (9,000 → 11,000). **New places arriving becomes the main way structure ends.**
+- **Dense places fall behind slightly when new space is born elsewhere.** Placing new space where clocks run fastest leaves dense regions fuller than placing it evenly — at every sampled time, in both seeds and both base models, growing to about 3–6% late in structure's life. The direction never varies; by the bar fixed before the runs (three times the seed scatter), it is clear on one measure in one base model. The same small effect is present with a common clock, and here it has longer to build.
+- **Both halves of the rule matter.** Committing on the local clock with dissolving off it gives weak, short-lived structure (6,000 steps against 18,000); with both on it, structure is as strong as before.
+
+*Strength: the switch, derived and confirmed at two ħ, is the strongest thing here; the slowed growth and the ending balance are observed with two seeds agreeing closely; the falling-behind is consistent in direction and small in size. Scope: one grid size. Structure forms only where clocks slow a great deal, so these models do not show a gently slowed region that holds structure.*
+
+---
+
+## Where the models touch established physics
+
+These are resemblances, not claims.
+
+- Matter gathering where clocks run slow is how ED describes gravity, and it is what the models do.
+- Settled structures surviving while the loose material between them thins resembles bound galaxies in an expanding universe.
+- Complexity rising and then falling, only when the parts interact, matches Aaronson, Carroll & Ouellette (arXiv:1405.6903).
+- The clumping mechanism has a known cousin, motility-induced phase separation (Cates & Tailleur 2015).
+- Opposite-polarity patterns cancelling each other's structure resembles matter meeting antimatter, which ED's concept files identify with opposite polarity. The becoming is conserved throughout; what is destroyed is the patterns' ability to hold together.
+- Dense regions falling behind while new space arrives elsewhere on a shared beat resembles the author's picture of black holes in an expanding world; the models show the direction, at small size.
+
+---
+
+## Open questions for the ontology
+
+1. **Can ordering ever come before structure**, rather than accompanying its decline (result 10)?
+2. **Is the polarity connection (P05) a field of its own?** Its time component carries real curvature sourced by ED's own slowing (result 10); whether it has its own life in space is untested.
+3. **How strongly does polarity's turning depend on the local clock?** Bounded by the models (well below 1/ħ); fixed by the ontology, not yet.
+4. **Exact lifetime laws** under spending and under strong interaction, and a lifetime estimate that includes the halo of result 12.

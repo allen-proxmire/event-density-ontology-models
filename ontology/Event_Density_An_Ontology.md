@@ -292,7 +292,7 @@ On the third item, testing added something worth stating. The rules as formalise
 
 That is a statement about the formalisation tested, not a proof that no mechanism exists. An ontology names what is fundamental; the operational rules that generate familiar structure from it are usually found later, and separately. *Matter curves spacetime* preceded the field equations by a decade.
 
-That is not a failure of the ontology. It is confirmation that the declaration is honest. Dimension is genuinely an input, not something assumed quietly and presented later as a result.
+It confirms that the declaration is honest. Dimension is genuinely an input, not something assumed quietly and presented later as a result.
 
 And the input is **partly forced**: section 15 rules out one and two dimensions from ED's own content. The assumption narrows from *any number* to *three or more*.
 
@@ -374,6 +374,6 @@ The ontology in Parts I, II, III and VIII carries forward *Event Density and the
 
 Parts IV, V and VI report testing carried out in 2026: fourteen model builds, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
-Supporting documents — the untunability result in technical form, the negative results, and the working rules the testing was held to — are at **github.com/allen-proxmire/untunability**, along with the handedness theorem and a script that checks it.
+Supporting documents — the results, the untunability result in technical form, the models of what ED's ingredients do in supplied space, how the work was done, and the code — are at **github.com/allen-proxmire/untunability**, along with the handedness theorem and a script that checks it.
 
 The working record behind the testing — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.

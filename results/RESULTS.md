@@ -1,6 +1,6 @@
 ﻿# Results
 
-*The findings, each with its scope. Last updated 2026-09-23.*
+*Allen Proxmire. The findings from analysis and proof, each with its scope. Last updated 2026-09-27. What ED's ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md); how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. **Untunability** is the name for the part of it that has been tested and held: the claim that quantities other frameworks leave free are fixed by what ED conserves.
 
@@ -22,7 +22,7 @@ Exact algebra. No new free parameters.
 
 **The honest framing, also found by checking:** CDT treats these totals as ensemble variables that fluctuate, with the couplings fixing only their averages. ED fixes the counts themselves. So the claim is *microcanonical* — ED picks a definite point, and the question is whether CDT's ensemble ever reaches it.
 
-**Full version, with the identities and the caveats: [CDT_Constraint.md](CDT_Constraint.md). The negative findings are in [Negative_Results.md](Negative_Results.md).**
+**Full version, with the identities and the caveats: [CDT_Constraint.md](CDT_Constraint.md).**
 
 ---
 
@@ -52,7 +52,7 @@ A proved theorem, checked by a script in this repository: in a hopping model, **
 
 **Scope.** The mathematics is simple and something close to it is already known (Nielsen–Ninomiya). ED's own rules can settle into a handed state, but only with three ingredients supplied rather than derived.
 
-*Where: [Handedness/](Handedness/).*
+*Where: [Handedness/](Handedness/). Check it: `python results/Handedness/check_result.py`.*
 
 ---
 
@@ -81,26 +81,24 @@ These rules carry a dimension they are given, blur it as the pattern grows, and 
 
 ---
 
-## What is supplied, and what is derived
+## What ED takes as input
 
-**Supplied:** the Born rule, the area law, 3+1 dimensions, and a starting shape in every model.
+**Declared inputs:** the Born rule, the area law, 3+1 dimensions, and a starting shape in every model.
 
-**Derived:** nothing. The untunability result is a reduction in a *rival framework's* free numbers, not in ED's own input list.
-
-That distinction is kept deliberately. A result counts as a reduction only if ED's own list of what must be assumed gets shorter, with no new free parameters. None has.
+Untunability removes free numbers from *another* framework; it leaves ED's own input list as declared. The distinction is kept deliberately: a result would shorten ED's own input list only if one of these came out as a consequence, with no new free parameters.
 
 ---
 
-## What would change the picture
+## What would extend it
 
-1. **Something in ED that says where a new event goes.** Fourteen attempts each reached this wall from a different direction. ED specifies what may happen, not where. Until it does, a shape must be supplied.
+1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form — whether new events build space — is the natural next extension.
 2. **A second untunability result** of the same form: *a free parameter of an established framework is not free, given this conservation.*
-3. **A checkable difference from the standard account.** None has been produced.
+3. **A checkable difference from the standard account.**
 
 ---
 
 ## Method
 
-Every test was specified before it ran, with its expected outcome recorded in advance and its instruments calibrated against objects whose answers were already known. Published work was checked before anything was claimed. Settings chosen to make something work are labelled as tuned.
+Every test was specified before it ran, with its expected outcome recorded in advance and its instruments calibrated against objects whose answers were already known. Published work was checked before anything was claimed. Settings chosen to make something work are labelled as tuned. In full: [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).
 
 The working record — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.

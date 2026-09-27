@@ -2,3 +2,6 @@
 *.tmp
 .DS_Store
 Thumbs.db
+__pycache__/
+*.npz
+runs/

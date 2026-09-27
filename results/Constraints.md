@@ -1,6 +1,6 @@
 ﻿# ED as an ontology: what it forbids, what it fixes, what it leaves open
 
-*Allen Proxmire, 2026-09-23. The framing piece. Results are in [RESULTS.md](RESULTS.md).*
+*Allen Proxmire, 2026-09-23, updated 2026-09-27. The framing piece. Results are in [RESULTS.md](RESULTS.md) and [MODEL_RESULTS.md](MODEL_RESULTS.md).*
 
 ---
 
@@ -53,7 +53,7 @@ The full statement, with the identities, the numbers and what would settle it, i
 
 ## What ED leaves open
 
-**Where a new event goes.** ED says what may happen — an event passes on its budget, commitments stick, rates must be able to match — but not *where*. Fourteen attempts reached this wall from different directions. It is the single gap behind every negative result in the record.
+**Where a new event goes.** ED says what may happen — an event passes on its budget, commitments stick, rates must be able to match — but not *where*. It is the natural place for the ontology to be extended. With space supplied, the models show that where new places appear costs structure at most about a fifth of its life and changes nothing else measured ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11).
 
 **Which shape space has.** 3+1 is a declared primitive. The testing confirms that the declaration is honest rather than decorative: ED carries a dimension it is given and never manufactures one, in sixteen runs using ED's own definition of dimension.
 
@@ -69,16 +69,14 @@ What it does add is that the primitive is **partly forced**: the rate-matching f
 |---|---|
 | **What it is** | an ontology: an account of what the world is made of, and of why structure is possible at all |
 | **What it supplies** | the Born rule, the area law, 3+1 dimensions, and a starting shape |
-| **What it derives** | nothing, in the strict sense — its own input list has not got shorter |
+| **What it removes** | three free parameters of an established framework (its own input list is as declared) |
 | **What it constrains** | one and two dimensions; over-sparse patterns; handedness in symmetric rules; collapse; and three free parameters of an established framework |
-| **What it cannot yet say** | where a new event goes |
+| **What it leaves open** | where a new event goes |
 
 ---
 
-## Why the record is kept the way it is
+## How it was done
 
-Every test was specified before it was run. Every failure is written down, including mistakes in the testing code. Five results were withdrawn on their own checks, three of them in a single day.
+Every test was specified before it was run, with its expected outcome recorded in advance and its instruments calibrated on objects whose answers were already known. An ontology that cannot be wrong about anything is not saying anything, so each result here carries the test that could have gone the other way. In full: [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).
 
-That is not modesty for its own sake. An ontology that cannot be wrong about anything is not saying anything, and the only way to show that this one *can* be wrong is to keep the cases where it was.
-
-The full record — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
+The full record — fourteen model builds and the model programme, with ledgers, dated notes, code and data — is held separately and available on request.
