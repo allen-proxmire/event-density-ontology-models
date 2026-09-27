@@ -69,7 +69,7 @@ ED should be judged as an ontology, not as a new physical theory. Most ontologie
 4. **Its concepts behave as claimed when built.** "Nothing accumulates a record of itself": in the models, the only memory is the present state. "Every structure is a temporary attractor": the full arc from uniform to structure and back appears. Polarity binds patterns in step and parts them out of step. With commitment scrambling phase, as the ontology says it does, structure needs commitments to agree locally. These are behaviours of the rules, not labels on them.
 5. **It is honestly scoped.** Every claim carries its strength, and the failures are published alongside the successes ([Negative_Results.md](Negative_Results.md)). That is what lets a reader trust the rest.
 
-The open question it reaches from every direction: **ED says what may happen, not where a new event goes.**
+The open question it reaches from every direction: **ED says what may happen, not where a new event goes.** Once space is supplied, that turns out to cost little — four readings of “where” change structure's life by at most a fifth and nothing else measured ([result 11](MODEL_RESULTS.md)) — but the harder form of the question, whether new events *build* space, is still closed.
 
 ---
 
