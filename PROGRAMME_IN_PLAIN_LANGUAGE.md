@@ -45,7 +45,7 @@ These are models, not derivations: they show what the ingredients do, not what n
 3. **The only memory is the present state.** A clump is wherever its stuff is. Remove the stuff and the clump is gone; move the stuff and the clump follows. Nothing stores where it was. This agrees with the ontology's "nothing accumulates a record of itself."
 4. **There is a law for when structure dies.** For weakly interacting patterns, a formula derived from the flow rule, with nothing fitted, predicts how long structure lasts under thinning. It works at a rate it was never built on (within about 11%). Strongly interacting patterns shelter each other and die together; that case is boxed in between two formulas but not solved.
 5. **Patterns affect each other.** A strong pattern **hosts** weak ones: a weak pattern that dies almost at once on its own lives 20–30 times longer inside a strong one's clumps, even when it is too weak to form structure alone. Two strong patterns **merge**, and each outlives its lone self.
-6. **Polarity decides whether patterns bind or part, and where polarity comes from.** Patterns **in step bind** more strongly. Patterns **out of step cancel each other and part**, destroying each other's structure; this resembles matter meeting antimatter, and is noted, not claimed. A pattern survives only if its phase is close to that of the stuff around it, so polarity is **selected by the surroundings**. And the surroundings' phase is **inherited from the start**. Structure condensing out of a uniform, single-phase beginning (the One Being) is fully aligned; a scattered beginning gives weaker structure, and a scrambled one gives almost none. In these models, a coherent beginning is what makes structure possible at all — with one limit worth stating: every model here has stuff keep its phase when it commits, whereas the ontology's own commitment primitive (P11) randomizes it. That has not been tested, and it could change this result.
+6. **Polarity decides whether patterns bind or part, and where polarity comes from.** Patterns **in step bind** more strongly. Patterns **out of step cancel each other and part**, destroying each other's structure; this resembles matter meeting antimatter, and is noted, not claimed. A pattern survives only if its phase is close to that of the stuff around it, so polarity is **selected by the surroundings**. And the surroundings' phase is **inherited from the start**. Structure condensing out of a uniform, single-phase beginning (the One Being) is fully aligned; a scattered beginning gives weaker structure, and a scrambled one gives almost none. In these models, a coherent beginning is what makes structure possible at all — **but only where committing preserves phase.** The ontology's own commitment primitive (P11) randomizes phase at every commitment, and no model did that until it was tested directly. With it switched on, **no start holds structure**, the One Being included. Structure returns only when commitments must **agree in phase with a common local target**, and then the start stops mattering. What the target is makes no difference either — the medium's own phase, a fixed constant and a frozen random pattern all work alike — so these models do not show what the agreement is with.
 
 Smaller findings: ħ shelters structure more the harder structure is driven, and under spending lengthens its life, roughly as a square root. Ink made of grains keeps the same behaviour. Allowing at most one grain per place forbids structure entirely, because structure forms by piling up.
 
@@ -65,7 +65,7 @@ Also ruled out along the way:
 |commitments using up a budget|ends structure from inside|
 |memory as the present state|a pattern is wherever its stuff is|
 |grains / one-per-place|grains delay structure; one-per-place forbids it|
-|polarity|binds in step; cancels and parts out of step; must match its surroundings; inherited from the start|
+|polarity|binds in step; cancels and parts out of step; must match its surroundings; inherited from the start while committing preserves phase — once it randomizes phase, what matters is local agreement|
 
 ---
 
@@ -97,7 +97,7 @@ Not all results carry the same weight, and they shouldn't be quoted as if they d
 * **What it doesn't do:** make space; say where a new event goes; produce a new measurable prediction. It doesn't claim to.
 * **The open questions, now sharper:**
 
-  1. Can anything in ED change a medium's polarity after the start, or is it only inherited?
+  1. Can anything in ED change a medium's polarity after the start, or is it only inherited? Still open: turning phases toward neighbouring ones does not do it, and a phase filter at commitment restores structure without being shown to act through the medium.
   2. Is the polarity connection (P05) a field of its own?
   3. The exact lifetime laws in the hard cases.
   4. Where a new event goes: still the deepest one.
