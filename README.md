@@ -59,6 +59,16 @@ CDT builds spacetime from two kinds of four-dimensional block, stacked in time-s
 
 ED is a consistent, runnable ontology that agrees with known physics and constrains what is possible. It has produced no new measurable prediction, and it doesn't claim to — its founding statement is that it supplies *"the conditions of possibility, not the full catalogue of outcomes."*
 
+### How to judge it
+
+ED should be judged as an ontology, not as a new physical theory. Most ontologies, from process philosophy to relational pictures of physics, stay entirely verbal: they describe how the world might be built, and there is nothing to run or check. Judged as an ontology, ED has what most lack:
+
+1. **It is runnable.** Its ideas were turned into exact rules a computer can run: fourteen attempts, then a full model programme. Few ontologies get that far.
+2. **It constrains an established framework.** Its conservation laws fix three numbers that causal dynamical triangulations, a working approach to quantum spacetime, tunes by hand. Exact algebra; in 2+1 dimensions the point sits where space holds together, and in 3+1 it is unresolved. An ontology reaching into a physics framework and removing freedom is rare.
+3. **It forbids things, from its own content:** one- and two-dimensional worlds (clocks cannot stay in step), handedness written into mirror-symmetric laws, and a regular grid as the substrate. Forbidding is how an ontology earns its keep, and these are demonstrated, not asserted.
+4. **Its concepts behave as claimed when built.** "Nothing accumulates a record of itself": in the models, the only memory is the present state. "Every structure is a temporary attractor": the full arc from uniform to structure and back appears. Polarity binds patterns in step and parts them out of step. With commitment scrambling phase, as the ontology says it does, structure needs commitments to agree locally. These are behaviours of the rules, not labels on them.
+5. **It is honestly scoped.** Every claim carries its strength, and the failures are published alongside the successes ([Negative_Results.md](Negative_Results.md)). That is what lets a reader trust the rest.
+
 The open question it reaches from every direction: **ED says what may happen, not where a new event goes.**
 
 ---
