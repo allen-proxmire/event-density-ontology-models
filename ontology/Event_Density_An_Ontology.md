@@ -57,7 +57,7 @@ Without differences in ED the universe would be uniform and featureless. Only wh
 
 A gradient is not a force. It is not a law. It is not an instruction. It is simply a difference in how intensely becoming is occurring from one region to the next. That difference is enough.
 
-Where ED is higher, events propagate more readily. Where it is lower, propagation slows. The result is a natural flow of becoming from concentrated toward diffuse.
+Where ED is higher, the budget is more heavily used and events propagate more slowly. The result is a natural flow of becoming from concentrated toward diffuse.
 
 This flow is not metaphorical. It is the engine.
 
@@ -121,7 +121,7 @@ The same primitive, carried into each domain physics divides into. Nothing is ad
 
 In general relativity, curvature is a geometric response to mass-energy. Here it is not a response at all. It is the macroscopic expression of ED gradients — differences in the rate of becoming across neighbouring regions.
 
-Where ED is high, events accumulate rapidly. Where it is low, they accumulate slowly. **Where ED changes sharply, the flow of becoming bends.** That bending is what we perceive as curvature.
+Where ED is high, the budget is heavily used and clocks run slow; where it is low, they run fast. **Where ED changes sharply, the flow of becoming bends.** That bending is what we perceive as curvature.
 
 A geodesic is not a path chosen by a particle. It is the path along which becoming propagates most efficiently — the route of least participation resistance.
 
