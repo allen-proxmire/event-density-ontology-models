@@ -47,7 +47,7 @@ These are models, not derivations: they show what the ingredients do, not what n
 5. **Patterns affect each other.** A strong pattern **hosts** weak ones: a weak pattern that would die almost at once lives 20–30 times longer inside a strong one's clumps. Two strong patterns **merge**, and each outlives its lone self.
 6. **Polarity decides whether patterns bind or part.** In step, patterns **bind** more strongly. Out of step, they **cancel each other and part**, destroying each other's structure — a resemblance to matter meeting antimatter, noted and not claimed. A pattern keeps its structure only if its phase is close to that of the stuff around it: polarity is **selected by the surroundings**.
 7. **What structure needs from polarity is local agreement.** Structure condensing out of a uniform, single-phase beginning (the One Being) is fully aligned. And when commitment scrambles phase, as the ontology's commitment primitive says it does, structure forms and lasts when commitments **agree in phase locally** — from any start.
-8. **A medium orders itself.** With local agreement at commitment, neighbouring regions come into phase over time, and then the whole medium does: from a completely scrambled start, it comes to share one phase within a few thousand steps. Nothing told it which phase to choose; the order is made, not supplied. It arrives as structure declines rather than before it. **How strongly polarity's turning is tied to the local clock decides whether this happens**, and the models put a limit on that tie — a number the ontology leaves open.
+8. **A medium orders itself.** With local agreement at commitment, neighbouring regions come into phase over time, and then the whole medium does: from a completely scrambled start, it comes to share one phase within a few thousand steps. Nothing told it which phase to choose; the order is made, not supplied. It arrives as structure declines rather than before it. **A pattern's phase changes only when something commits** — it does not turn between ticks — and that is what lets this happen: the models show that a phase turning steadily on its own, anywhere near once per memory lifetime, would stop the medium coming into step.
 9. **Where new places are born costs little.** ED doesn't say where a new event goes. Four readings from the ontology's own text — evenly, where things are densest, where clocks run fastest, and at commitments — change structure's life by at most about a fifth, and nothing else measured. A clump feels *how much* new space arrives, not *where*.
 10. **When commitment is the clock.** With committing and dissolving on the local clock: the switch stays exactly where it was; dense places run slow, so clumps grow and merge about four times more slowly; structure is ended mainly **from outside**, by new places arriving, since dense places now use up their budget only slowly; and dense places fall slightly behind when new space is born elsewhere — always in that direction, by a few per cent.
 
@@ -102,8 +102,6 @@ The full working record is held separately and available on request.
 * **What testing established:** it fixes what another theory tunes (three numbers in CDT); it rules things out (one and two dimensions, handedness in symmetric rules, a grid substrate); and, with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity.
 * **What it leaves open, by design:** where a new event goes, and every specific structure — ED supplies the conditions of possibility, not the catalogue.
 * **The open questions:**
-  1. Can a medium's ordering ever come *before* structure?
-  2. Is the polarity connection a field of its own?
-  3. How strongly is polarity's turning tied to the local clock?
-  4. Exact lifetime laws in the hard cases.
-  5. Whether new events build space — the deepest one.
+  1. Is the polarity connection a field of its own?
+  2. Exact lifetime laws in the hard cases.
+  3. Whether new events build space — the deepest one.
