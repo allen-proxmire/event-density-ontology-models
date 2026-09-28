@@ -53,6 +53,8 @@ These are models, not derivations: they show what the ingredients do, not what n
 
 11. **Order is made by things happening, not waiting in advance.** Possibility in these worlds does come into step — but committing gets there first, and the order possibility has is handed back from settled things as they dissolve. Order supplied at the start is pulled *down* to the same level within a hundred steps, so commitment sets how far in step the medium is, whatever it began with. Letting possibility flow more easily between places already in step — the other thing that might have made order come first — made no difference at all.
 
+12. **Aligned commitments pull their surroundings into line, and how far was predicted in advance.** A patch of commitments sharing one phase, set down in a scrambled world, leans both the possibility and the new commitments around it toward its own phase — fading smoothly with distance and still measurable thirteen sites away. That is a field in the author's own sense: not a separate ingredient, but the bias a stable pattern puts on what happens near it. **Its starting reach was written down before the run** — as far as possibility spreads in one memory lifetime, 3.2 sites — and measured at 3.3 and 3.4. It then reaches further as the phase is passed along, and it needs its source: nothing outlasted the patch.
+
 Smaller findings: ħ shelters structure, more the harder structure is driven, and under spending lengthens its life roughly as a square root. Ink made of grains keeps the same behaviour; allowing at most one grain per place forbids structure entirely, because structure forms by piling up.
 
 ---
@@ -102,6 +104,6 @@ The full working record is held separately and available on request.
 * **What testing established:** it fixes what another theory tunes (three numbers in CDT); it rules things out (one and two dimensions, handedness in symmetric rules, a grid substrate); and, with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity.
 * **What it leaves open, by design:** where a new event goes, and every specific structure — ED supplies the conditions of possibility, not the catalogue.
 * **The open questions:**
-  1. Is the polarity connection a field of its own?
+  1. What sets how high possibility sits around a clump? (Whether polarity is a field of its own is answered: nothing in ED is, and committed polarity acts as an emergent field with a reach set by how far possibility spreads in one memory lifetime.)
   2. Exact lifetime laws in the hard cases.
   3. Whether new events build space — the deepest one.
