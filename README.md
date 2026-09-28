@@ -25,7 +25,13 @@ Everything else is working out what that implies. The full account: [ontology/Ev
 
 ### From analysis and proof
 
-**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1, one published measurement decides it.
+**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: 
+
+a. its event budget fixes N₀, 
+b. its link budget fixes N₄₁, 
+c. and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. 
+
+Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1, one published measurement decides it.
 
 **2. Below three dimensions, clocks cannot keep time together.** The coupling needed to hold a pattern's clocks together rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority staying locked. It reads the dimension, not the number of connections. So ED's own content rules out one- and two-dimensional worlds.
 
