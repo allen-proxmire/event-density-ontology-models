@@ -51,6 +51,8 @@ These are models, not derivations: they show what the ingredients do, not what n
 9. **Where new places are born costs little.** ED doesn't say where a new event goes. Four readings from the ontology's own text — evenly, where becoming is densest, where clocks run fastest, and at commitments — change structure's life by at most about a fifth, and nothing else measured. A clump feels *how much* new space arrives, not *where*.
 10. **When commitment is the clock.** With committing and dissolving on the local clock: the switch stays exactly where it was; dense places run slow, so clumps grow and merge about four times more slowly; structure is ended mainly **from outside**, by new places arriving, since dense places now use up their budget only slowly; and dense places fall slightly behind when new space is born elsewhere — always in that direction, by a few per cent.
 
+11. **Order is made by things happening, not waiting in advance.** The loose becoming in these worlds does come into step — but committing gets there first, and the order the medium has is handed back from settled things as they dissolve. Order supplied at the start is pulled *down* to the same level within a hundred steps, so commitment sets how far in step the medium is, whatever it began with. Letting becoming flow more easily between places already in step — the other thing that might have made order come first — made no difference at all.
+
 Smaller findings: ħ shelters structure, more the harder structure is driven, and under spending lengthens its life roughly as a square root. Ink made of grains keeps the same behaviour; allowing at most one grain per place forbids structure entirely, because structure forms by piling up.
 
 ---
