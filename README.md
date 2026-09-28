@@ -27,9 +27,9 @@ Everything else is working out what that implies. The full account: [ontology/Ev
 
 **1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: 
 
-a. its event budget fixes N₀, 
-b. its link budget fixes N₄₁, 
-c. and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. 
+1. its event budget fixes N₀, 
+2. its link budget fixes N₄₁, 
+3. and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. 
 
 Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1, one published measurement decides it.
 
