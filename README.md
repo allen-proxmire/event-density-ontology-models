@@ -10,18 +10,18 @@ It is a theory of possibilities. It is not a theory of gravity or a theory of ev
 
 This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
----
+\---
 
 ## The idea
 
-- **The world is a web of places,** called *loci*. The web keeps growing: new places keep being born.
-- **Things spread across the web like ripples,** trying many paths at once.
-- **When a ripple meets something already settled** it leaves a mark. Once that mark is made, it can't be brought back; something definite has happened — a **commitment**.
-- **Commitments use up a budget,** so near a lot of settled matter, clocks and motion slow down.
+* **The world is a web of places,** called *loci*. The web keeps growing; new places keep being born.
+* **Unsettled (quantum) things spread across the web like ripples,** trying many paths at once.
+* **When a ripple meets something already settled** it **commits**. It leaves a mark. Once that mark is made, it can't be unmade; something definite has happened — a **commitment**.
+* **Commitments use up a finite budget.** Matter, time, and motion contribute to how this budget is consumed, so that near a lot of settled matter, clocks and motion slow down.
 
-Everything else is working out what that implies. The full account: [ontology/Event_Density_An_Ontology.md](ontology/Event_Density_An_Ontology.md).
+Everything else is working out what these imply. The full account: [ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md).
 
----
+\---
 
 ## The results
 
@@ -45,15 +45,15 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 
 With space supplied as the ontology declares, ED's own ingredients — flow, clocks slowed by committed matter, commitment, dissolution after ħ, new places being born, a spending budget, polarity — were run to see what they do. Among the results:
 
-- **Structure has a switch**, derived on paper and found exactly at the predicted value, with nothing tuned.
-- **Structure is temporary**: uniform, then structure, then uniform again, ended from outside by new places being born or from inside by spending.
-- **The only memory is the present state**: a clump is wherever its stuff is.
-- **Patterns host, merge, bind and part**, and polarity is selected by the surroundings.
-- **A medium orders itself**: under the ontology's commitment rule, the whole medium comes to share one phase that nothing supplied.
-- **Where a new event goes costs little** once space is given.
-- **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
+* **Structure has a switch**, derived on paper and found exactly at the predicted value, with nothing tuned.
+* **Structure is temporary**: uniform, then structure, then uniform again, ended from outside by new places being born or from inside by spending.
+* **The only memory is the present state**: a clump is wherever its stuff is.
+* **Patterns host, merge, bind and part**, and polarity is selected by the surroundings.
+* **A medium orders itself**: under the ontology's commitment rule, the whole medium comes to share one phase that nothing supplied.
+* **Where a new event goes costs little** once space is given.
+* **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
 
----
+\---
 
 ## How to judge it
 
@@ -67,22 +67,22 @@ ED should be judged as an ontology, not as a new physical theory. Most ontologie
 
 ED supplies, in its own words, *"the conditions of possibility, not the full catalogue of outcomes."* It says what may happen, not where a new event goes — and with space supplied, the models show that "where" costs structure little. Whether new events *build* space is the natural next extension.
 
----
+\---
 
 ## What's here
 
-| | |
-|---|---|
-| [ontology/Event_Density_An_Ontology.md](ontology/Event_Density_An_Ontology.md) | **the paper** — what ED is, what follows from it, and what testing established |
-| [PLAIN_LANGUAGE.md](PLAIN_LANGUAGE.md) | **the whole programme in plain language** — the story, the results, how strongly each stands |
-| [results/RESULTS.md](results/RESULTS.md) | the results from analysis and proof, each with its scope |
-| [results/MODEL_RESULTS.md](results/MODEL_RESULTS.md) | what ED's own ingredients do in supplied space: twelve model results |
-| [results/CDT_Constraint.md](results/CDT_Constraint.md) | the CDT result in full, for readers who know causal dynamical triangulations |
-| [results/Constraints.md](results/Constraints.md) | what ED forbids, what it fixes, what it leaves open |
-| [results/Handedness/](results/Handedness/) | the handedness theorem: statement, proof, assumptions, and a script that checks it |
-| [method/HOW_IT_WAS_DONE.md](method/HOW_IT_WAS_DONE.md) | how the work was done: meanings, cards, pre-set measurements, calibration, controls, review |
-| [method/STANDARDS.md](method/STANDARDS.md) | the working rules everything here was held to |
-| [method/models/](method/models/) | the code for every model result, with a table of which script reproduces which result |
+|||
+|-|-|
+|[ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md)|**the paper** — what ED is, what follows from it, and what testing established|
+|[PLAIN\_LANGUAGE.md](PLAIN_LANGUAGE.md)|**the whole programme in plain language** — the story, the results, how strongly each stands|
+|[results/RESULTS.md](results/RESULTS.md)|the results from analysis and proof, each with its scope|
+|[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|what ED's own ingredients do in supplied space: twelve model results|
+|[results/CDT\_Constraint.md](results/CDT_Constraint.md)|the CDT result in full, for readers who know causal dynamical triangulations|
+|[results/Constraints.md](results/Constraints.md)|what ED forbids, what it fixes, what it leaves open|
+|[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
+|[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
+|[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
+|[method/models/](method/models/)|the code for every model result, with a table of which script reproduces which result|
 
 ## Check it yourself
 
@@ -96,11 +96,12 @@ Every model result can be rerun from [method/models/](method/models/) (Python wi
 
 ## Further reading
 
-- H. B. Nielsen and M. Ninomiya, "A no-go theorem for regularizing chiral fermions," *Physics Letters B* 105, 219 (1981).
-- J. Ambjørn, J. Jurkiewicz and R. Loll on causal dynamical triangulations; the identities used in result 1 are from [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267).
-- S. H. Strogatz and R. E. Mirollo, "Phase-locking and critical phenomena in lattices of coupled nonlinear oscillators with random intrinsic frequencies," *Physica D* 31, 143 (1988) — the patch argument behind result 2.
-- H. Hong, H. Chaté, H. Park and L.-H. Tang, "Entrainment Transition in Populations of Random Frequency Oscillators," *Phys. Rev. Lett.* 99, 184101 ([2007](https://dx.doi.org/10.1103/PhysRevLett.99.184101)) — two dimensions as the borderline for a large locked majority.
-- S. Aaronson, S. M. Carroll and L. Ouellette, "Quantifying the Rise and Fall of Complexity in Closed Systems" ([arXiv:1405.6903](https://arxiv.org/abs/1405.6903)).
-- Full references in [results/Handedness/PAPER_Reflection-Symmetric Transport Carries No Handedness.md](results/Handedness/PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).
+* H. B. Nielsen and M. Ninomiya, "A no-go theorem for regularizing chiral fermions," *Physics Letters B* 105, 219 (1981).
+* J. Ambjørn, J. Jurkiewicz and R. Loll on causal dynamical triangulations; the identities used in result 1 are from [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267).
+* S. H. Strogatz and R. E. Mirollo, "Phase-locking and critical phenomena in lattices of coupled nonlinear oscillators with random intrinsic frequencies," *Physica D* 31, 143 (1988) — the patch argument behind result 2.
+* H. Hong, H. Chaté, H. Park and L.-H. Tang, "Entrainment Transition in Populations of Random Frequency Oscillators," *Phys. Rev. Lett.* 99, 184101 ([2007](https://dx.doi.org/10.1103/PhysRevLett.99.184101)) — two dimensions as the borderline for a large locked majority.
+* S. Aaronson, S. M. Carroll and L. Ouellette, "Quantifying the Rise and Fall of Complexity in Closed Systems" ([arXiv:1405.6903](https://arxiv.org/abs/1405.6903)).
+* Full references in [results/Handedness/PAPER\_Reflection-Symmetric Transport Carries No Handedness.md](results/Handedness/PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).
 
 The full working record — every model build, ledger, dated note, log and data file — is held separately and available on request.
+
