@@ -4,7 +4,7 @@
 
 **Needs:** Python 3 with numpy and scipy. Every model runs on a 32×32×32 periodic grid; most runs take from under a minute to about half an hour on a laptop. Each script prints a one-line JSON summary and writes a JSON file of its full trajectory.
 
-**The base model** is [b3_card.py](b3_card.py): free becoming ρ and committed becoming c on each site; clock rate r = 1/(1 + s·c); each site sends D·r·ρ to each of its six neighbours; above a threshold θ a fraction κ of the excess commits; committed becoming dissolves at c/ħ. Everything else is built on it. The switch value *P = s·κ·ħ·θ* is the quantity in result 1.
+**The base model** is [b3_card.py](b3_card.py): uncommitted possibility ρ and committed becoming c on each site; clock rate r = 1/(1 + s·c); each site sends D·r·ρ to each of its six neighbours; above a threshold θ a fraction κ of the excess commits; committed becoming dissolves back into possibility at c/ħ. Everything else is built on it. The switch value *P = s·κ·ħ·θ* is the quantity in result 1.
 
 ---
 
