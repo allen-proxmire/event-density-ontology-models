@@ -2,7 +2,7 @@
 
 *Allen Proxmire. The findings from analysis and proof, each with its scope. Last updated 2026-09-27. What ED's ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md); how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
-**Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. **Untunability** is the name for the part of it that has been tested and held: the claim that quantities other frameworks leave free are fixed by what ED conserves.
+**Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. Its central tested result is **untunability**: quantities other frameworks leave free are fixed by what ED conserves.
 
 Each result below had its expected outcome recorded before it was tested. The working record is held separately and available on request.
 

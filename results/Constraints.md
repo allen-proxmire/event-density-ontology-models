@@ -17,7 +17,7 @@ Its founding statement says what it is for:
 
 An ontology is judged differently from a theory. A theory is asked *what will happen?* An ontology is asked *what must be true for anything to happen at all?* — and it is judged on whether the structures physics already uses turn out to be forced, and whether the things it says are impossible are in fact absent.
 
-**Untunability** is the name for the part of this that has been tested and held: *quantities other frameworks leave free are fixed by what ED conserves.*
+**Untunability** is its central tested result: *quantities other frameworks leave free are fixed by what ED conserves.*
 
 ---
 
