@@ -16,7 +16,7 @@
 
 ## Part 1 — what analysis and proof established
 
-1. **Untunability.** CDT, a well-developed approach to quantum spacetime, has three numbers it tunes by hand. **ED's conserved budgets fix all three**, with nothing tuned. In 2+1 dimensions the point they fix sits where space holds together; in 3+1 one published number decides it. *This is the result the repository is named for.*
+1. **Untunability.** CDT, a well-developed approach to quantum spacetime, has three numbers it tunes by hand. **ED's conserved budgets fix all three**, with nothing tuned. In 2+1 dimensions the point they fix sits where space holds together; in 3+1 one published number decides it. *This is the central tested result.*
 2. **Below three dimensions, clocks can't stay in step.** In one and two dimensions, the effort needed to keep a pattern's clocks together grows without limit as the pattern grows; from three up, it stays nearly level. It reads the dimension, not the number of connections, and it matches established physics of coupled clocks. So ED's own content rules out one- and two-dimensional worlds.
 3. **Handedness can't be written into mirror-symmetric rules.** A proved theorem, with a script that checks it. If the world has a handedness, its state picked it, not its laws — and handedness is possible at all only because time runs one way.
 4. **ED carries the dimension it is given.** Measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own: the declared input is genuinely an input. With result 2, it is *partly forced* — three or more.
