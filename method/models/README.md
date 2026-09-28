@@ -30,4 +30,4 @@
 
 **The handedness theorem** has its own check: `python ../../results/Handedness/check_result.py`.
 
-The code for the untunability calculation and for the dimension runs, and the full working record behind every script — ledgers, dated notes, logs and data — is held separately and available on request.
+The code for the CDT calculation and for the dimension runs, and the full working record behind every script — ledgers, dated notes, logs and data — is held separately and available on request.

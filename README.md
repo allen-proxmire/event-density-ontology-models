@@ -6,7 +6,7 @@
 
 It is a theory of possibilities. It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. Its central tested result is **untunability**: **quantities that established frameworks leave free, and tune by hand, turn out to be fixed by what ED conserves.**
+This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
 ---
 
@@ -25,7 +25,7 @@ Everything else is working out what that implies. The full account: [ontology/Ev
 
 ### From analysis and proof
 
-**1. Untunability: ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1, one published measurement decides it.
+**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1, one published measurement decides it.
 
 **2. Below three dimensions, clocks cannot keep time together.** The coupling needed to hold a pattern's clocks together rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority staying locked. It reads the dimension, not the number of connections. So ED's own content rules out one- and two-dimensional worlds.
 
@@ -69,7 +69,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 | [PLAIN_LANGUAGE.md](PLAIN_LANGUAGE.md) | **the whole programme in plain language** — the story, the results, how strongly each stands |
 | [results/RESULTS.md](results/RESULTS.md) | the results from analysis and proof, each with its scope |
 | [results/MODEL_RESULTS.md](results/MODEL_RESULTS.md) | what ED's own ingredients do in supplied space: twelve model results |
-| [results/CDT_Constraint.md](results/CDT_Constraint.md) | the untunability result in full, for readers who know CDT |
+| [results/CDT_Constraint.md](results/CDT_Constraint.md) | the CDT result in full, for readers who know causal dynamical triangulations |
 | [results/Constraints.md](results/Constraints.md) | what ED forbids, what it fixes, what it leaves open |
 | [results/Handedness/](results/Handedness/) | the handedness theorem: statement, proof, assumptions, and a script that checks it |
 | [method/HOW_IT_WAS_DONE.md](method/HOW_IT_WAS_DONE.md) | how the work was done: meanings, cards, pre-set measurements, calibration, controls, review |

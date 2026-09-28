@@ -16,7 +16,7 @@
 
 ## Part 1 — what analysis and proof established
 
-1. **Untunability.** CDT, a well-developed approach to quantum spacetime, has three numbers it tunes by hand. **ED's conserved budgets fix all three**, with nothing tuned. In 2+1 dimensions the point they fix sits where space holds together; in 3+1 one published number decides it. *This is the central tested result.*
+1. **Three numbers CDT tunes are fixed by the ontology.** CDT, a well-developed approach to quantum spacetime, has three numbers it tunes by hand. **ED's conserved budgets fix all three**, with nothing tuned. In 2+1 dimensions the point they fix sits where space holds together; in 3+1 one published number decides it. *This is the central tested result.*
 2. **Below three dimensions, clocks can't stay in step.** In one and two dimensions, the effort needed to keep a pattern's clocks together grows without limit as the pattern grows; from three up, it stays nearly level. It reads the dimension, not the number of connections, and it matches established physics of coupled clocks. So ED's own content rules out one- and two-dimensional worlds.
 3. **Handedness can't be written into mirror-symmetric rules.** A proved theorem, with a script that checks it. If the world has a handedness, its state picked it, not its laws — and handedness is possible at all only because time runs one way.
 4. **ED carries the dimension it is given.** Measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own: the declared input is genuinely an input. With result 2, it is *partly forced* — three or more.
@@ -74,7 +74,7 @@ Smaller findings: ħ shelters structure, more the harder structure is driven, an
 
 Not all results carry the same weight, and they shouldn't be quoted as if they did.
 
-* **Proved or exact:** the handedness theorem; untunability in 2+1 (exact algebra); the structure switch at 1, derived and confirmed under both clock rules.
+* **Proved or exact:** the handedness theorem; the CDT result in 2+1 (exact algebra); the structure switch at 1, derived and confirmed under both clock rules.
 * **Measured laws of the rules:** the clock floor below three dimensions, checked against the obvious objection.
 * **Clean, reproduced observations:** the memory result; the full ink arc and both endings; hosting and merging; binding and parting; selection by surroundings; local agreement at commitment; the medium ordering itself; where new places are born; the ending balance when commitment is the clock; exclusion forbidding structure.
 * **Tested on cases it had not seen:** the lifetime formula for crowded patterns (within 7%, inside a stated range).
@@ -97,7 +97,7 @@ The full working record is held separately and available on request.
 ## Where ED stands
 
 * **What it is:** an ontology, with its inputs stated openly (the Born rule, the area law, 3+1 dimensions, a starting shape).
-* **What testing established:** it fixes what another theory tunes (untunability); it rules things out (one and two dimensions, handedness in symmetric rules, a grid substrate); and, with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity.
+* **What testing established:** it fixes what another theory tunes (three numbers in CDT); it rules things out (one and two dimensions, handedness in symmetric rules, a grid substrate); and, with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity.
 * **What it leaves open, by design:** where a new event goes, and every specific structure — ED supplies the conditions of possibility, not the catalogue.
 * **The open questions:**
   1. Can a medium's ordering ever come *before* structure?

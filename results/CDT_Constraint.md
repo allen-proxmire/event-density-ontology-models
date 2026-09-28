@@ -1,4 +1,4 @@
-﻿# Untunability: a conservation law fixes the three totals CDT tunes
+﻿# A conservation law fixes the three totals CDT tunes
 
 *Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working — ledgers, notes, code and data — is held separately and available on request.*
 
@@ -148,7 +148,7 @@ The CDT review ([arXiv:1203.3591](https://arxiv.org/abs/1203.3591), §7.3.1 and 
 | N0/N4 *(conjugate to κ₀)* | **0.044** |
 | (N41 − 6·N0)/N4 *(conjugate to Δ; the review's second order parameter)* | **0.236** |
 
-**Honest status: unresolved, and leaning against.** If CDT's phase C does not reach N0/N4 ≈ 0.044, then ED's point is not on CDT's map in 3+1, and the untunability claim survives only in 2+1. **Anyone with a CDT code can settle this in an afternoon**, and it should be settled before the claim is pressed further.
+**Honest status: unresolved, and leaning against.** If CDT's phase C does not reach N0/N4 ≈ 0.044, then ED's point is not on CDT's map in 3+1, and the claim survives only in 2+1. **Anyone with a CDT code can settle this in an afternoon**, and it should be settled before the claim is pressed further.
 
 ### 3. Is τ = 1/3 reachable in 3D CDT?
 

@@ -2,13 +2,13 @@
 
 *Allen Proxmire. The findings from analysis and proof, each with its scope. Last updated 2026-09-27. What ED's ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md); how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
-**Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. Its central tested result is **untunability**: quantities other frameworks leave free are fixed by what ED conserves.
+**Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
 Each result below had its expected outcome recorded before it was tested. The working record is held separately and available on request.
 
 ---
 
-## 1. Untunability: a conservation law fixes three numbers CDT tunes
+## 1. A conservation law fixes three numbers CDT tunes
 
 Causal dynamical triangulations is a well-developed approach to quantum spacetime. Its bulk counts leave **three totals free** — **N₀**, the corner points; **N₄₁**, the blocks with four corners on one time-slice and one on the next; and **N₃₂**, the blocks with three on one slice and two on the next. Those three are what its couplings κ₀, Δ and κ₄ are tuned against.
 
@@ -85,14 +85,14 @@ These rules carry a dimension they are given, blur it as the pattern grows, and 
 
 **Declared inputs:** the Born rule, the area law, 3+1 dimensions, and a starting shape in every model.
 
-Untunability removes free numbers from *another* framework; it leaves ED's own input list as declared. The distinction is kept deliberately: a result would shorten ED's own input list only if one of these came out as a consequence, with no new free parameters.
+Result 1 removes free numbers from *another* framework; it leaves ED's own input list as declared. The distinction is kept deliberately: a result would shorten ED's own input list only if one of these came out as a consequence, with no new free parameters.
 
 ---
 
 ## What would extend it
 
 1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form — whether new events build space — is the natural next extension.
-2. **A second untunability result** of the same form: *a free parameter of an established framework is not free, given this conservation.*
+2. **A second result of the same form:** *a free parameter of an established framework is not free, given this conservation.*
 3. **A checkable difference from the standard account.**
 
 ---

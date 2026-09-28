@@ -259,7 +259,7 @@ So ED's connections must point every way equally. A random web, not a lattice.
 
 # Part V — What ED fixes
 
-## 19. Untunability
+## 19. Fixing what another framework tunes
 
 Causal dynamical triangulations is a developed approach to quantum spacetime. It builds spacetime from two kinds of four-dimensional block stacked in time-slices, and it leaves **three totals free**: the number of corner points, and the numbers of each kind of block. Those three are what its couplings are tuned against, until the universe it produces looks right.
 
@@ -350,7 +350,7 @@ It also has a list of what it assumes, and that list has not got shorter.
 
 **Extended if:** something in ED says where a new event goes. That one statement would reopen every question in Part VII.
 
-**Strengthened if:** a second untunability result of the same form — a free parameter of an established framework shown not to be free, given what ED conserves.
+**Strengthened if:** a second result of the same form — a free parameter of an established framework shown not to be free, given what ED conserves.
 
 ## 26. The universe as the flow of becoming
 
@@ -374,6 +374,6 @@ The ontology in Parts I, II, III and VIII carries forward *Event Density and the
 
 Parts IV, V and VI report testing carried out in 2026: fourteen model builds, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
-Supporting documents — the results, the untunability result in technical form, the models of what ED's ingredients do in supplied space, how the work was done, and the code — are at **github.com/allen-proxmire/event-density-ontology-models**, along with the handedness theorem and a script that checks it.
+Supporting documents — the results, the CDT result in technical form, the models of what ED's ingredients do in supplied space, how the work was done, and the code — are at **github.com/allen-proxmire/event-density-ontology-models**, along with the handedness theorem and a script that checks it.
 
 The working record behind the testing — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
