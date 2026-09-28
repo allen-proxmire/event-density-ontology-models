@@ -2,6 +2,8 @@
 
 *Allen Proxmire.*
 
+[![DOI](https://zenodo.org/badge/1366865757.svg)](https://doi.org/10.5281/zenodo.22718511)
+
 **Event Density (ED) is an ontology** — an account of what the world is made of, underneath physics. It starts from one conviction: **time only runs one way.** Once something has happened, it can't be undone.
 
 It is a theory of possibilities. It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
