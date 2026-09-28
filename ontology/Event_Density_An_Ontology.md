@@ -61,15 +61,19 @@ Where ED is higher, events propagate more readily. Where it is lower, propagatio
 
 This flow is not metaphorical. It is the engine.
 
+Every commitment draws on a finite local budget, shared by everything at that place. Event Density is how much of it is being used: how many events happen in a region.
+
 ---
 
 # Part II — What follows
 
 ## 4. Time is the accumulation of becoming
 
-If becoming is primitive, time is not a dimension in which becoming occurs. Time is the **record** of becoming — the cumulative bookkeeping of events.
+If becoming is primitive, time is not a dimension in which becoming occurs. Time is the **count** of becoming — the cumulative bookkeeping of events.
 
-A region with high ED accumulates more becoming per unit of experience. A region with low ED accumulates less. That is the ontological basis of time dilation: differences in the rate of becoming produce differences in the rate at which time unfolds.
+Where Event Density is high, the local budget is heavily used, so everything there receives fewer updates: its clock runs slow. That is the ontological basis of time dilation. And because the budget belongs to the place, everything at the same place — a person, a table, the air — keeps the same time. A clock belongs to a place, not to a thing.
+
+**Load and rate.** Two things must not be confused. A pattern's **load** is how much of the local budget it uses — how much it commits. That is what physics measures as mass: Cavendish weighed the Earth's load when he measured its pull. A place's **rate** is how many updates anything there receives — its clock. Load makes rate. Where the surrounding load is greatest, every clock runs slowest, which is why the deepest point in the Earth, surrounded by all of its load, keeps the slowest time. A mass's load reaches outward as a ripple from everything it commits with; spread over a sphere whose surface grows with the square of the distance, it thins as it goes — which is why gravity weakens with the square of distance, and why that law belongs to three dimensions. So a mass's load is felt beyond where it sits, through the gradient in Event Density it creates, and clocks slow even in empty space near it. Given a mass and a distance, the rate follows.
 
 The arrow follows just as naturally. Becoming diffuses. Gradients flatten. The universe moves from concentrated becoming toward uniform becoming, and the direction of that diffusion is what we call the arrow of time.
 
