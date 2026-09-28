@@ -29,7 +29,7 @@ Every ontology begins by choosing what is fundamental. Classical physics chose p
 
 Event Density begins with **action**.
 
-At the foundation is becoming: the continuous activity by which reality updates itself. It is granular. It unfolds through discrete interaction events at every scale — down to the smallest quantum adjustments.
+At the foundation is becoming: the constant activity by which reality updates itself. It is granular. It unfolds through discrete interaction events at every scale — down to the smallest quantum adjustments.
 
 An event is not a particle collision or an occurrence in spacetime. It is the primitive act of updating, from which spacetime and matter later emerge.
 
@@ -41,11 +41,15 @@ To vanish is to fall out of participation.
 
 Becoming has a direction, and the direction is not imposed.
 
-When an update happens, it cannot be undone. That is not a law added to the ontology; it is what makes an update an update rather than a fluctuation. A commitment is an act of becoming that has passed out of reach of every possible future path.
+When an update happens, it cannot be undone. That is not a law added to the ontology; it is what makes an update an update rather than a fluctuation. Every act of becoming is a commitment: it passes out of reach of every possible future path.
+
+What has not yet committed is **possibility**. Becoming *is* commitment — the tick, the update; a thing that is not updating is not becoming anything. Possibility flows, gathers and thins; only when it commits does it become. This is why possibility does not slow clocks: it is not yet using the budget.
 
 Commitment is passed on, not held. An event commits and is spent; what it passes forward is the capacity to commit again. Nothing accumulates a record of itself. The present is all there is, and the past is what the present can no longer reach.
 
 From irreversible commitment comes everything that distinguishes before from after.
+
+What has committed does not stay committed forever. It dissolves back into possibility after a characteristic span, **ħ** — how much memory a pattern can carry before it dissolves. ħ is one number for the whole substrate. Structure lasts because patterns keep recommitting faster than they dissolve.
 
 ## 3. Event Density, and its gradients
 
@@ -131,7 +135,15 @@ Matter does not curve spacetime. Differences in becoming generate the relational
 
 Gravity is not a force. It is the architecture of becoming.
 
-## 9. Distance is participation resistance, and there is a speed limit
+## 9. Polarity
+
+Every participation carries a phase: its **polarity**. A phase is set when something commits and is carried unchanged between commitments; it does not turn on its own.
+
+Patterns in step reinforce each other and bind. Patterns out of step cancel each other's slowing and part — a resemblance to matter meeting antimatter, noted rather than claimed. A pattern holds together only if its phase agrees with its surroundings, so polarity is selected by environment, not by the pattern alone.
+
+Order in polarity is made by commitment. Settled patterns lay down agreeing phases and hand them back to possibility as they dissolve. And an aligned region acts as a directional field: it biases the phase of what commits around it — an influence that spreads outward the longer the region lasts.
+
+## 10. Distance is participation resistance, and there is a speed limit
 
 Two regions feel distant when the participation between them is weak — when few events integrate across the gap, when relational timing is loosely coupled, when commitment histories diverge. That resistance is what becomes distance under coarse-graining.
 
@@ -141,7 +153,7 @@ And the network imposes a bound. Updates cannot propagate across adjacent region
 
 In regions of higher participation, such as within a material medium, the update frontier is slowed by the competition for capacity. The effective speed drops.
 
-## 10. Horizons and black holes
+## 11. Horizons and black holes
 
 A horizon forms when participation becomes asymmetric — when the flow of becoming is so uneven that causal influence moves one way and not the other.
 
@@ -155,7 +167,7 @@ Hawking radiation is diffusion across an extreme gradient. The interior is a reg
 
 Evaporation is not mass loss. It is gradient loss. A black hole dies when its concentration can no longer sustain the contrast that defined it.
 
-## 11. Quantum behaviour is thin participation
+## 12. Quantum behaviour is thin participation
 
 A system in superposition is not mystical. It is **ontologically thin**: low ED, minimal event production, weak or absent gradients, no stable relational structure.
 
@@ -173,7 +185,7 @@ Superposition is the natural state of a system with insufficient becoming to def
 
 This is also why the quantum gravity problem dissolves rather than being solved. Quantum systems do not generate curvature because they have low ED, and low-ED systems have no gradients to curve anything. Spacetime does not need to be quantised. The conflict was conceptual, not physical.
 
-## 12. Cosmology is ED dynamics
+## 13. Cosmology is ED dynamics
 
 **The Big Bang** was not a geometric singularity. It was a **peak in becoming** — the moment when event production was at its maximum. ED was extraordinarily high, gradients were undefined, participation was universal, no stable relations existed and no geometry could form.
 
@@ -189,7 +201,7 @@ That is why spacetime breaks down there. Not because physics fails, but because 
 
 Every structure — stars, galaxies, black holes, observers — is a temporary attractor in this flow. Each arises when ED is dense enough, persists while gradients remain strong, and dissolves when they flatten. The universe is not a collection of eternal objects. It is a sequence of architectures, each with a beginning, a middle and an end.
 
-## 13. Information, entropy and the boundary
+## 14. Information, entropy and the boundary
 
 **Information is the pattern of becoming** — the structure formed by how events accumulate and relate. It is not stored *in* matter, and not stored *in* spacetime. It is a constraint on how becoming can unfold.
 
@@ -199,7 +211,7 @@ Entropy increases because ED diffuses. The second law is not a probabilistic acc
 
 **Holography** follows without surprise. Gradients live on boundaries — a boundary is where becoming changes most sharply, where relational structure is most constrained, and therefore where information is densest. The universe does not store information in volumes. It stores it in the **contrast** between volumes.
 
-## 14. Laws are what stable participation looks like from far away
+## 15. Laws are what stable participation looks like from far away
 
 Physics treats its laws as fixed, universal, timeless and scale-independent. That picture is inherited from classical mechanics, where spacetime is fundamental and geometry fixed.
 
@@ -223,7 +235,7 @@ Universality is not metaphysical. It is structural stability.
 
 An ontology earns its keep by what it rules out. These exclusions follow from ED's own content, and each has been computed rather than argued.
 
-## 15. One and two dimensions cannot hold their clocks together
+## 16. One and two dimensions cannot hold their clocks together
 
 Take any patch of the pattern. Its events tick at slightly different rates, so the patch as a whole runs fast or slow by a surplus. The only way to shed that surplus is through the relations crossing the patch's edge, and each relation can carry only so much.
 
@@ -233,13 +245,13 @@ This was argued first and then measured. On a line and on a flat grid, the coupl
 
 So ED excludes one and two dimensions from its own content. It does not select three: three and everything above pass equally.
 
-## 16. Patterns too sparse to hold together
+## 17. Patterns too sparse to hold together
 
 Below roughly five connections per event, a growing pattern fragments into disconnected pieces. Above it, the pattern holds and reproduces its own structure more faithfully as the count rises.
 
 That is a threshold on how thin participation can be and still be participation.
 
-## 17. Handedness cannot be written into symmetric rules
+## 18. Handedness cannot be written into symmetric rules
 
 Consider transport on a lattice with several channels. Does traffic drift more one way than the other?
 
@@ -251,7 +263,7 @@ And handedness is possible at all only because time runs one way. With reversibl
 
 This is a proved theorem, with a script that checks it.
 
-## 18. A lattice cannot be the substrate
+## 19. A lattice cannot be the substrate
 
 If ED's connections lay on a regular grid, the number crossing a surface would depend on which way the surface faced — measured at 1.00, 1.41 and 1.73 for surfaces facing along an edge, a face diagonal and a body diagonal.
 
@@ -263,7 +275,7 @@ So ED's connections must point every way equally. A random web, not a lattice.
 
 # Part V — What ED fixes
 
-## 19. Fixing what another framework tunes
+## 20. Fixing what another framework tunes
 
 Causal dynamical triangulations is a developed approach to quantum spacetime. It builds spacetime from two kinds of four-dimensional block stacked in time-slices, and it leaves **three totals free**: the number of corner points, and the numbers of each kind of block. Those three are what its couplings are tuned against, until the universe it produces looks right.
 
@@ -281,7 +293,7 @@ Its scope, stated with it: this is a claim about that framework, not about natur
 
 # Part VI — What ED supplies
 
-## 20. The input list
+## 21. The input list
 
 An ontology should say what it assumes. ED assumes:
 
@@ -298,13 +310,13 @@ That is a statement about the formalisation tested, not a proof that no mechanis
 
 It confirms that the declaration is honest. Dimension is genuinely an input, not something assumed quietly and presented later as a result.
 
-And the input is **partly forced**: section 15 rules out one and two dimensions from ED's own content. The assumption narrows from *any number* to *three or more*.
+And the input is **partly forced**: section 16 rules out one and two dimensions from ED's own content. The assumption narrows from *any number* to *three or more*.
 
 ---
 
 # Part VII — What ED does not reach
 
-## 21. Where a new event goes
+## 22. Where a new event goes
 
 ED says what may happen. An event passes on its budget. Commitments stick. Rates must be able to match. Patches must be able to shed their surplus.
 
@@ -312,7 +324,7 @@ It does not say **where** a new event attaches.
 
 Fourteen independent model builds reached this wall from different directions. It is the reason a shape must be supplied, and it is the single most likely place for the ontology to be extended.
 
-## 22. Specific structures
+## 23. Specific structures
 
 ED does not specify the exact distribution of becoming at any moment, the particular gradients that form galaxies or stars, the specific events behind a quantum outcome, or the constants of nature.
 
@@ -326,7 +338,7 @@ A universe made of becoming must exhibit gradients, diffusion, structure, inform
 
 # Part VIII — How an ontology is judged
 
-## 23. Explanation is architectural, not causal
+## 24. Explanation is architectural, not causal
 
 Classical physics explains by appeal to causes: forces push, laws govern, initial conditions determine, mechanisms produce outcomes. That works for engineering and prediction, and struggles with foundations. It cannot say why the laws exist, or why the universe has the structure it does.
 
@@ -336,7 +348,7 @@ This is not mechanistic. It is architectural. A phenomenon is explained when its
 
 It is also not reductionist. Spacetime, information, entropy and the arrow of time are not properties of parts. They are properties of **patterns**. You do not explain a galaxy by analysing its atoms; you explain it by analysing its gradient field.
 
-## 24. Conditions of possibility
+## 25. Conditions of possibility
 
 A theory is asked: *what will happen?*
 
@@ -348,7 +360,7 @@ By that standard ED has four things to show. It removes three tuned parameters f
 
 It also has a list of what it assumes, and that list has not got shorter.
 
-## 25. What would refute it, and what would extend it
+## 26. What would refute it, and what would extend it
 
 **Refuted if:** a world with a handedness written into mirror-symmetric laws; stable extended structure in a regime where participation is too thin to sustain it; a substrate with preferred directions and direction-independent gravity.
 
@@ -356,7 +368,7 @@ It also has a list of what it assumes, and that list has not got shorter.
 
 **Strengthened if:** a second result of the same form — a free parameter of an established framework shown not to be free, given what ED conserves.
 
-## 26. The universe as the flow of becoming
+## 27. The universe as the flow of becoming
 
 The picture, in one place:
 
