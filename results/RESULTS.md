@@ -1,8 +1,10 @@
-﻿# Results
+﻿# Results from analysis and proof
 
-*Allen Proxmire. The findings from analysis and proof, each with its scope. Last updated 2026-09-27. What ED's ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md); how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
+*Allen Proxmire. Last updated 2026-09-29. Read these first: they are the results in most direct contact with outside physics. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
+
+**These four results apply known mathematics and physics to ED's own claims. None is new mathematics:** the CDT identities are Ambjørn, Jurkiewicz and Loll's; the handedness argument is close to Nielsen–Ninomiya; the clock floor is the known synchronisation result of Strogatz–Mirollo and Hong et al. **ED's contribution is the connection** — asking these questions of its own principles, and what the answers then fix or rule out.
 
 Each result below had its expected outcome recorded before it was tested. The working record is held separately and available on request.
 
@@ -11,6 +13,8 @@ Each result below had its expected outcome recorded before it was tested. The wo
 ## 1. A conservation law fixes three numbers CDT tunes
 
 Causal dynamical triangulations is a well-developed approach to quantum spacetime. Its bulk counts leave **three totals free** — **N₀**, the corner points; **N₄₁**, the blocks with four corners on one time-slice and one on the next; and **N₃₂**, the blocks with three on one slice and two on the next. Those three are what its couplings κ₀, Δ and κ₄ are tuned against.
+
+**What ED adds is an idea: treat these three totals as conserved budgets — fixed quantities — rather than dials to tune.** In CDT those numbers are meant to be tuned, so nobody inside CDT had a reason to fix them from outside. ED did, because conservation is central to it.
 
 **ED's conserved budgets fix all three.** The event budget fixes N₀, the link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. The result is a single point with nothing tuned — and in 2+1 dimensions that point sits **inside the phase where space doesn't collapse**, rather than the collapsed one.
 

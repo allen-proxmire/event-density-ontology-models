@@ -1,6 +1,10 @@
-# What ED's ingredients do: models in supplied space
+# Results from models: what ED's ingredients do in supplied space
 
-*Allen Proxmire, 2026-09-24 to 27. A companion to [RESULTS.md](RESULTS.md). How the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md); the code for every result is in [../method/models/](../method/models/).*
+*Allen Proxmire, 2026-09-24 to 29. A companion to [RESULTS.md](RESULTS.md), the results from analysis and proof, which are the ones to read first.*
+
+**These fifteen results show what ED's own ingredients do when run in supplied three-dimensional space. They are behaviours of the rules, not claims about nature, and each carries its own strength and scope.**
+
+* How the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md); the code for every result is in [../method/models/](../method/models/).*
 
 ---
 

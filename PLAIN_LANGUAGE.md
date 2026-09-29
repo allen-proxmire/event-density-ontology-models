@@ -14,7 +14,9 @@
 
 ---
 
-## Part 1 — what analysis and proof established
+## Part 1 — results from analysis and proof
+
+*None of these is new mathematics. Each applies known results to ED's own principles; ED's contribution is the connection — asking the question, and what the answer then fixes or rules out.*
 
 1. **Three numbers CDT tunes are fixed by the ontology.** CDT, a well-developed approach to quantum spacetime, has three numbers it tunes by hand. **ED's conserved budgets fix all three**, with nothing tuned. In 2+1 dimensions the point they fix sits where space holds together; in 3+1 one published number decides it. *This is the central tested result.*
 2. **Below three dimensions, clocks can't stay in step.** In one and two dimensions, the effort needed to keep a pattern's clocks together grows without limit as the pattern grows; from three up, it stays nearly level. It reads the dimension, not the number of connections, and it matches established physics of coupled clocks. So ED's own content rules out one- and two-dimensional worlds.
@@ -25,7 +27,7 @@ Also: patterns hold together only above about five connections per event; ED's s
 
 ---
 
-## Part 2 — what ED's ingredients do
+## Part 2 — results from models: what ED's ingredients do
 
 **The ingredients, and nothing else:**
 - **possibility** — what hasn't committed yet — flows from dense to thin;

@@ -25,7 +25,9 @@ Everything else is working out what these imply. The full account: [ontology/Eve
 
 ## The results
 
-### From analysis and proof
+### Results from analysis and proof
+
+*These apply known mathematics and physics to ED's own claims; none is new mathematics. ED's contribution is the connection. Read these first.*
 
 **1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: 
 
@@ -41,7 +43,9 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 
 **4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With result 2 the primitive is *partly forced*: three or more.
 
-### From models in supplied space
+### Results from models
+
+*What ED's own ingredients do when run in supplied three-dimensional space: behaviours of the rules, not claims about nature.*
 
 With space supplied as the ontology declares, ED's own ingredients — flow, clocks slowed by committed matter, commitment, dissolution after ħ, new places being born, a spending budget, polarity — were run to see what they do. Among the results:
 
@@ -75,8 +79,8 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |-|-|
 |[ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md)|**the paper** — what ED is, what follows from it, and what testing established|
 |[PLAIN\_LANGUAGE.md](PLAIN_LANGUAGE.md)|**the whole programme in plain language** — the story, the results, how strongly each stands|
-|[results/RESULTS.md](results/RESULTS.md)|the results from analysis and proof, each with its scope|
-|[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|what ED's own ingredients do in supplied space: twelve model results|
+|[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — four results applying known mathematics to ED's claims; read first|
+|[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|**results from models** — fifteen results on what ED's own ingredients do in supplied space|
 |[results/CDT\_Constraint.md](results/CDT_Constraint.md)|the CDT result in full, for readers who know causal dynamical triangulations|
 |[results/Constraints.md](results/Constraints.md)|what ED forbids, what it fixes, what it leaves open|
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
