@@ -14,15 +14,14 @@ This repository holds the ontology, the results of testing it, models of what it
 
 ## The idea
 
-* **The world is a web of places,** called *loci*. The web keeps growing; new places keep being born.
-* **Unsettled (quantum) things spread across the web like ripples,** trying many paths at once.
-* **When a ripple meets something already settled** it **commits**. It leaves a mark. Once that mark is made, it can't be unmade; something definite has happened — a **commitment**.
-* **Commitments use up a finite budget.** Matter, time, and motion contribute to how this budget is consumed, so that near a lot of settled matter, clocks and motion slow down.
+* The universe is a web of places, a web of relations. The web keeps growing; new places are continuously being born.
+* What hasn't committed yet — **possibility**; unsettled, quantum things — spreads across the web like ripples, trying many paths at once.
+* When a ripple meets something already settled (committed), it commits. It leaves a mark on the world. Once that mark is made, it can't be unmade; something definite has happened. That is a **commitment**.
+* Commitments use up a finite budget. Matter, time and motion contribute to how this budget is consumed, so that near a lot of committed matter, clocks and motion slow down.
 
-Everything else is working out what these imply. The full account: [ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md).
+The only other inputs are the Born rule, the area law, 3+1 dimensions, and a starting shape. Everything else here is working out what these imply. The full account: [ontology/Event_Density_An_Ontology.md](ontology/Event_Density_An_Ontology.md).
 
-\---
-
+---
 ## The results
 
 ### Results from analysis and proof
@@ -46,6 +45,8 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 ### Results from models
 
 *What ED's own ingredients do when run in supplied three-dimensional space: behaviours of the rules, not claims about nature.*
+
+ED declares three-plus-one dimensions as an input; it does not claim to make space. So the models supply space as a 3D grid and ask what ED's own ingredients do in it.
 
 With space supplied as the ontology declares, ED's own ingredients — flow, clocks slowed by committed matter, commitment, dissolution after ħ, new places being born, a spending budget, polarity — were run to see what they do. Among the results:
 
