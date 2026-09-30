@@ -10,7 +10,7 @@ It is a theory of possibilities. It is not a theory of gravity or a theory of ev
 
 This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
-\---
+---
 
 ## The idea
 
@@ -58,7 +58,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 * **Where a new event goes costs little** once space is given.
 * **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
 
-\---
+---
 
 ## How to judge it
 
@@ -72,7 +72,7 @@ ED should be judged as an ontology, not as a new physical theory. Most ontologie
 
 ED supplies, in its own words, *"the conditions of possibility, not the full catalogue of outcomes."* It says what may happen, not where a new event goes — and with space supplied, the models show that "where" costs structure little. Whether new events *build* space is the natural next extension.
 
-\---
+---
 
 ## What's here
 
