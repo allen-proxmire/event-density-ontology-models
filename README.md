@@ -42,6 +42,8 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 
 **4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With result 2 the primitive is *partly forced*: three or more.
 
+**5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space.
+
 ### Results from models
 
 *What ED's own ingredients do when run in supplied three-dimensional space: behaviours of the rules, not claims about nature.*
@@ -81,7 +83,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |-|-|
 |[ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md)|**the paper** — what ED is, what follows from it, and what testing established|
 |[PLAIN\_LANGUAGE.md](PLAIN_LANGUAGE.md)|**the whole programme in plain language** — the story, the results, how strongly each stands|
-|[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — four results applying known mathematics to ED's claims; read first|
+|[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — five results applying known mathematics to ED's claims; read first|
 |[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|**results from models** — seventeen results on what ED's own ingredients do in supplied space|
 |[results/CDT\_Constraint.md](results/CDT_Constraint.md)|the CDT result in full, for readers who know causal dynamical triangulations|
 |[results/Constraints.md](results/Constraints.md)|what ED forbids, what it fixes, what it leaves open|

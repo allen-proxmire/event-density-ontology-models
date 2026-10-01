@@ -1,10 +1,10 @@
 ﻿# Results from analysis and proof
 
-*Allen Proxmire. Last updated 2026-09-29. Read these first: they are the results in most direct contact with outside physics. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
+*Allen Proxmire. Last updated 2026-10-01. Read these first: they are the results in most direct contact with outside physics. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
-**These four results apply known mathematics and physics to ED's own claims. None is new mathematics:** the CDT identities are Ambjørn, Jurkiewicz and Loll's; the handedness argument is close to Nielsen–Ninomiya; the clock floor is the known synchronisation result of Strogatz–Mirollo and Hong et al. **ED's contribution is the connection** — asking these questions of its own principles, and what the answers then fix or rule out.
+**These five results apply known mathematics and physics to ED's own claims. None is new mathematics:** the CDT identities are Ambjørn, Jurkiewicz and Loll's; the handedness argument is close to Nielsen–Ninomiya; the clock floor is the known synchronisation result of Strogatz–Mirollo and Hong et al.; the knot facts are standard knot theory. **ED's contribution is the connection** — asking these questions of its own principles, and what the answers then fix or rule out.
 
 Each result below had its expected outcome recorded before it was tested. The working record is held separately and available on request.
 
@@ -90,9 +90,9 @@ Those two meanings, with standard knot theory, give a sharp statement about dime
 
 **What is ED's here is the connection, not the mathematics.** The knot facts are standard and old. What the ontology supplies is the identification of a particle with an uncuttable knot of commitments — and that is what makes a fact about topology into a statement about what can exist.
 
-**Scope.** The *if* is load-bearing, which is why it is in the heading. The bound holds for **loops**, which are one-dimensional; two-dimensional membranes *can* knot in four dimensions, so if the ontology's lasting objects could be membranes rather than loops, four reopens. And this is not a derivation of space: result 16 stands, and space remains a necessary input. What this gives is a **reason for the number**, conditional on what a particle is. The stronger claim — exactly three from the primitives alone — was attempted and did not hold, and is kept in the working notes as such.
+**Scope.** The *if* is load-bearing, which is why it is in the heading. The bound holds for **loops**, which are one-dimensional; two-dimensional membranes *can* knot in four dimensions, so if the ontology's lasting objects could be membranes rather than loops, four reopens. And this is not a derivation of space: model result 16 stands, and space remains a necessary input. What this gives is a **reason for the number**, conditional on what a particle is. Exactly three from the primitives alone, without this meaning of a particle, is not claimed.
 
-*Working record: attempt 4, decisions D14 and D16. The mathematics: a simple closed curve in the plane cannot be knotted ([Jordan curve theorem](https://en.wikipedia.org/wiki/Jordan_curve_theorem)); knots in three dimensions are classified and permanent under isotopy ([knot theory](https://en.wikipedia.org/wiki/Knot_theory)); every embedded circle in four or more dimensions is isotopic to the unknot ([higher dimensions](https://en.wikipedia.org/wiki/Knot_theory#Higher_dimensions)).*
+*Working record: attempt 4, decisions D14 and D16. The mathematics: a simple closed curve in the plane cannot be knotted ([Jordan–Schoenflies theorem](https://en.wikipedia.org/wiki/Schoenflies_problem)); knots in three dimensions are classified and permanent under isotopy ([knot theory](https://en.wikipedia.org/wiki/Knot_theory)); every embedded circle in four or more dimensions is isotopic to the unknot ([higher dimensions](https://en.wikipedia.org/wiki/Knot_theory#Higher_dimensions)).*
 
 ---
 
