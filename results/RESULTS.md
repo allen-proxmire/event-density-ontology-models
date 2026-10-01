@@ -76,7 +76,27 @@ These rules carry a dimension they are given, blur it as the pattern grows, and 
 
 ---
 
-## 5. Further findings
+## 5. If a particle is an uncuttable knot, three is the only dimension that works
+
+Two of the ontology's own meanings, settled on 15 September 2026: **a particle is a knot of commitments that cannot be cut**, and *cannot be cut* includes that **a knot's strands cannot pass through each other**.
+
+Those two meanings, with standard knot theory, give a sharp statement about dimension:
+
+- **In two dimensions a loop cannot be knotted at all.** There is one kind of loop and no others.
+- **In three, there are endlessly many distinct knots**, and none can be undone without either cutting a strand or passing one through another — both of which these meanings forbid. So the kinds are endless, and each one lasts.
+- **In four dimensions and above, every knotted loop can be untied** by sliding strands past one another through the extra room, with nothing cut. So no kind lasts.
+
+**So above three dimensions a particle cannot keep its kind, and below three, by result 2, clocks cannot keep time together.** Result 4 already narrows the input from any number of dimensions to three or more. This caps it at three. Taken together, the two bounds pin the number from both sides.
+
+**What is ED's here is the connection, not the mathematics.** The knot facts are standard and old. What the ontology supplies is the identification of a particle with an uncuttable knot of commitments — and that is what makes a fact about topology into a statement about what can exist.
+
+**Scope.** The *if* is load-bearing, which is why it is in the heading. The bound holds for **loops**, which are one-dimensional; two-dimensional membranes *can* knot in four dimensions, so if the ontology's lasting objects could be membranes rather than loops, four reopens. And this is not a derivation of space: result 16 stands, and space remains a necessary input. What this gives is a **reason for the number**, conditional on what a particle is. The stronger claim — exactly three from the primitives alone — was attempted and did not hold, and is kept in the working notes as such.
+
+*Working record: attempt 4, decisions D14 and D16. The mathematics: a simple closed curve in the plane cannot be knotted ([Jordan curve theorem](https://en.wikipedia.org/wiki/Jordan_curve_theorem)); knots in three dimensions are classified and permanent under isotopy ([knot theory](https://en.wikipedia.org/wiki/Knot_theory)); every embedded circle in four or more dimensions is isotopic to the unknot ([higher dimensions](https://en.wikipedia.org/wiki/Knot_theory#Higher_dimensions)).*
+
+---
+
+## 6. Further findings
 
 - **Patterns fragment below about five connections per event.** A threshold on how sparse a web can be and still hold together. *(Working record: attempt 12, claim C7.)*
 - **ED never collapses.** In the 2+1 runs, from either starting condition, it never produced the collapsed phase CDT falls into outside its tuned window. *(Working record: attempt 11, claim C20.)*
