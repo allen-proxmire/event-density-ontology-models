@@ -57,6 +57,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 * **A medium orders itself**: under the ontology's commitment rule, the whole medium comes to share one phase that nothing supplied.
 * **Where a new event goes costs little** once space is given.
 * **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
+* **A region can be cut off two ways, by breaking its links or by stopping its clock, and the clock wins**: a sharp, mass-sized decoupling surface exists while the region is fed, and a growing mass slows the region's clock without limit.
 
 ---
 
@@ -81,7 +82,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |[ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md)|**the paper** — what ED is, what follows from it, and what testing established|
 |[PLAIN\_LANGUAGE.md](PLAIN_LANGUAGE.md)|**the whole programme in plain language** — the story, the results, how strongly each stands|
 |[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — four results applying known mathematics to ED's claims; read first|
-|[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|**results from models** — fifteen results on what ED's own ingredients do in supplied space|
+|[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|**results from models** — seventeen results on what ED's own ingredients do in supplied space|
 |[results/CDT\_Constraint.md](results/CDT_Constraint.md)|the CDT result in full, for readers who know causal dynamical triangulations|
 |[results/Constraints.md](results/Constraints.md)|what ED forbids, what it fixes, what it leaves open|
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
