@@ -1,6 +1,6 @@
 # How it was done
 
-*Allen Proxmire, 2026-09-27. The practices behind every result in this repository. The standing rules are in [STANDARDS.md](STANDARDS.md); the code is in [models/](models/).*
+*Allen Proxmire, 2026-09-27, updated 2026-10-02. The practices behind every result in this repository. The standing rules are in [STANDARDS.md](STANDARDS.md); the code is in [models/](models/).*
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Analysis and proof (September 13–24).** ED's primitives were turned into exact rules and tested against three questions: does ED's structure constrain an established theory of quantum spacetime; does its requirement that clocks keep time together restrict the shape of space; and can its rules produce three-dimensional space rather than be given it. Fourteen model builds, each self-contained. Results: [../results/RESULTS.md](../results/RESULTS.md).
 
-**Models in supplied space (September 24–27).** With three-plus-one dimensions taken as the ontology declares them, a 3D grid was supplied and ED's own ingredients — flow, clock slowing by committed matter, commitment above a threshold, dissolution after ħ, expansion, spending, polarity — were run in it to see what they do. Seventeen models, each built from a written card. Results: [../results/MODEL_RESULTS.md](../results/MODEL_RESULTS.md).
+**Models (September 24 – October 2).** With three-plus-one dimensions taken as the ontology declares them, a 3D grid was supplied and ED's own ingredients — flow, clock slowing by committed matter, commitment above a threshold, dissolution after ħ, expansion, spending, polarity — were run in it to see what they do. The last stretch asked about space itself: whether ED's ingredients can grow it with none supplied (result 16), and whether a supplied piece stays orderly as it grows (result 18). Some forty models, each built from a written card. Results: [../results/MODEL_RESULTS.md](../results/MODEL_RESULTS.md).
 
 ---
 

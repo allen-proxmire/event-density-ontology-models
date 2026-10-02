@@ -1,6 +1,6 @@
 ﻿# Results from analysis and proof
 
-*Allen Proxmire. Last updated 2026-10-01. Read these first: they are the results in most direct contact with outside physics. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
+*Allen Proxmire. Last updated 2026-10-02. Read these first: they are the results in most direct contact with outside physics. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 
@@ -70,7 +70,7 @@ Then, starting from a pattern with no dimension and growing it under every rule 
 
 These rules carry a dimension they are given, blur it as the pattern grows, and never make one. That is a result about this formalisation; it is not a proof that no ED mechanism could.
 
-**3+1 is a declared primitive of the ontology**, not something it claimed to derive. What the testing adds is that the declaration is honest: dimension is genuinely an input, not something assumed and then presented as a result. Taken with result 2, the primitive is *partly forced* — one and two dimensions are excluded by ED's own content, narrowing the input from any number of dimensions to three or more.
+**3+1 is a declared primitive of the ontology**, not something it claimed to derive. What the testing adds is that the declaration is honest: dimension is genuinely an input, not something assumed and then presented as a result. Taken with result 2, one and two dimensions are excluded by ED's own content, narrowing the input from any number of dimensions to three or more; with result 5 it is bounded to three, conditionally.
 
 *Working record: attempt 13, claims C10, C11, C15.*
 
@@ -86,7 +86,7 @@ Those two meanings, with standard knot theory, give a sharp statement about dime
 - **In three, there are endlessly many distinct knots**, and none can be undone without either cutting a strand or passing one through another — both of which these meanings forbid. So the kinds are endless, and each one lasts.
 - **In four dimensions and above, every knotted loop can be untied** by sliding strands past one another through the extra room, with nothing cut. So no kind lasts.
 
-**So above three dimensions a particle cannot keep its kind, and below three, by result 2, clocks cannot keep time together.** Result 4 already narrows the input from any number of dimensions to three or more. This caps it at three. Taken together, the two bounds pin the number from both sides.
+**So above three dimensions a particle cannot keep its kind, and below three, by result 2, clocks cannot keep time together.** Result 2 already narrows the input from any number of dimensions to three or more. This caps it at three. Taken together, the two bounds pin the number from both sides.
 
 **What is ED's here is the connection, not the mathematics.** The knot facts are standard and old. What the ontology supplies is the identification of a particle with an uncuttable knot of commitments — and that is what makes a fact about topology into a statement about what can exist.
 
@@ -115,7 +115,7 @@ Result 1 removes free numbers from *another* framework; it leaves ED's own input
 
 ## What would extend it
 
-1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form — whether new events build space — is the natural next extension.
+1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form is answered by model result 16: new events do not build space, so space is a necessary input. What remains is what the commitment that makes a place decides about its relations.
 2. **A second result of the same form:** *a free parameter of an established framework is not free, given this conservation.*
 3. **A checkable difference from the standard account.**
 
@@ -125,4 +125,4 @@ Result 1 removes free numbers from *another* framework; it leaves ED's own input
 
 Every test was specified before it ran, with its expected outcome recorded in advance and its instruments calibrated against objects whose answers were already known. Published work was checked before anything was claimed. Settings chosen to make something work are labelled as tuned. In full: [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).
 
-The working record — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
+The working record — fourteen model builds, then a programme of some forty models, with their ledgers, dated notes, code and data — is held separately and available on request.

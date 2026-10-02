@@ -40,13 +40,13 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 
 **3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
 
-**4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With result 2 the primitive is *partly forced*: three or more.
+**4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With results 2 and 5 it is bounded to three, conditionally.
 
 **5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space.
 
 ### Results from models
 
-*What ED's own ingredients do when run in supplied three-dimensional space: behaviours of the rules, not claims about nature.*
+*What ED's own ingredients do, mostly in supplied three-dimensional space: behaviours of the rules, not claims about nature.*
 
 ED declares three-plus-one dimensions as an input; it does not claim to make space. So the models supply space as a 3D grid and ask what ED's own ingredients do in it.
 
@@ -59,6 +59,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 * **A medium orders itself**: under the ontology's commitment rule, the whole medium comes to share one phase that nothing supplied.
 * **Where a new event goes costs little** once space is given.
 * **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
+* **Space is a necessary input**: nine models tried to grow space from ED's other ingredients and none did, so the dimension and arrangement of space are inputs, not outputs.
 * **Local three-dimensional order can be made from disorder, but not kept as space grows**: ED's ingredients grow a near-cubic glass, right on average and wrong in detail, and nothing tried crystallises it.
 * **A region can be cut off two ways, by breaking its links or by stopping its clock, and the clock wins**: a sharp, mass-sized decoupling surface exists while the region is fed, and a growing mass slows the region's clock without limit.
 
@@ -68,13 +69,13 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 
 ED should be judged as an ontology, not as a new physical theory. Most ontologies, from process philosophy to relational pictures of physics, stay entirely verbal: they describe how the world might be built, and there is nothing to run or check. Judged as an ontology, ED has what most lack:
 
-1. **It is runnable.** Its ideas were turned into exact rules a computer can run: fourteen model builds, then a full model programme, with the code here.
+1. **It is runnable.** Its ideas were turned into exact rules a computer can run: fourteen model builds, then a programme of some forty models, with code here for the results it covers.
 2. **It constrains an established framework.** Its conservation laws fix three numbers that CDT, a working approach to quantum spacetime, tunes by hand.
-3. **It forbids things, from its own content:** one- and two-dimensional worlds, handedness written into mirror-symmetric laws, and a regular grid as the substrate.
+3. **It forbids things, from its own content:** one- and two-dimensional worlds, four or more dimensions if a particle is an uncuttable knot, handedness written into mirror-symmetric laws, and a regular grid as the substrate.
 4. **Its concepts behave as claimed when built.** "Nothing accumulates a record of itself": the only memory is the present state. "Every structure is a temporary attractor": the full arc appears. Polarity binds patterns in step and parts them out of step. These are behaviours of the rules, not labels on them.
-5. **It is carefully scoped.** Every claim carries its strength and its scope, and every model result can be rerun from the code.
+5. **It is carefully scoped.** Every claim carries its strength and its scope, and the code is here or available on request.
 
-ED supplies, in its own words, *"the conditions of possibility, not the full catalogue of outcomes."* It says what may happen, not where a new event goes — and with space supplied, the models show that "where" costs structure little. Whether new events *build* space is the natural next extension.
+ED supplies, in its own words, *"the conditions of possibility, not the full catalogue of outcomes."* It says what may happen, not where a new event goes — and with space supplied, the models show that "where" costs structure little. Space itself is a necessary input; the natural next extension is what the commitment that makes a place decides about its relations.
 
 ---
 
@@ -91,7 +92,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
 |[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
 |[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
-|[method/models/](method/models/)|the code for every model result, with a table of which script reproduces which result|
+|[method/models/](method/models/)|the code for model results 1–12 and the clock floor, with a table of which script reproduces which result|
 
 ## Check it yourself
 
@@ -101,7 +102,7 @@ python results/Handedness/check_result.py
 
 Needs Python with numpy. It tests the handedness theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases.
 
-Every model result can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each.
+Model results 1–12 and the clock floor can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each. The scripts for results 13–18 are held with the working record and available on request.
 
 ## Further reading
 

@@ -1,6 +1,6 @@
-# The models: code for every model result
+# The models: code for model results 1–12
 
-*The scripts behind [../../results/MODEL_RESULTS.md](../../results/MODEL_RESULTS.md) and the clock-floor result in [../../results/RESULTS.md](../../results/RESULTS.md), as they were run. Each script's opening comment states what it tests and was written before it ran.*
+*The scripts behind [../../results/MODEL_RESULTS.md](../../results/MODEL_RESULTS.md) and the clock-floor result in [../../results/RESULTS.md](../../results/RESULTS.md), as they were run, for model results 1–12 and the clock floor; the scripts for results 13–18 are held with the working record and available on request. Each script's opening comment states what it tests and was written before it ran.*
 
 **Needs:** Python 3 with numpy and scipy. Every model runs on a 32×32×32 periodic grid; most runs take from under a minute to about half an hour on a laptop. Each script prints a one-line JSON summary and writes a JSON file of its full trajectory.
 

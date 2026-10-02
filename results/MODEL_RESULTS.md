@@ -1,10 +1,10 @@
 # Results from models: what ED's ingredients do in supplied space
 
-*Allen Proxmire, 2026-09-24 to 29. A companion to [RESULTS.md](RESULTS.md), the results from analysis and proof, which are the ones to read first.*
+*Allen Proxmire, 2026-09-24 to 2026-10-02. A companion to [RESULTS.md](RESULTS.md), the results from analysis and proof, which are the ones to read first.*
 
-**These eighteen results show what ED's own ingredients do when run in supplied three-dimensional space. They are behaviours of the rules, not claims about nature, and each carries its own strength and scope.**
+**These eighteen results show what ED's own ingredients do, mostly when run in supplied three-dimensional space (results 16 and 18 ask about space itself). They are behaviours of the rules, not claims about nature, and each carries its own strength and scope.**
 
-* How the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md); the code for every result is in [../method/models/](../method/models/).*
+* How the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md); the code for results 1–12 is in [../method/models/](../method/models/), and the scripts for results 13–18 are held with the working record and available on request.*
 
 ---
 
@@ -151,5 +151,5 @@ These are resemblances, not claims.
 
 ## Open questions for the ontology
 
-1. **What sets how high possibility sits around a clump?** It governs both edges of the lifetime estimate (result 4), and two attempts to derive it have not predicted it. *The older form of this question — whether the polarity connection is a field of its own — is answered: nothing in ED is a field of its own, and committed polarity acts as an emergent directional field with a statable reach (result 14). Its time component also carries real curvature sourced by ED's own slowing (result 12).*
+1. **What sets how high possibility sits around a clump?** It governs both edges of the lifetime estimate (result 4), and two attempts to derive it have not predicted it. *The older form of this question — whether the polarity connection is a field of its own — is answered: nothing in ED is a field of its own, and committed polarity acts as an emergent directional field with a statable reach (result 14).*
 2. **Exact lifetime laws** under spending and under strong interaction, and a lifetime estimate that includes the halo of result 12.
