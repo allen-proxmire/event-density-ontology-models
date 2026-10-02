@@ -127,6 +127,8 @@ The familiar divisions — quantum and classical, flat and curved, continuous an
 
 The same primitive, carried into each domain physics divides into. Nothing is added at any step.
 
+**How to read this part.** These sections are the ontology's **readings**: how ED interprets each domain, stated in its own terms. They are not tested results, and they do not replace the physics of each domain; they say what that physics looks like if becoming is primitive. Where testing has reached a topic, the section says what it found, and the tested results themselves are in Parts IV to VI.
+
 ## 8. Gravity is the architecture of gradients
 
 In general relativity, curvature is a geometric response to mass-energy. Here it is not a response at all. It is the macroscopic expression of ED gradients — differences in the rate of becoming across neighbouring regions.
@@ -169,7 +171,7 @@ A black hole is the most extreme structure this ontology allows: a region where 
 
 The singularity of general relativity is not a physical point. It is the breakdown of the spacetime approximation — becoming too dense to be smoothed into geometry.
 
-Hawking radiation is diffusion across an extreme gradient. The interior is a region of maximal becoming, the exterior comparatively thin, and the horizon is the steepest gradient in the universe. Diffusion across such a gradient is inevitable — the same logic that drives heat flow and pressure equalisation.
+On this reading, Hawking radiation is diffusion across an extreme gradient. The interior is a region of maximal becoming, the exterior comparatively thin, and the horizon is the steepest gradient in the universe. Diffusion across such a gradient is inevitable — the same logic that drives heat flow and pressure equalisation.
 
 Evaporation is not mass loss. It is gradient loss. A black hole dies when its concentration can no longer sustain the contrast that defined it.
 
@@ -191,7 +193,7 @@ Superposition is the natural state of a system with insufficient becoming to def
 
 **Classicality** is a stable ED attractor: high density, persistent gradients, robust information structures, well-defined causal chains. Quantum and classical are not two worlds. They are two regimes of the same ontology.
 
-This is also why the quantum gravity problem dissolves rather than being solved. Quantum systems do not generate curvature because they have low ED, and low-ED systems have no gradients to curve anything. Spacetime does not need to be quantised. The conflict was conceptual, not physical.
+On this reading, the quantum gravity problem dissolves rather than needing to be solved. Quantum systems do not generate curvature because they have low ED, and low-ED systems have no gradients to curve anything. Spacetime does not need to be quantised. The conflict was conceptual, not physical.
 
 ## 13. Cosmology is ED dynamics
 
