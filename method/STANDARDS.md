@@ -115,7 +115,7 @@ The rules above are the standing ones. These are the practices the testing actua
 
 **Instruments calibrated on known answers**, including a null case and an intermediate one, not only the target. A measurement is not used on an unknown until it reproduces the right answer on objects whose answer is already known. Two instruments failed that check and were replaced rather than used.
 
-**Build the test that can destroy the result.** Where a finding is attractive, the next test is the one designed to remove it. Several attractive findings did not survive it.
+**Build the test that can destroy the result.** Where a finding is attractive, the next test is the one designed to remove it. Five findings were withdrawn this way.
 
 **Three layers kept apart.** Observations (measured), conclusions (follow by arithmetic or calibration), interpretations (need a comparison or a reading). Replacing an interpretation is progress; replacing an observation means an instrument was wrong.
 

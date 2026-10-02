@@ -150,6 +150,14 @@ The CDT review ([arXiv:1203.3591](https://arxiv.org/abs/1203.3591), §7.3.1 and 
 
 **Honest status: unresolved, and leaning against.** If CDT's phase C does not reach N0/N4 ≈ 0.044, then ED's point is not on CDT's map in 3+1, and the claim survives only in 2+1. **Anyone with a CDT code can settle this in an afternoon**, and it should be settled before the claim is pressed further.
 
+**Which way the gap points (checked 2026-10-02).** Eight further papers were searched for a *measured* N0/N4 inside phase C at (2.2, 0.6) — the 2019 review, the toroidal phase-structure and higher-order-transition papers, the effective-action and transfer-matrix papers, the critical-phenomena paper and *Reconstructing the Universe*. **None reports one**, so the gap above is still unmeasured rather than closed; the order parameter is standard (OP₁ = N0/N4,1, [arXiv:2002.01051](https://arxiv.org/abs/2002.01051) eq. 9) but is published as rescaled figures without tabulated values.
+
+What the search did settle is the **direction**. The toroidal phase-structure paper ([arXiv:1802.10434](https://arxiv.org/abs/1802.10434), Table 1) classifies all four phases by this same order parameter: **large** in phase A (branched polymer), **medium** in *both* phase C_dS (de Sitter) and phase C_b (bifurcation), and **small** in phase B (crumpled). ED needs a value about three and a half times *below* the lowest published figure in the geometric region. **So the direction ED needs is toward phase B, the collapsed phase — not deeper into the de Sitter one.**
+
+That does not settle it, and two caveats are real: the classification is qualitative, and it is toroidal while the 0.152–0.164 measurement is spherical. But it means the unresolved case is now unresolved **in a specific and unfavourable direction**. If CDT's ensemble does reach N0/N4 ≈ 0.044, the phase characterisation puts that in crumpled-phase territory rather than in the semiclassical phase the claim needs.
+
+**One number did check out.** The conversion N4 = 2.2625·N41 used above is independently confirmed by Ambjørn–Jurkiewicz–Loll's own volume table at this coupling ([hep-th/0505154](https://arxiv.org/abs/hep-th/0505154), Table 1: 80k → 181k and 160k → 362k four-simplices, both giving 2.2625).
+
 ### 3. Is τ = 1/3 reachable in 3D CDT?
 
 **Yes — and this one resolves in the claim's favour.**
@@ -165,7 +173,7 @@ This is consistent with the published structure: after tuning the cosmological c
 ## Where that leaves it
 
 - **2+1: the claim holds.** ED's conservation fixes τ = 1/3 exactly, and that value is reachable, inside the extended phase, on a validated instrument.
-- **3+1: the claim is unresolved, with a specific number deciding it.** ED needs N0/N4 ≈ 0.044 to be inside phase C. Published values near the A–C transition are three times larger. **This is the number to check.**
+- **3+1: the claim is unresolved, with a specific number deciding it, and the direction is unfavourable.** ED needs N0/N4 ≈ 0.044 to be inside phase C. Published values near the A–C transition are three times larger, no measurement at (2.2, 0.6) exists, and the qualitative phase classification puts a vertex density that small in the **crumpled** phase rather than the de Sitter one. **This is still the number to check.**
 - **The framing is microcanonical**, and that is the honest way to state it: ED fixes counts; CDT fixes couplings and lets counts fluctuate. The claim is that ED's fixed point is one CDT would have had to tune its way to — *if* the ensemble reaches it.
 
 **Sources:** [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267) (the 3+1 identities) · [hep-th/0011276](https://arxiv.org/abs/hep-th/0011276) (3D CDT phases) · [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) (review; order parameters, Fig. 21) · [arXiv:1802.10434](https://arxiv.org/abs/1802.10434) (phase-diagram table) · [Scholarpedia, Causal Dynamical Triangulation](http://www.scholarpedia.org/article/Causal_Dynamical_Triangulation)
