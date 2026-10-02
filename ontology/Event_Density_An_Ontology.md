@@ -408,7 +408,7 @@ When becoming ceases, the universe is complete.
 
 The ontology in Parts I, II, III and VIII carries forward *Event Density and the Architecture of the Universe* (January 2026), *Event Density and the Emergence of Spacetime* (February 2026) and *Event Density and the Architecture of Physical Law* (February 2026).
 
-Parts IV, V and VI, and the testing notes in sections 2, 5 and 11, report work carried out in 2026: fourteen derivation attempts and a programme of some forty models, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
+Parts IV, V and VI, and the testing notes in sections 2, 5 and 11, report work carried out in 2026: fourteen model builds, then a programme of some forty models, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
 Supporting documents — the results, the CDT result in technical form, the models of what ED's ingredients do in supplied space, how the work was done, and the code — are at **github.com/allen-proxmire/event-density-ontology-models**, along with the handedness theorem and a script that checks it.
 
