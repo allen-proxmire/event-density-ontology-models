@@ -45,7 +45,7 @@ An ontology earns its keep by ruling things out. These are the exclusions that s
 
 This is the clearest example of the form an ontological result takes: **it doesn't predict a new number, it removes a freedom.**
 
-**Two things checking the literature added.** First, the framing is *microcanonical*: CDT treats those totals as ensemble variables whose averages the couplings fix, while ED fixes the counts themselves — so the claim is that ED picks a definite point, and the open question is whether CDT's ensemble reaches it. Second, the result splits by dimension: **in 2+1 it holds**, with the value ED fixes reachable inside the non-collapsing phase; **in 3+1 it is unresolved and leaning against**, because ED's vertex density is about three times smaller than the published measurements near the nearest phase boundary.
+**Two things checking the literature added.** First, the framing is *microcanonical*: CDT treats those totals as ensemble variables whose averages the couplings fix, while ED fixes the counts themselves — so the claim is that ED picks a definite point, and the open question is whether CDT's ensemble reaches it. Second, the result splits by dimension: **in 2+1 it holds**, with the value ED fixes reachable inside the non-collapsing phase; **in 3+1 it is unresolved and leaning against**, because ED's vertex density is about three times smaller than the published measurements near the nearest phase boundary, and small vertex density is the signature of the phase where space collapses.
 
 The full statement, with the identities, the numbers and what would settle it, is in [CDT_Constraint.md](CDT_Constraint.md).
 
