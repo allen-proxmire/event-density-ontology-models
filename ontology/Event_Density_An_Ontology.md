@@ -263,6 +263,8 @@ In two dimensions no loop can be knotted at all. In three there are endlessly ma
 
 So above three dimensions a particle cannot keep its kind, and below three, by section 16, clocks cannot keep time together. **Three is bounded from both sides.**
 
+**What testing found.** Nothing stays committed, so such a knot is not a set of links that persist but a pattern of links that keep being re-made, briefly open wherever one of them is uncommitted. **What holds it whole is that an uncommitted link's place is kept for its own pair**, by identities fixed when those places came into being — the commitment that makes a place, named in section 2. With that, a knot keeps its kind at every rate of dissolving tried; without it, a strand slips through a gap or another link takes the empty place, and the knot is lost within a short time. The reservation is a reading of the ontology's own rules, and what the models establish is that it is needed, not that it arises unaided.
+
 The knot facts are standard; what is ED's is the identification of a particle with an uncuttable knot, and the *if* carries the weight. The bound holds for loops: two-dimensional membranes can knot in four dimensions, so if lasting objects could be membranes, four reopens. This gives a reason for the number, not a derivation of space.
 
 ## 18. Patterns too sparse to hold together
