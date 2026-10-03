@@ -319,7 +319,7 @@ An ontology should say what it assumes. ED assumes:
 
 - **The Born rule.** Probabilities go as the square. ED gives it a meaning and does not derive it.
 - **The area law.** Horizon entropy scales with area. ED's account of finality picks out the right count, but the mechanism is not new.
-- **Three-plus-one dimensions.** A declared primitive — and, testing shows, a necessary one. What it declares is **which relations are possible**: who may be whose neighbour.
+- **Three-plus-one dimensions.** A declared primitive — and, testing shows, a necessary one. What it adds is the **dimension** of a neighbour relation the ontology already supplies.
 - **A starting shape.** Every model built on ED was given one.
 
 Nothing has been derived, in the strict sense: the list has not got shorter.
