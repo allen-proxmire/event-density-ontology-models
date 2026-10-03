@@ -59,7 +59,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 * **A medium orders itself**: under the ontology's commitment rule, the whole medium comes to share one phase that nothing supplied.
 * **Where a new event goes costs little** once space is given.
 * **When the rate of commitment is the clock**, the switch stays exactly in place, and structure is ended mainly from outside.
-* **Space is a necessary input**: nine models tried to grow space from ED's other ingredients and none did, so the dimension and arrangement of space are inputs, not outputs.
+* **Space is a necessary input**: nine models tried to grow space from ED's other ingredients and none did, so the dimension and arrangement of space are inputs, not outputs — and what the input supplies is **who may be whose neighbour**, which four further candidate rules failed to supply from ED's other ingredients.
 * **Local three-dimensional order can be made from disorder, but not kept as space grows**: ED's ingredients grow a near-cubic glass, right on average and wrong in detail, and nothing tried crystallises it.
 * **A region can be cut off two ways, by breaking its links or by stopping its clock, and the clock wins**: a sharp, mass-sized decoupling surface exists while the region is fed, and a growing mass slows the region's clock without limit.
 

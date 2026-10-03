@@ -115,7 +115,7 @@ Result 1 removes free numbers from *another* framework; it leaves ED's own input
 
 ## What would extend it
 
-1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form is answered by model result 16: new events do not build space, so space is a necessary input. What remains is what the commitment that makes a place decides about its relations.
+1. **Something in ED that says where a new event goes.** ED specifies what may happen, not where; in supplied space the models show that "where" costs little ([MODEL_RESULTS.md](MODEL_RESULTS.md), result 11), and the deeper form is answered by model result 16: new events do not build space, so space is a necessary input. What remains is what the commitment that makes a place decides about its relations — and that now has a sharper form: **what fixes which pairs are eligible to be neighbours, if not the structure itself?**
 2. **A second result of the same form:** *a free parameter of an established framework is not free, given this conservation.*
 3. **A checkable difference from the standard account.**
 
