@@ -8,7 +8,7 @@
 
 It is a theory of possibilities. It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
+This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology** — exactly and in any dimension, at a viable point in 2+1, and at a point measured to lie outside CDT's semiclassical phase in 3+1.
 
 ---
 
@@ -34,7 +34,7 @@ The only other inputs are the Born rule, the area law, 3+1 dimensions, and a sta
 2. its link budget fixes N₄₁, 
 3. and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. 
 
-Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1 it is unresolved, and the direction is unfavourable: the vertex density ED needs points toward the phase where space collapses.
+Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1 it has been measured and lies outside that phase — ED needs a vertex density of 0.044, and CDT's own value there is about 0.075 and never below 0.073 anywhere scanned.
 
 **2. Below three dimensions, clocks cannot keep time together.** The coupling needed to hold a pattern's clocks together rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority staying locked. It reads the dimension, not the number of connections. So ED's own content rules out one- and two-dimensional worlds.
 
@@ -71,7 +71,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 ED should be judged as an ontology, not as a new physical theory. Most ontologies, from process philosophy to relational pictures of physics, stay entirely verbal: they describe how the world might be built, and there is nothing to run or check. Judged as an ontology, ED has what most lack:
 
 1. **It is runnable.** Its ideas were turned into exact rules a computer can run: fourteen model builds, then a programme of some forty models, with code here for the results it covers.
-2. **It constrains an established framework.** Its conservation laws fix three numbers that CDT, a working approach to quantum spacetime, tunes by hand — at a viable point in 2+1, and with 3+1 unresolved.
+2. **It constrains an established framework.** Its conservation laws fix three numbers that CDT, a working approach to quantum spacetime, tunes by hand — at a viable point in 2+1. In 3+1 the point it fixes has been measured against CDT and lies outside the semiclassical phase.
 3. **It forbids things, from its own content:** one- and two-dimensional worlds, four or more dimensions if a particle is an uncuttable knot, handedness written into mirror-symmetric laws, and a regular grid as the substrate.
 4. **Its concepts behave as claimed when built.** "Nothing accumulates a record of itself": the only memory is the present state. "Every structure is a temporary attractor": the full arc appears. Polarity binds patterns in step and parts them out of step. These are behaviours of the rules, not labels on them.
 5. **It is carefully scoped.** Every claim carries its strength and its scope, and the code is here or available on request.

@@ -46,16 +46,22 @@ Each is a conserved quantity of the ontology, stated before this calculation and
 
 ## Where that point sits
 
-### 3+1: close on one order parameter, undetermined on the other
+### 3+1: measured, and ED's point is outside phase C
 
-| | ED | CDT phase C |
+| | ED | CDT phase C, measured |
 |---|---|---|
-| **N32/N41** | **1.00** | **1.26** at (k₀, Δ) = (2.2, 0.6) — [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) Table 2, from N4 = 2.2625·N41 |
-| **N0/N4** | **0.044** | no value published at that point; **0.152–0.164 at the nearest measured boundary** — see below |
+| **N32/N41** | **1.00** | **1.2625** at (k₀, Δ) = (2.2, 0.6) — [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) Table 2, from N4 = 2.2625·N41; reproduced here at **1.24–1.265** |
+| **N0/N4** | **0.044** | **0.075–0.079** at the canonical point, and **no lower than 0.073** anywhere scanned |
 
-For N0/N4 the comparison was originally a bound rather than a measurement: with N32/N41 = 1.26 and at least 3 four-simplices per vertex in a slice, N0/N4 ≤ 1/(6 × 2.26) = 0.074, and ED's 0.044 lies inside it.
+**How it was measured.** Rajesh Kommu's published 3+1 CDT program ([tryggth/CDT](https://github.com/tryggth/CDT), commit f6ecdfc), which uses S³ spatial slices with periodic time — the same topology as the review's Figure 21, checked before anything was run. Two published values were used as calibration gates, and **the code as distributed failed one of them**: it reproduced the A–C vertex density but gave N32/N41 = 0.87 against the published 1.2625, flat across 20,000, 40,000 and 80,000 simplices, **so nothing was read from it.** Kommu's validation paper turns out never to have tested that quantity. The cause is in the acceptance step: moves are proposed by retrying until one is legal and then accepted on the action alone, with no account of how many ways each move and its reverse can be proposed. **The exact Metropolis–Hastings factors were derived once from the code's own move enumeration, committed before any production reading, and only κ₄ was tuned thereafter, for volume.** The corrected sampler passes both gates: **0.158** at the A–C border against the published 0.152–0.164, and **1.24 and 1.265** at 8,000 and 16,000 simplices against 1.2625.
 
-**That bound turned out to be the weaker statement.** A published *measurement* of N0/N4 exists at the A–C transition, and it is three times ED's value. **See "What the literature says", question 2 — this is where the 3+1 claim currently stands or falls.**
+**The readings.** Along k₀ at Δ = 0.6: **0.158** at 4.711, **0.091** at 3.0, **0.079** at 2.2 (0.0753 at 16,000 simplices). Across Δ at k₀ = 2.2: **0.079, 0.078, 0.076, 0.073** for Δ = 0.6, 0.4, 0.2, 0.0. Every point stationary to within 1.3% between windows far apart in the run.
+
+**The vertex density never falls below 0.073 anywhere in the region scanned, and ED needs 0.044** — about 1.7 times lower than the nearest value. Larger volumes lower it by roughly 4% per doubling, and the k₀ trend would have to continue to near zero, far outside where phase C is known to lie.
+
+> **In 3+1, ED's point is not in CDT's phase C.** The algebra is untouched — the conservation laws still fix the three totals exactly, with nothing tuned, in any dimension. **What is settled is the placement:** the point they fix is not where CDT's semiclassical phase is.
+
+**Scope of the measurement:** one code, with one stated fix derived and committed before any reading; volumes of 8,000 to 16,000 four-simplices; k₀ below 2.2 not scanned.
 
 ### 2+1: inside the extended phase, with nothing tuned
 
@@ -148,7 +154,7 @@ The CDT review ([arXiv:1203.3591](https://arxiv.org/abs/1203.3591), §7.3.1 and 
 | N0/N4 *(conjugate to κ₀)* | **0.044** |
 | (N41 − 6·N0)/N4 *(conjugate to Δ; the review's second order parameter)* | **0.236** |
 
-**Honest status: unresolved, and leaning against.** If CDT's phase C does not reach N0/N4 ≈ 0.044, then ED's point is not on CDT's map in 3+1, and the claim survives only in 2+1. **Anyone with a CDT code can settle this in an afternoon**, and it should be settled before the claim is pressed further.
+**Status: measured.** The literature does not contain the value — three rounds of searching confirmed that, including the paper that validated the open 3+1 code — so it was simulated. **CDT's phase C reads N0/N4 ≈ 0.075 at the canonical point and no lower than 0.073 across the region scanned, against ED's 0.044. In 3+1, ED's point is not in phase C.** The method, the calibration gates and the scope are in *"3+1: measured"* above. **The 2+1 result is unaffected.**
 
 **Which way the gap points (checked 2026-10-02).** Eight further papers were searched for a *measured* N0/N4 inside phase C at (2.2, 0.6) — the 2019 review, the toroidal phase-structure and higher-order-transition papers, the effective-action and transfer-matrix papers, the critical-phenomena paper and *Reconstructing the Universe*. **None reports one**, so the gap above is still unmeasured rather than closed; the order parameter is standard (OP₁ = N0/N4,1, [arXiv:2002.01051](https://arxiv.org/abs/2002.01051) eq. 9) but is published as rescaled figures without tabulated values.
 
@@ -173,7 +179,7 @@ This is consistent with the published structure: after tuning the cosmological c
 ## Where that leaves it
 
 - **2+1: the claim holds.** ED's conservation fixes τ = 1/3 exactly, and that value is reachable, inside the extended phase, on a validated instrument.
-- **3+1: the claim is unresolved, with a specific number deciding it, and the direction is unfavourable.** ED needs N0/N4 ≈ 0.044 to be inside phase C. Published values near the A–C transition are three times larger, no measurement at (2.2, 0.6) exists, and the qualitative phase classification puts a vertex density that small in the **crumpled** phase rather than the de Sitter one. **This is still the number to check.**
+- **3+1: measured, and ED's point is outside phase C.** ED needs N0/N4 ≈ 0.044. CDT's phase C reads **0.075–0.079** at the canonical point and **no lower than 0.073** anywhere scanned, on a published code with one derived fix that passes both published calibration values. **The conservation laws still fix the three totals exactly; what is settled is that the point they fix is not where CDT's semiclassical phase lies.**
 - **The framing is microcanonical**, and that is the honest way to state it: ED fixes counts; CDT fixes couplings and lets counts fluctuate. The claim is that ED's fixed point is one CDT would have had to tune its way to — *if* the ensemble reaches it.
 
-**Sources:** [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267) (the 3+1 identities) · [hep-th/0011276](https://arxiv.org/abs/hep-th/0011276) (3D CDT phases) · [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) (review; order parameters, Fig. 21) · [arXiv:1802.10434](https://arxiv.org/abs/1802.10434) (phase-diagram table) · [Scholarpedia, Causal Dynamical Triangulation](http://www.scholarpedia.org/article/Causal_Dynamical_Triangulation)
+**Sources:** [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267) (the 3+1 identities) · [hep-th/0011276](https://arxiv.org/abs/hep-th/0011276) (3D CDT phases) · [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) (review; order parameters, Fig. 21) · [arXiv:1802.10434](https://arxiv.org/abs/1802.10434) (phase-diagram table) · [Scholarpedia, Causal Dynamical Triangulation](http://www.scholarpedia.org/article/Causal_Dynamical_Triangulation) · [tryggth/CDT](https://github.com/tryggth/CDT) and [arXiv:1110.6875](https://arxiv.org/abs/1110.6875) (the 3+1 code and its validation paper)

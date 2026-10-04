@@ -15,7 +15,7 @@ The universe is made of activity before it is made of things. Beneath the famili
 
 From that primitive, time is the accumulation of becoming, space is the pattern of stable relations left by persistent gradients, and spacetime is what those look like coarse-grained. Gravity is the architecture of gradients. Quantum behaviour is thin participation. Laws are what stable participation looks like from far away. None of this needs anything added to the primitive. The ontology has made one addition elsewhere, about the commitment that makes a place, and names it where it is made.
 
-What is new here is that the account has been tested rather than only argued. ED's conservation laws fix three numbers that an established theory of quantum spacetime tunes by hand — at a point where space holds together in 2+1 dimensions, with 3+1 unresolved. Below three dimensions, clocks provably cannot keep time together; above three, if a particle is a knot that cannot be cut, it cannot keep its kind — so three is bounded from both sides. Handedness cannot be written into mirror-symmetric rules. And the limits are stated with equal clarity: that space is relational is ED's claim, but its dimension and arrangement are a necessary input rather than something ED produces, and space grown under ED's ingredients keeps its local order but becomes a glass rather than a crystal.
+What is new here is that the account has been tested rather than only argued. ED's conservation laws fix three numbers that an established theory of quantum spacetime tunes by hand — at a point where space holds together in 2+1 dimensions; in 3+1 that point has been measured against the framework and lies outside its semiclassical phase. Below three dimensions, clocks provably cannot keep time together; above three, if a particle is a knot that cannot be cut, it cannot keep its kind — so three is bounded from both sides. Handedness cannot be written into mirror-symmetric rules. And the limits are stated with equal clarity: that space is relational is ED's claim, but its dimension and arrangement are a necessary input rather than something ED produces, and space grown under ED's ingredients keeps its local order but becomes a glass rather than a crystal.
 
 ED is not a theory of everything. It is an account of why anything can have a structure at all.
 
@@ -309,7 +309,7 @@ In 2+1 dimensions the point they fix is reachable, and it sits inside the phase 
 
 This is the clearest example of the form an ontological result takes: **it does not produce a new number. It removes a freedom.**
 
-Its scope, stated with it: this is a claim about that framework, not about nature. It says that *if* spacetime is a triangulation of this kind, conservation removes what is otherwise tuned. In 3+1 the placement is unresolved — ED requires a vertex density about three times smaller than the nearest published measurement, no measurement exists inside the relevant phase, and the direction is unfavourable: small vertex density is the signature of the phase where space collapses.
+Its scope, stated with it: this is a claim about that framework, not about nature. It says that *if* spacetime is a triangulation of this kind, conservation removes what is otherwise tuned. In 3+1 the placement has been measured, and ED's point lies outside the framework's semiclassical phase: ED requires a vertex density of 0.044, and the framework's own value there is about 0.075, never below 0.073 anywhere scanned. No published value existed, so a published program was run, with its topology checked first and two published values as calibration gates. The fixing itself is unaffected — exact, in any dimension, with nothing tuned.
 
 ---
 
@@ -380,7 +380,7 @@ An ontology is asked: *what must be true for anything to happen at all?*
 
 It is judged on whether the structures physics already uses turn out to be forced rather than stipulated, and on whether the things it declares impossible are in fact absent.
 
-By that standard ED has five things to show. It removes three tuned parameters from an established framework — holding in 2+1, unresolved in 3+1. It excludes one and two dimensions from its own content. It bounds the number from above, if a particle is an uncuttable knot. It forbids handedness in symmetric rules, by proof. And it requires a substrate with no preferred directions.
+By that standard ED has five things to show. It removes three tuned parameters from an established framework, exactly and in any dimension — at a viable point in 2+1, and at a point measured to lie outside the framework's semiclassical phase in 3+1. It excludes one and two dimensions from its own content. It bounds the number from above, if a particle is an uncuttable knot. It forbids handedness in symmetric rules, by proof. And it requires a substrate with no preferred directions.
 
 It also has a list of what it assumes, and that list has not got shorter.
 
