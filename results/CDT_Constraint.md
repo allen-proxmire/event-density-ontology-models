@@ -61,6 +61,8 @@ Each is a conserved quantity of the ontology, stated before this calculation and
 
 > **In 3+1, ED's point is not in CDT's phase C.** The algebra is untouched — the conservation laws still fix the three totals exactly, with nothing tuned, in any dimension. **What is settled is the placement:** the point they fix is not where CDT's semiclassical phase is.
 
+**And what that is and is not.** CDT is a comparison framework, not nature, and it is itself unconfirmed. **So this is a failed correspondence between two pictures, not a refutation of either against the world.** Three readings of it stay open and none is settled here: **the dictionary is ours** — mapping ED's events and budgets one-for-one onto vertices and simplices is an identification this document makes, recorded in the working record as decisions rather than derivations; **ED may be a different discretisation altogether**, in which case its counts were never the ones to compare; and **CDT's own semiclassical phase may not be the physical one**, which is a working assumption of that programme rather than a result of it. The measurement settles where ED's point sits on CDT's map. It does not settle which map is right.
+
 **Scope of the measurement:** one code, with one stated fix derived and committed before any reading; volumes of 8,000 to 16,000 four-simplices; k₀ below 2.2 not scanned.
 
 ### 2+1: inside the extended phase, with nothing tuned
