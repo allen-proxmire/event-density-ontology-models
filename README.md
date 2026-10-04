@@ -42,7 +42,7 @@ Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits
 
 **4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With results 2 and 5 it is bounded to three, conditionally.
 
-**5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space. **What makes such a knot uncuttable in ED is that an uncommitted link's place is held for its own pair**, by identities fixed when those places came into being; models show the knot comes apart quickly without it.
+**5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space. **What makes such a knot uncuttable in ED is that an uncommitted link's place is held for its own pair**, by identities fixed when those places came into being; models show the knot comes apart quickly without it. The same reservation keeps a knot its own kind while it travels through grown, blinking space, where without it the kind changes in every run.
 
 ### Results from models
 
