@@ -18,15 +18,23 @@
 
 **Five things, each with the reading that supports it.**
 
+> **Read (b), (c) and the fourth row of §3 with the flag below.** They come from runs made before two rules changed, and the rerun has not landed. **(a), (d) and (e) are unaffected** — (a) predates the token store entirely, (d) is a pool-occupancy effect, and (e) is the first result taken under the final rules.
+
 **(a) Scarcity is necessary for the One to differentiate.** With the pool able to serve every member at once (B = 7 for a pool of a place and its six neighbours), the One blinks in perfect unison with even clocks — in-step 1.000 throughout, clock 0.187 ± 0.007 (C-O44). **Below that, unison does not survive.** No slips were imposed.
 
 > **But scarcity is not *sufficient*, and the stronger claim is withdrawn.** See §3: what breaks the tie is not in ED.
 
 **(b) An unknotted medium relaxes into independent clocks.** Over 5,000 ticks the in-step share falls to 0.13–0.14 at ħ 10 and 0.11–0.12 at ħ 5, against a random-beat floor of ~0.10; the largest domain ends at 0.3–0.8%, against **C-O49's 27–84% at tick 1,000**; nobody is starved (0–0.04%). Box sizes agree to ~0.01 (C-O50). **Longer memory slows the decay and does not stop it.**
 
+> † **Rests on the superseded rule set.** C-O49, C-O50, C-O51's knot half and C-O55 all ran with spent possibility returned to the spender's own neighbour and with the threshold flow rule (C-O47a point 2), **which C-O52 then showed blocks transport almost entirely** — a token moves only where a neighbour holds at least two fewer, and at about one token per place that gap almost never occurs. Both were replaced: release to the whole (RULES, 2026-10-05) and random-walk hopping (C-O53). **These readings are held pending a rerun under the final rules.** **What is specifically at risk here:** with possibility frozen in place, no place could be fed by its neighbours, so each one's blink count was free to wander with nothing coupling it back. **Part of the decoherence may be the frozen flow rather than ED.** The proximate cause named in §6 — a beat that advances only on one's own blinks — is still the likelier mechanism, since it needs no transport at all, but the two have not been separated.
+
 **(c) Memory governs how long coherence lasts.** At ħ 10 the largest domain is 73–84% with persistence 0.82–0.86; at ħ 5 it is 27–40% with persistence 0.49–0.58 (C-O49). **ħ is an ED quantity, so dependence on it is a property rather than an artefact** — stated openly in C-O49 rather than reinterpreted after the fact.
 
+> **Same flag as (b)**, and it was not in the relayed review: C-O49 is the same run family as C-O50 and carries the same two superseded rules. **The ħ ordering is the part most likely to survive** — it is a comparison between two settings of one ED quantity inside a single rule set, so a changed rule set moves both arms — but the sizes are not to be quoted until the rerun.
+
 **(d) Clocks run on what is left, and a drain is visible.** A pinned-ON core cuts the blinking of the adjacent shell by ~90%: **lower by 0.031–0.032 against a control of 0.034**, so that shell blinks at about 0.003. The effect reaches **one shell** and stops, which is the pool's own reach (C-O51). **This is the instrument check, and it passed.**
+
+> **Unaffected by the rule change, and this is worth stating rather than assuming.** The pin starves its neighbours by *occupying the shared pool*, not by moving tokens, so neither the return rule nor the flow rule enters it — and its one-shell reach was pre-registered from the pool's own geometry before the reading. **The knot half of C-O51 is a different matter and does carry the flag.**
 
 **(e) Matter holds, is a net drain, and slows the clocks next to it.** With a held-slot knot and spent possibility released to the whole medium, and with tokens free to random-walk: the token deficit runs **0.74, 0.47, 0.33, 0.11** across distances 0–3 at box 15 and **0.44, 0.36, 0.30, 0.08** at box 20, vanishing beyond; **the first shell outside the knot blinks 12–15% slower than the background, the same at both box sizes and both seeds** (C-O53).
 
@@ -45,7 +53,7 @@ Below full budget, something must decide which of two eligible pairs gets a cont
 | **fixed turn order** (two different scans) | **freezes at once** — in-step pinned at 0.68 / 0.57 from the first reading, largest domain 68% / 62%, persistence 1.00, role correlation 1.00, and **the numbers differ between the two scans** |
 | **random turn order** | **scatters** — steady decoherence to 0.16 |
 | **resonance + headroom** (b+d, ruled 2026-10-05) | **freezes** — 49–54% of places permanently starved at B 4, 41% permanently busy in one connected network, roles 0.96–0.99, robust across box, seed and ħ (C-O47) |
-| **standing Born weighting + genuine depletion** | **neither, for 1,000 ticks** — then decoheres to the random floor by 5,000 (C-O49, C-O50) |
+| **standing Born weighting + genuine depletion** | **neither, for 1,000 ticks** — then decoheres to the random floor by 5,000 (C-O49, C-O50). † **Superseded rule set — see the flag in §2** |
 
 > **The outcome of the whole line was set by a rule the ontology did not contain.** Freezing and scatter were each read at the time as fitting the picture; they cannot both. That is recorded in the ledger and it is the thing to carry forward.
 
@@ -83,7 +91,9 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 - **No structure from the medium.** No lasting domains, no knots, no dimension arose on their own (C-O45, C-O50). Every knot in this line was **seeded**.
 - **The knot's persistence is not a reading.** Held slots reserve a knot's partners by rule, so it holds by construction — the guard in card C-6 §5. The cadence-lock figures (0.97 → 0.62–0.70) describe what the rule does, not whether ED sustains matter.
 - **The 1/r *shape*, if it ever appeared, would be diffusion in three dimensions** — the same caveat result 15 already makes about itself. What would be ED's is the **sink**, not the falloff law.
-- **Whether C-O50 is the ontology's arrow of time is untested.** The paper's arrow is *gradients flatten toward uniform becoming* — uniform **rate**. C-O50 measured decay to random **phase**. A medium can have uniform rates and random phases. **The distinguishing reading — variance of blink rate over time, alongside the in-step share — was not taken** and is available from existing output.
+- **C-O50 is not the ontology's arrow of time, and this is now measured.** The paper's arrow is *gradients flatten toward uniform becoming* — uniform **rate** — while C-O50 measured decay to random **phase**, and a medium can have uniform rates and random phases. **The distinguishing reading was taken in C-O55 and it comes out the wrong way: rate spread does not fall toward chance, it rises**, from about the chance level to roughly 3× chance by 5,000 ticks, at every setting. With C-O50's low role correlation the unevenness is not fixed per place, so activity becomes **bursty** — places alternate busy and idle stretches. So the long run is phase scatter plus growing, shifting rate unevenness, **the opposite of flattening**.
+  - **And the question could not have been settled from this start in any case.** The One begins *already uniform in rate*, which is the paper's arrow's **endpoint**. Asking a uniform start whether it flattens asks nothing. **The arrow needs a concentrated start**, and that run has not been made.
+  - C-O55 also carries the superseded-rules flag, so *how* the spread rises is provisional. **That it rises rather than falls is the part that would have to reverse** for the arrow to be read here.
 
 ---
 
@@ -98,14 +108,14 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 | **W read as an amplitude in the Born weighting** | ours, and **W is not an amplitude** — it is a real match score, so squaring it is a sharpness choice rather than the Born rule. ED has a genuine amplitude in P09's `P_K = √b_K·e^{iπ_K}`, unused here |
 | **PHOP, the hop probability** | ours, and **it is the D in λ = √(D/Γ)** — so the reach law contains one of our numbers |
 | **the integer token store** | `b3_card.py`'s ρ, discretised (C-O47a) |
-| **release to possibility at large** | a reading of the ontology, applied to **every** place and to the control, so the knot and background follow one rule |
 | **λ = √(D/Γ)** | standard screening physics, borrowed. ED supplies Γ; the relation is not ED's |
 | **agreement pull K = 0.5, in-step window 0.3, beat step per blink** | ours, and the pull is what the whole binding-versus-drift competition turns on |
 | **ħ = 5 or 10 ticks; budget B = 4 or 6** | the quantities are ED's, **the values are ours** |
 | **mutual proposals** — a pair commits only if each chooses the other | ours; it lowers the commit rate and was adopted to keep selection local and symmetric |
 | **how the held slot is built** — knot places commit **only** with each other, with no cadence condition | **our implementation of Allen's b′ rule, and the exclusivity is ours.** It is also what explains the slight token *excess* just outside the knot in C-O52: shell places lose their knot-side partners, commit less, and keep more tokens |
 | **knot radius 3, seeded** | ours. Nothing in the line produced a knot on its own |
-| **release to possibility at large** | **a relayed proposal, adopted in practice but with no RULES entry.** It was applied to every place and to the control, so knot and background follow one rule — but it is not a recorded ruling and should either be ruled or kept labelled as ours |
+| **release to possibility at large** | **now ruled** (RULES, 2026-10-05): spent possibility returns to the whole, not to a neighbour. Applied to every place and to the control, so knot and background follow one rule. **It is the rule the earlier runs lacked**, and the ruling entry records what it buys and what it costs |
+| **the threshold flow rule**, superseded | ours (C-O47a point 2), and **C-O52 showed it blocked transport almost entirely.** Replaced by random-walk hopping. Every reading taken before C-O53 carries it
 
 ---
 
@@ -127,7 +137,7 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 
 1. **ED's contention rule.** The gap C-O46 opened is still open. Standing Born weighting is a *ruling*, and its W is ours; P09's actual amplitude has never been used.
 2. **Why longer ħ weakens the knot's draw**, which confounded the memory half of the reach law.
-3. **The rate-versus-phase reading of C-O50**, available from output already on disk.
+3. **The rerun of C-O49, C-O50 and C-O55 under the final rules** — release to the whole plus random-walk flow. Until it lands, §2(b), §2(c), §3's fourth row and §5's rate reading are held. **And the concentrated start**, which is the only arrangement that can put the paper's arrow to a reading at all.
 4. **Larger lattices with lower background consumption**, so λ spans enough shells for a fit to mean anything — the present fits rest on two or three points.
 5. **The screening tension of §5**: whether anything in ED permits a long reach without a vacuum that barely becomes.
 
@@ -135,7 +145,7 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 
 ## 9. In one paragraph
 
-**The event layer was built and it works as a model: blinks as events, clocks as counts, a shared budget, possibility that flows and is spent.** Within it, a seeded knot held by Allen's reserved-slot rule is a net drain on the medium and **slows the clocks one step outside it by 12–15%, reproducibly** — clock slowing out of competition for becoming, with no metric anywhere in the code. **That is the line's result.** Against it: nothing organised itself, the medium decoheres to independent clocks over long runs, the reach is screened at one to two steps with no 1/r, the quantitative reach law has one supporting point, and **the rule that decides who commits when capacity is scarce is not in the ontology** — the harness supplied it, and which one it supplied determined whether the world froze, scattered, or briefly lived.
+**The event layer was built and it works as a model: blinks as events, clocks as counts, a shared budget, possibility that flows and is spent.** Within it, a seeded knot held by Allen's reserved-slot rule is a net drain on the medium and **slows the clocks one step outside it by 12–15%, reproducibly** — clock slowing out of competition for becoming, with no metric anywhere in the code. **That is the line's result.** Against it: nothing organised itself, the medium decoheres to independent clocks over long runs — though that reading, and only that one among the line's positives, awaits a rerun under the final rules — the reach is screened at one to two steps with no 1/r, the quantitative reach law has one supporting point, and **the rule that decides who commits when capacity is scarce is not in the ontology** — the harness supplied it, and which one it supplied determined whether the world froze, scattered, or briefly lived.
 
 ---
 
@@ -152,3 +162,22 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 **And the §6 table was incomplete**, missing six harness choices, three of which shaped results: the agreement pull, the mutual-proposal rule, and the exclusivity in how b′ was built. **"Release to possibility at large" was also mislabelled** as a reading of the ontology; there is no RULES entry for it, and it is now marked as a relayed proposal pending a ruling.
 
 **Two additions from the draft survive the check and are not in the ledger:** §5's rate-versus-phase point, and §6's observation that W is not an amplitude while P09's real one has never been used.
+
+---
+
+## 11. Second correction pass, 2026-10-05
+
+*Reviewed again by the model session and by Gemini, independently, and they agreed on the finding that matters.*
+
+**The finding: four of the readings predate two rule changes.** C-O49, C-O50, C-O51's knot half and C-O55 all ran with spent possibility returned to the spender's own neighbour, and with the threshold flow rule that **C-O52 later showed blocks transport almost entirely.** Both rules have since been replaced — release to the whole, and random-walk hopping. The sections resting on those runs are now flagged in place rather than rewritten, and **a rerun under the final rules is the next thing the line needs.**
+
+**Two things the relayed review did not catch, added here:**
+
+1. **§2(c) is affected too**, not only §2(b) and §5. C-O49 is the same run family as C-O50 and carries the same two rules; the review named C-O50 and C-O55 only. §3's fourth row cites both and is flagged as well.
+2. **§2(d) survives, and for a reason worth recording.** The pin starves its neighbours by occupying the shared pool rather than by moving tokens, so no transport rule enters it. Flagging it along with the rest would have thrown away the line's one clean instrument check.
+
+**And §5's question is now answered, in the direction against the ontology as written.** C-O55 took the rate reading and the spread **rises** toward about 3× chance instead of falling toward it. Separately, the question was malformed from this start: the One begins uniform in rate, which is the paper's arrow's endpoint, so **only a concentrated start can put the arrow to a reading.** C-O55 records the same point independently.
+
+**Two items from the first pass are now out of date and corrected above:** release to the whole **is** ruled, so §6 cites the RULES entry instead of calling it a proposal, and the duplicate row left by the first pass is merged. The superseded flow rule is listed in its place.
+
+**One reading in the first pass was too strong and is dropped:** the long runs were described in correspondence as a living, breathing medium of sweeping waves. **What was measured is bursty and shifting** — places alternating busy and idle stretches, with no evidence of a travelling front.
