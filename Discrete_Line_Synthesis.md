@@ -36,7 +36,7 @@
 
 > **So P09's interference does no work here, and the relayed expectation is not borne out.** It was expected to stabilise local cohesion against the drift; it does not. **What does the work is that a commitment is bilateral** — two places that actualise together are pulled toward agreement. That is one mechanism carrying the whole coherence of the medium.
 
-> **And it makes an unruled question urgent.** The pull was entered as Allen's in the C-19 build and its strength (half-way to the mean per commitment) as ours; this document's §6 lists the pull itself under ours; **there is no RULES entry either way.** It is now the only thing holding the One in step, so **whose it is decides whether (b) and (c) are results about ED or about the harness.** Being ruled on now — see §8.
+> **And it is now ruled: the pull is ED's** (RULES, 2026-10-05). A commitment is a co-actualisation rather than an observation from a distance, so it forces local phase alignment — a commitment with no relational consequence would not be relational. **The strength (K 0.5, half-way to the mean per commitment) stays ours.** **So (b) and (c) are results about ED, not about the harness** — on the footing set out in §15, which is a declared addition rather than an existing primitive.
 
 > **What (c) used to say, and no longer can:** that longer memory makes coherence last longer. That was an ordering of *decay rates* in a medium whose decay was the window's. Under C-O58 nothing decays, and ħ instead sets the clock rate.
 
@@ -144,7 +144,8 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 | **the integer token store** | `b3_card.py`'s ρ, discretised (C-O47a) |
 | **λ = √(D/Γ)** | standard screening physics, borrowed. ED supplies Γ; the relation is not ED's |
 | **the hard in-step window, 0.3** | ours — **and it turned out to decide the entire character of the medium.** A place outside the window could not commit at all, so it fell further out of step and starved. **Five runs' worth of decoherence, burstiness and starvation were this rule** (C-O58). **Now removed**, and nothing replaced it: P09's amplitude weights the choice continuously instead |
-| **the agreement pull, K = 0.5** | **the most important unsettled item in this table.** Committing together pulls two places toward phase agreement — entered as Allen's in the C-19 build, listed as ours in this document, **with no RULES entry either way.** C-O58 showed it is **the only thing holding the medium in step**, so whether it is ED's or ours decides whether §2(b) and §2(c) are about ED. The strength (half-way to the mean per commitment) is ours regardless |
+| **the agreement pull** — that it happens at all | **no longer ours: ruled ED's** (RULES, 2026-10-05). Committing together pulls two places toward phase agreement, because a commitment is a co-actualisation and one with no relational consequence would not be relational. **It is the only thing holding the medium in step** (C-O58). **Recorded as a declared addition, not a reading of a primitive** — §15 |
+| **the pull's strength, K = 0.5** | ours, and unchanged by the ruling: half-way to the mean per commitment is a form and a size, both engineering. **Untested at any other value**, and it is now the number the medium's whole coherence is quantitatively set by |
 | **the phase advance per blink, 0.1** | ours, and **load-bearing in a way that only showed up at C-O58**: it sets how much phase one blink is worth, so it decides whether a steady ~2-blink neighbour difference reads as in step (0.91 at 0.1) or scattered (0.15 at 1.0). **One medium, three descriptions** |
 | **ħ = 5 or 10 ticks; budget B = 4 or 6** | the quantities are ED's, **the values are ours** |
 | **mutual proposals** — a pair commits only if each chooses the other | ours; it lowers the commit rate and was adopted to keep selection local and symmetric |
@@ -178,7 +179,7 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 2. **Why longer ħ weakens the knot's draw**, which confounded the memory half of the reach law.
 3. **A concentrated start that holds itself together.** C-O57 ran a loose pile, which dispersed and left no scar. **A ball with held slots — matter rather than a heap of possibility — inside a concentrated start is untested**, and it is where a scar would be looked for. Other radii and totals, and boxes above 20, are untested too. **Smaller open gaps:** a second seed for C-O56, and §2(c)'s tick-1,000 domain sizes, still quoted from the old rules.
 4. **Larger lattices with lower background consumption**, so λ spans enough shells for a fit to mean anything — the present fits rest on two or three points. **C-O58's quiet medium may supply this for free.**
-6. **Whose the agreement pull is** — the one ruling the line now most needs, since it carries the whole coherence of the medium. Relayed as canonical ED (a commitment is bilateral, so two places that actualise together are pulled toward agreement) with the strength K = 0.5 kept as ours; **the RULES entry is the model session's to write** and is not yet in.
+6. **Whose the agreement pull is — ruled: ED's** (RULES, 2026-10-05), with the strength K = 0.5 kept as ours. **What stays open is its footing**, and it is a small question with a real consequence for the ingredient count: no existing primitive says the pull happens, so it is recorded as the ontology's **third declared addition** (§15). Allen's to confirm whether he wants it that way or as new content for an existing primitive.
 7. **Everything marked ‡ above**, which is the rerun list: the pin's ~90% (§2(d)), **the knot's 12–15% and the screening length** (§2(e), §4), the arrow's timescale and endpoint (§2(f), §13), and the saturation ratio. **All of them were read against the windowed background.** The knot rerun is specified and running.
 8. **What P09 might still do.** C-O58 found no work for the interference at uniform natural rates. **Untested: slips** — places with genuinely different natural rates — where sorting by phase could do something a flat weight cannot. Also untested: the pull at other strengths, and advance sizes between 0.3 and 1.0.
 5. **The screening tension of §5**: whether anything in ED permits a long reach without a vacuum that barely becomes.
@@ -291,7 +292,7 @@ Box 15 and 20 agree to the second decimal; the seeds agree.
 
 **3. What holds the medium in step is that committing is bilateral.** Remove the agreement pull and cohesion collapses either way — 0.16 by tick 3,000 with interference, 0.33 with a flat weight, so **interference without the pull decays as fast as nothing, or faster.** Two places that actualise together are pulled toward agreement, and that one mechanism carries the whole thing.
 
-> **Which makes the pull's ownership the ruling the line now most needs.** It was entered as Allen's in the C-19 build, its strength as ours; §6 of this document lists the pull itself under ours; **there is no RULES entry either way.** It is now the only thing holding the One in step. **Whether it is ED's or ours decides whether §2(b) and §2(c) are results about the ontology or about the harness** — and that is the difference between the line's best day and its most expensive one.
+> **Which made the pull's ownership the ruling the line most needed, and it was made the same day.** It is **ED's** (RULES, 2026-10-05), with the strength K 0.5 kept as ours. **So §2(b) and §2(c) are results about the ontology.** §15 records the footing, which is not the one the ruling was relayed with.
 
 ### Why this is the line's central finding arriving a second time
 
@@ -310,3 +311,35 @@ Box 15 and 20 agree to the second decimal; the seeds agree.
 - **The saturation ratio**, since the window was a third limiter and removing it is the cleanest way to see how much of the cap is ħ's and how much the pool's.
 
 > **Stated plainly: the medium turned out better than five runs said, and the price is that most of the line's quantitative results now need re-taking on it.**
+
+---
+
+## 15. The pull is ED's, and it is an addition rather than a primitive, 2026-10-05
+
+**The ruling.** Committing together pulls two places toward phase agreement. Relational actualisation requires bilateral mutual convergence: when two loci commit across an incident channel, the act of becoming together pulls their cadences toward agreement, and unentangled independent ticking is prohibited for a pair that is actively committing. **The necessity of a non-zero convergence is ED's; the form and size — linear, half the phase difference, K 0.5 — are the harness's.**
+
+**Why it mattered enough to rule in a day.** C-O58 showed the pull is **the only thing holding the medium in step.** Interference without it decays to nothing; it without interference holds everything. So §2(b)'s steady, even, fully coherent medium and §2(c)'s mechanism either belong to ED or belong to our code, and the ruling decides which. **They belong to ED.**
+
+### The primitive cited does not carry it, and nor does the nearest alternative
+
+**The ruling was relayed under *“Primitive 04, the relational stitch / mutual entanglement.”* P04 is bandwidth.** Its own card is unambiguous — *“each channel at each locus carries a real-valued non-negative quantity, additive under channel decomposition. That is P04, and it is all of P04”* — matching canonical Paper_087, and the card carries a standing vocabulary warning about precisely this sort of collision. **P04 says nothing about phase.**
+
+**P11 is the nearest candidate and it is ruled out too, by a ruling of the same date.** Canonical P11 makes commitment a collapse to a single channel **with phase-randomisation on a uniform U(1)** — that is phase being *scattered*, not converged. And the cadence/polarity ruling assigns that randomisation to the **polarity** phase, while the pull acts on the **cadence** phase. **So P11 governs the other phase and is silent on the one the pull moves.** P02 is participation and carries no phase content either.
+
+> **So no primitive in the thirteen says the pull happens.** It is a **declared addition to the ontology — the third**, after the two kinds of commitment (2026-10-02) and the dynamic neighbour relation (C-11, 2026-10-04).
+
+### Why logging it as an addition is the point rather than a quibble
+
+**ED is judged on its ingredient count.** An addition that arrives labelled as a consequence of an existing primitive is the one failure mode this whole working method exists to prevent — it makes the ontology look like it derived something it was handed. **The pull is a good addition:** it is one sentence, it has a clear reason (a commitment with no relational consequence would not be relational), and it buys the entire coherence of the medium. **That case is strong enough not to need a primitive it does not have.**
+
+**And public text must not cite P04 for it.** Whether Allen prefers it recorded as an addition or as new content given to an existing primitive is his to say; it is recorded as an addition until he does.
+
+### One process note, because it is now a pattern
+
+**This ruling was written into RULES three times across two sessions before being merged** — the third such collision in two days, after the dissolution-return ruling and the table break. Both relayed texts are kept inside the merged entry. **Two sessions codifying the same relay independently produces duplicates, and duplicates in a decision ledger are worse than in prose**, because the ledger is what later work cites. Worth one convention: **one session writes the entry, the other checks it.**
+
+### What is pre-registered and running
+
+- **C-O59, the held-slot knot under P09** — the C-O53 protocol on the quiet background, boxes 15 and 20 with matched blank controls, to re-read the adjacent-shell slowdown and the radial profile. **Written before running.**
+- **C-O60, the concentrated start under P09** — the C-O57 protocol on the quiet background. **The hypothesis is pre-registered:** on the old medium the concentrated start settled into the gate's burstiness; on the ungated medium, does it diffuse into **genuinely uniform rate becoming**, under 1× chance variance across all shells? **That is the paper's arrow as written, and the old background made it unreachable.**
+- **Untested and now load-bearing:** the pull at any strength other than 0.5.
