@@ -18,7 +18,7 @@
 
 **Six things, each with the reading that supports it.**
 
-> **(b) and (c) were rewritten on 2026-10-05 and now say something better than they did.** The long decay to independent clocks, and the burstiness that went with it, **were made by a rule of ours** — the hard in-step window — and with it gone the One is a steady, even, coherent medium (C-O58). **(d), (e) and (f) all ran on that old background and are marked ‡ pending a rerun.** (a) predates the token store and is unaffected.
+> **Where this section stands at the end of 2026-10-05.** The hard in-step window — a rule of ours — made the old decohering, bursty medium; without it the One is steady, even and coherent (C-O58), and the pull that holds it there is ED's. **(b) and (c) are rewritten to that medium and are results about the ontology.** **(f) has been rerun on it and comes out stronger** (C-O60). **(e) has been rerun on it and does not survive** — see below; it is withdrawn as stated. **(d) is still ‡ awaiting its rerun**, and (a) predates the token store.
 
 **(a) Scarcity is necessary for the One to differentiate.** With the pool able to serve every member at once (B = 7 for a pool of a place and its six neighbours), the One blinks in perfect unison with even clocks — in-step 1.000 throughout, clock 0.187 ± 0.007 (C-O44). **Below that, unison does not survive.** No slips were imposed.
 
@@ -46,11 +46,17 @@
 
 > **C-O51's knot half is separate** — it found no outward gradient, and C-O52 and C-O53 showed why and replaced it, which is how (e) came about.
 
-**(e) Matter holds, is a net drain, and slows the clocks next to it.** With a held-slot knot and spent possibility released to the whole medium, and with tokens free to random-walk: the token deficit runs **0.74, 0.47, 0.33, 0.11** across distances 0–3 at box 15 and **0.44, 0.36, 0.30, 0.08** at box 20, vanishing beyond; **the first shell outside the knot blinks 12–15% slower than the background, the same at both box sizes and both seeds** (C-O53).
+**(e) A held-slot knot is not a drain and slows no clock beside it — the 12–15% was the window's too.** Reread on the steady medium, the knot blinks at **0.97–1.00 of the background** (it was 1.10–1.20 under the old rule), and the first shell outside it runs **~2% *fast*, the same sign in all eight runs**, with nothing at all beyond (C-O59, boxes 15 and 20, two seeds, two memories, matched controls, floor 0.2–2%). **C-O53's 12–15% slowed shell came from the knot's *exemption* from the hard in-step window**, which is what had made it busier than the medium around it.
+
+> **So the line's headline result is withdrawn as stated.** Held slots keep a knot's shape — that still holds — but on a medium without the gate they give it **no reason to commit more than empty space does**, and a thing that does not consume more cannot starve its neighbours. **What was being read as gravity was the gate exempting matter from a restriction it imposed on space.**
+
+> **And a second model agrees on the wrong sign.** The ~2% fast shell is not noise: it appears in every run, and C-O43's continuous model left the clocks just outside a held-slot knot ~1% fast as well. The ledger's explanation is geometric — **surface places have about half their neighbours available to commit with** — and it is the thing any future reading has to separate from a real slowdown.
 
 **(f) Concentrated becoming spreads, its gradient flattens, and the start is forgotten.** From all the possibility piled in a central ball of radius 3 with nothing outside it, the ball blinks 21–66× the far region at tick 20, 1.2–1.8× by tick 100, and reaches parity by ~300; the shell-to-shell rate gradient falls to the control's own noise floor by tick 100–275. **By tick 3,000 the concentrated start and the uniform start are the same state on every reading** — in-step, clock, token distribution, zero-token share, role correlation, largest domain, rate spread — with no scar in rate, possibility or cadence (C-O57, 16 runs, 2 seeds, each against a matched uniform control).
 
-> **This is the first reading of Allen's arrow at the event layer, and it holds at the coarse level.** Three limits belong with it. Two are kept in §5: the flattening of *possibility* is supplied by two rules rather than found, and the state it flattens into is not even becoming. **The third is new and it supersedes the second:** ‡ C-O57 ran on the old background, so **"it settles into the bursty state" was a statement about the window, not about ED.** What the arrow result still has is the part that does not depend on the endpoint's character: **the mean gradient flattens, and two different starts arrive at one state.** Whether the flattening *timescale* survives a medium whose clocks run 30–55% faster is untested.
+> **Rerun on the steady medium and it comes out stronger (C-O60).** The concentrated start now spreads into **genuinely even becoming — rate spread 0.75–0.80 of chance, under one, one in-step domain** — and by every rate and in-step reading the start is forgotten within ~300 ticks, matching the uniform control to three decimals at tick 3,000. **This is the paper's arrow as written, which the old gated background made unreachable.** The pre-registered hypothesis was written before the run and holds.
+
+> **Kept in proportion, as the ledger keeps it:** once the medium is even (C-O58) and the start is forgotten, even becoming follows. **It is a confirmation rather than a discovery**, and the review note said so before the run. **The new thing in C-O60 is the trace** — §16.
 
 **And one thing nobody built in: becoming saturates in possibility.** At tick 100 the ball still holds ~50–70× more possibility per place than the far region — 14 tokens a place against 0.2–0.3 — yet blinks only **1.5×** faster. **Possibility beyond about one token a place buys no extra becoming.**
 
@@ -111,13 +117,13 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 
 **And a genuine structural finding came out of the scan, unlooked for:** the same drain spread over more space is **weaker near in**. The clock slowdown one shell out falls 0.0042 → 0.0025 → 0.0015 as mobility rises. **Reach and strength trade against each other.**
 
-> ‡ **This whole section ran on the old background and is not rerun.** λ ≈ √(D/Γ) takes Γ from the background's own consumption rate, and that rate rises 30–55% once the in-step window goes (C-O58) — so **every predicted λ in the table above moves**, and the fitted ones were read against a bursty noise floor that is now quiet. **The quieter medium should help:** more shells resolvable means the scan's weakest point — fits resting on two or three points — is the thing most likely to improve.
+> ‡ **This section has no phenomenon left to measure, and that is a stronger statement than its numbers moving.** λ is the decay length of a *drain*, and C-O59 found no drain on the steady medium — the knot blinks at the background's own rate and the shell outside it runs slightly fast (§2(e)). **So the whole scan above is a scan of something the gate was producing.** It is kept as the record of what was measured and how, because the method is sound and the instrument work stands; **the quantity it fitted is withdrawn with §2(e).** If the zero-gap rule (§16) gives a knot a real appetite, this scan is the one to run again — and the quiet medium should make it much better, since fits resting on two or three shells were its weakest point.
 
 ---
 
 ## 5. What is not shown
 
-- **No 1/r.** The falloff is **screened**, with λ ≈ 1–2 steps. Real gravity is unscreened to infinity. And the formula itself says λ → ∞ requires **Γ → 0** — a background that almost never commits — while the ontology has becoming happening everywhere. **The more space becomes, the shorter gravity's reach.** That tension is in λ = √(D/Γ) and is not resolved.
+- **No falloff at all, as of C-O59 — and before that, no 1/r.** On the steady medium a held-slot knot produces no gradient to fall off (§2(e)). **And when there was one it was screened**, λ ≈ 1–2 steps against real gravity's unbounded reach, with the formula itself requiring **Γ → 0** — a background that almost never commits — for an unscreened reach, while the ontology has becoming happening everywhere. **That tension survives the withdrawal**, because it is a property of λ = √(D/Γ) rather than of any one run: **whatever makes a knot a drain, the more the background becomes, the shorter its reach.** Unresolved.
 - **No structure from the medium, and "no lasting domains" now has to be said differently.** No knots and no dimension arose on their own, and **every knot in this line was seeded** — that is unchanged. But C-O58's medium holds one in-step domain over 99.5% of the box indefinitely, so domains do last; **what does not happen is differentiation into *distinct* regions.** The medium is uniform and coherent, not structured. **And the amount it does come apart — a steady ~2-blink neighbour difference — reads as "in step" or "out of step" depending on the phase advance per blink, which is ours** (0.91 in-step at advance 0.1, 0.43 at 0.3, 0.15 at 1.0, all steady in time). **The difference is the fact; the label is our scale choice.**
 - **The knot's persistence is not a reading.** Held slots reserve a knot's partners by rule, so it holds by construction — the guard in card C-6 §5. The cadence-lock figures (0.97 → 0.62–0.70) describe what the rule does, not whether ED sustains matter.
 - **The 1/r *shape*, if it ever appeared, would be diffusion in three dimensions** — the same caveat result 15 already makes about itself. What would be ED's is the **sink**, not the falloff law.
@@ -180,7 +186,7 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 3. **A concentrated start that holds itself together.** C-O57 ran a loose pile, which dispersed and left no scar. **A ball with held slots — matter rather than a heap of possibility — inside a concentrated start is untested**, and it is where a scar would be looked for. Other radii and totals, and boxes above 20, are untested too. **Smaller open gaps:** a second seed for C-O56, and §2(c)'s tick-1,000 domain sizes, still quoted from the old rules.
 4. **Larger lattices with lower background consumption**, so λ spans enough shells for a fit to mean anything — the present fits rest on two or three points. **C-O58's quiet medium may supply this for free.**
 6. **Whose the agreement pull is — ruled: ED's** (RULES, 2026-10-05), with the strength K = 0.5 kept as ours. **What stays open is its footing**, and it is a small question with a real consequence for the ingredient count: no existing primitive says the pull happens, so it is recorded as the ontology's **third declared addition** (§15). Allen's to confirm whether he wants it that way or as new content for an existing primitive.
-7. **Everything marked ‡ above**, which is the rerun list: the pin's ~90% (§2(d)), **the knot's 12–15% and the screening length** (§2(e), §4), the arrow's timescale and endpoint (§2(f), §13), and the saturation ratio. **All of them were read against the windowed background.** The knot rerun is specified and running.
+7. **What is left of the rerun list.** The arrow is rerun and stronger (C-O60); **the knot is rerun and withdrawn** (C-O59). **Still ‡:** the pin's ~90% (§2(d)) and the saturation ratio, both read against the windowed background. **And the live question is §16's:** whether matter that must re-commit to persist becomes the consumer held slots alone did not make it.
 8. **What P09 might still do.** C-O58 found no work for the interference at uniform natural rates. **Untested: slips** — places with genuinely different natural rates — where sorting by phase could do something a flat weight cannot. Also untested: the pull at other strengths, and advance sizes between 0.3 and 1.0.
 5. **The screening tension of §5**: whether anything in ED permits a long reach without a vacuum that barely becomes.
 
@@ -188,9 +194,9 @@ C-O53's estimate, from the rates and not fitted: a drain in a medium that also c
 
 ## 9. In one paragraph
 
-**The event layer was built and it works as a model: blinks as events, clocks as counts, a shared budget, possibility that flows and is spent.** Three things stand in it. **A seeded knot held by Allen's reserved-slot rule is a net drain and slows the clocks one step outside it by 12–15%** — clock slowing out of competition for becoming, with no metric anywhere in the code, and still the line's result. **Concentrated becoming spreads and its mean gradient flattens within a few hundred ticks, with the start forgotten entirely** — Allen's arrow, read at the event layer for the first time. **And the medium itself is a steady, even, fully coherent thing that nobody starves in**, held in step by the plain fact that committing is something two places do together.
+**The event layer was built and it works as a model: blinks as events, clocks as counts, a shared budget, possibility that flows and is spent.** Two things stand in it. **The medium is a steady, even, fully coherent thing that nobody starves in** — rates smoother than chance, one in-step domain over 99.5% of it — held there by the plain fact that committing is something two places do *together*, which is ED's. **And concentrated becoming spreads into even becoming and forgets where it started within a few hundred ticks**, which is Allen's arrow, read at the event layer and delivered as the paper states it — leaving one trace, a permanent few-blink lead in count at the place where becoming began.
 
-**Against that, and it is the same objection twice.** Twice now a rule of the harness's, not the ontology's, has turned out to decide what the world does: the contention rule at C-O46, and **the hard in-step window at C-O58, which manufactured five runs' worth of decoherence, burstiness and starvation.** The ontology is silent where the model had to speak. **Everything read against that old background — the knot's 12–15%, the pin, the screening length, the arrow's endpoint — is provisional until rerun on the quiet medium, and the reruns are running.** The reach is screened at one to two steps with no 1/r, its law has one supporting point, nothing organised itself, and every knot was seeded. **And the single mechanism now holding the medium together has no ruling behind it.**
+**Against that, and it is the same objection three times.** Three times now a rule of the harness's, not the ontology's, has turned out to decide what the world does: the contention rule at C-O46; **the hard in-step window at C-O58, which manufactured five runs' worth of decoherence, burstiness and starvation**; and the same window again at C-O59, where **the knot's 12–15% clock slowdown — the line's headline result for a week — turned out to be the gate exempting matter from a restriction it imposed on space.** Reread without it, a held-slot knot consumes no more than empty medium and slows nothing. **So the line currently has no gravity in it.** The pin's reading is still awaiting its rerun, nothing organised itself, every knot was seeded, and the reach scan has no phenomenon left to scan. **What it does have is a medium that is ED's, an arrow that is ED's, and a rule just ruled — that matter must keep committing to stay matter — whose test is running.**
 
 ---
 
@@ -343,3 +349,50 @@ Box 15 and 20 agree to the second decimal; the seeds agree.
 - **C-O59, the held-slot knot under P09** — the C-O53 protocol on the quiet background, boxes 15 and 20 with matched blank controls, to re-read the adjacent-shell slowdown and the radial profile. **Written before running.**
 - **C-O60, the concentrated start under P09** — the C-O57 protocol on the quiet background. **The hypothesis is pre-registered:** on the old medium the concentrated start settled into the gate's burstiness; on the ungated medium, does it diffuse into **genuinely uniform rate becoming**, under 1× chance variance across all shells? **That is the paper's arrow as written, and the old background made it unreachable.**
 - **Untested and now load-bearing:** the pull at any strength other than 0.5.
+
+---
+
+## 16. The arrow lands plainly, the knot does not, and matter gets a rule, 2026-10-05
+
+**Both reruns on the steady medium came back the same day and they went opposite ways.**
+
+### C-O60: the arrow in its plain form
+
+**The concentrated start now does exactly what the paper says.** All possibility piled in a ball of radius 3, nothing outside, every beat in step; on the ungated medium it spreads into **even becoming — rate spread 0.75–0.80 of chance, under one** — with the far region at 90% of the control's rate by tick 110–180 and the shell-to-shell gradient at the control's own floor by tick 225–350. **At tick 3,000 the concentrated start matches the uniform control to three decimals on every reading.** The hypothesis was written before the run and holds.
+
+> **Kept in proportion.** Once the medium is even (C-O58) and the start is forgotten, even becoming follows — the review note said so before the run. **This is a confirmation, not a discovery**, and the old gated background was the only reason it had not been seen.
+
+**The new thing is the trace, and it is only visible because the medium is quiet.** Where becoming began, **more has happened, permanently.**
+
+- **In cadence**, a smooth hill: the ball runs +3.2 to +4.9 blinks ahead of the box mean at tick 500 (box 20), falling off smoothly outward to −0.6 at shell 10, **and relaxing slowly** — about half of it is still there after 2,500 ticks.
+- **In blink count — age — it does not relax at all.** The ball ends **2–7 blinks older** than the far region where the control is flat across every shell. About 3% of the total count here, and a shrinking *share* as time runs on, but a fixed lead.
+- **Every neighbour pair along the hill is in step**, which is why the in-step reading cannot see it. It took a reading nobody had taken.
+
+> **C-O57 could not have found this.** Its own note put the trace “at the edge of the noise”; here it is about 5× the floor. **The quiet medium did not just restate the arrow — it made a relic measurable that the gate had buried.**
+
+**Limits, from the ledger:** possibility's flattening is still supplied by the rules; **how fast the cadence hill relaxes is set by the pull's strength (K 0.5, ours) and was not scanned**; and a cold empty background is the set-up's choice, not the One — so this is not a model of the beginning.
+
+### C-O59: the knot is not a drain, and the 12–15% was the gate
+
+**Reread on the steady medium, the held-slot knot blinks at 0.97–1.00 of the background** — it was 1.10–1.20 under the old rule — **and slows no clock beside it.** The first shell outside runs **~2% fast** in all eight runs, and there is nothing beyond. **C-O53's 12–15% came from the knot's exemption from the hard in-step window:** the gate restricted space and not the knot, and that difference was the appetite.
+
+> **The line's headline result is withdrawn as stated, and the pattern is now three deep.** C-O46's contention rule, C-O58's gate, and now the same gate again — **three times a rule of ours decided what the world did.** §3 was written about the first; it is the line's central finding and it keeps being right.
+
+**Held slots still do what they were ruled to do** — they keep a knot its shape, verified at rest and in motion. **What they do not do is make it hungry.** A thing that consumes no more than empty space cannot starve its neighbours, and nothing in the ontology had yet said matter consumes more.
+
+### The ruling: matter cannot sit idle and still be matter
+
+**Empty space blinks intermittently, drifting between committed and not as channels happen to open. Matter is continuous becoming** — *“if the parts of the table stop committing, the table disappears”*. So when a held-slot commitment dissolves after ħ, the locus re-commits with its reserved partner on the very next tick. **No voluntary idle time.** Grounding as relayed: mass is a frequency of becoming, E = ħω, so greater mass is a higher duty cycle rather than a bigger ball.
+
+> **This is not a rule invented to recover a lost result, and the distinction matters.** It is Allen's standing position from well before any of these runs — *“if commitment stops, a particle doesn't persist”*, persistence as active work, a ball sitting still already blinking to stay still. **What is new is implementing it, not deciding it.** The models had been growing structures the ontology says could not persist, and this closes that gap directly rather than through an exemption.
+
+**Two cautions for C-O61, written before it runs:**
+
+1. **“Does the knot blink more than the background” will be true by construction.** A duty cycle near unity is what the rule imposes, so that reading is not evidence of anything. **The readings that can fail are the possibility deficit inside and the clock rate outside.**
+2. **The knot's surface already produces the opposite sign.** C-O59's ~2% fast shell appears in every run, and C-O43's continuous model found ~1% fast as well, because **surface places have about half their neighbours available to commit with.** C-O61 has to separate *slow because starved* from *a surface with fewer partners*, or a null will not be readable either way.
+
+### On citing the pull
+
+**Two primitive attributions have now been relayed for the Relational Entanglement Pull and neither holds in the system this attempt uses.** P04 is bandwidth; **P10 is rule-type** — *“matter and gauge are different rule-types”*. No primitive in `primitives/` is named relational entanglement or phase locking. The second attribution cites a **38-primitive** table in *The Universe Becoming*, which is **a different numbering from the 13-primitive generative system** and is not in this repository.
+
+> **So a bare P-number is ambiguous between two schemes and wrong in the one being used.** Cite it with no number: **“the Relational Entanglement Pull (ruling of 2026-10-05)”.** Whether the 38-primitive scheme has something that carries it, and whether Allen wants the two schemes reconciled, is his call — and it is worth making, because a ruling that cites the wrong primitive in public is the kind of error that costs more than the ruling is worth.
