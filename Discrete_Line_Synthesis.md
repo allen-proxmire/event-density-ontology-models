@@ -14,13 +14,15 @@
 
 | reading | value |
 |---|---|
-| neighbouring places in step | **0.91–0.92** |
-| largest coherent domain | **99.5–99.7%** of the box, persistence 0.99 |
-| spread of blink rates across places | **0.76–0.79 of chance** — more even than chance |
-| places starved of becoming | **none** |
-| clock rate | 0.065 at ħ 5, 0.035 at ħ 10 |
+| neighbouring places in step | **0.951–0.954**, flat from tick 300 |
+| coherence of neighbouring cadences | **0.99** |
+| largest coherent domain | **99.8–99.9%** of the box |
+| spread of blink rates across places | **0.65–0.67 of chance** — more even than chance |
+| places starved of becoming | **none**, and no fixed busy or idle roles |
+| clock rate | **0.104**, spread 0.0055, slowest place 0.083–0.087 |
+| share of places committed at any moment | 0.51–0.52 |
 
-**Box sizes 15 and 20 agree to the second decimal, and the seeds agree.**
+**Box sizes 15 and 20 agree to the third decimal, and the seeds agree.**
 
 > **So scarcity does not tear the One Being apart.** Places share a budget that cannot serve all of them at once, and what results is neither a frozen structure nor a scatter: a single coherent medium, fully active, with a **steady difference of about two blinks between neighbours** that forms early and then stops growing.
 
@@ -64,11 +66,15 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 4. Becoming saturates in possibility
+## 4. One budget: possibility is the only thing a commitment draws on
 
-**Abundance of possibility does not buy more becoming.** A place cannot commit again until its current commitment dissolves, so its rate is capped at one blink per ħ + 1 ticks however much possibility is available to it; the shared neighbourhood budget caps how many places can be committed at once.
+**A commitment needs a unit of possibility, and that is the whole of what constrains it.** There is no second limit on how many neighbours may be committed at once: if the possibility is there, the commitment happens.
 
-> **ħ is ED's own quantity, so a ceiling on the rate of becoming exists whatever else is chosen.** Possibility beyond roughly one unit per place buys nothing. **Mass, in this picture, is a duty cycle rather than a quantity of stuff** — which is what makes matter a consumer of throughput rather than an occupant of space.
+**The medium of §1 is what that engine produces**, and it is steadier on every reading than one carrying a separate occupancy limit — faster clocks, tighter spread, a larger coherent domain, agreement to the third decimal across box sizes.
+
+> **So the thing clocks run on is possibility itself.** At one unit per place the medium spends it about as fast as it arrives: roughly half the places are committed at any moment and about two thirds hold nothing in reserve. **Becoming is supply-limited, and the supply is ED's own quantity rather than a number of the model's.**
+
+**What that implies for matter** is the subject of the runs in progress: if becoming is limited by possibility, then a structure that must keep committing to persist is a consumer of it, and **mass is a duty cycle rather than a quantity of stuff.** The measurement is §6's open item.
 
 ---
 
@@ -78,12 +84,13 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 | ED's | the harness's |
 |---|---|
-| a commitment occupies a place for ħ, then dissolves back into possibility | the pool is a place and its six neighbours, with capacity **B** |
-| dissolved possibility returns to **possibility at large**, not to the place that spent it | the hop probability for possibility's wandering (**0.2**) |
-| chance acts at **every** commitment, through the Born weighting | the strength of the pull (**K = 0.5**, half the difference per commitment) |
-| a clock counts a place's **own** commitments | how much phase one blink is worth (**0.1**) |
-| **the pull**: committing together pulls two places toward agreement | ħ = 5 or 10 ticks; B = 4 or 6; a pair commits only on mutual proposal |
-| matter must keep re-committing to persist | the knot's radius, and that it is seeded at all |
+| a commitment occupies a place for ħ, then dissolves back into possibility | the hop probability for possibility's wandering (**0.2**) |
+| **possibility is the only budget** a commitment draws on | the strength of the pull (**K = 0.5**, half the difference per commitment) |
+| dissolved possibility returns to **possibility at large**, not to the place that spent it | how much phase one blink is worth (**0.1**) |
+| chance acts at **every** commitment, through the Born weighting | ħ = 5 or 10 ticks; the density of possibility the run starts with |
+| a clock counts a place's **own** commitments | a pair commits only on mutual proposal |
+| **the pull**: committing together pulls two places toward agreement | the knot's radius, and that it is seeded at all |
+| matter must keep re-committing to persist | |
 
 **The neighbour relation itself is supplied** — the same input as every earlier model result.
 
@@ -98,7 +105,8 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 ## 6. What this does not show
 
 - **Nothing organised itself.** No knot and no dimension arose from the medium. **Every knot in this line is seeded**, and the three-dimensionality of the neighbour relation is supplied.
-- **A knot holds by rule, not by finding.** Its links are reserved for their own partners, so persistence is built in. What a knot *does to the space around it* is being measured now, under the rule that matter must keep committing to persist.
+- **A knot holds by rule, not by finding.** Its links are reserved for their own partners, so persistence is built in. **What a knot does to the space around it is being measured**, across a range of possibility densities, under the rule that matter must keep committing to persist. **No result on it is stated here.**
+- **§3's arrow was read on an earlier engine** — one carrying a separate occupancy limit alongside the possibility budget. The behaviour is a property of how becoming spreads and is not expected to turn on that limit, but **the readings have not been re-taken on the single-budget engine.**
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
 - **The polarity phase has no variable here.** P09's U(1) polarity and P11's randomisation of it describe a quantity nothing in this model carries — so this line says nothing about either.
