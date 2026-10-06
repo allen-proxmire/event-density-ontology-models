@@ -6,6 +6,8 @@
 
 **What is supplied is the same single input the earlier results supply: which pairs of places may be neighbours.** Everything that happens on that relation is ED's, or is a harness choice named in §6.
 
+**Every reading below comes from one ruleset:** a single conserved budget of possibility, dissolved possibility returning to the whole, matter that re-commits without idling while keeping its channels open to the space beside it, and the pull two places exert on each other by committing together.
+
 ---
 
 ## 1. The medium: the One Being settles and stays settled
@@ -51,7 +53,9 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 **Becoming spreads out and the gradient flattens.** The far region reaches 90% of the control's blink rate by tick 110–180, and the shell-to-shell rate gradient falls to the control's own noise floor by tick 225–350.
 
-**The start is then forgotten.** By tick 3,000 the concentrated start matches a uniform start on every reading — in-step share, clock rate, token distribution, zero-token share, largest domain, spread of rates — **to three decimals**.
+**The start is then forgotten.** By tick 3,000 the concentrated start matches a uniform start on every reading, **to four decimals in the clock rate** — 0.1042–0.1043 against the control's 0.1042–0.1044 in the leaner medium, 0.1346–0.1347 against 0.1347–0.1348 in the richer one. In-step share, spread of rates, largest domain, roles and starvation all match as well, and the blink rate by shell sits inside the noise floor everywhere.
+
+**And what it settles into is more even the richer the medium:** a spread of rates **0.47–0.48 of chance** at two units of possibility per place, in **one domain covering 99.9–100%** of the box, with nothing starved.
 
 > **And what it flattens into is even becoming: a spread of rates below chance.** This is the arrow as the ontology states it — *gradients flatten toward uniform becoming* — read at the event layer.
 
@@ -62,7 +66,7 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 **Where becoming began, more has happened — and part of that is permanent.**
 
 - **In cadence**, a smooth hill: the ball runs **3–5 blinks ahead** of the box mean, falling off smoothly outward, **and relaxing slowly** — about half of it remains after 2,500 ticks.
-- **In blink count — age — the lead does not relax at all.** The ball region ends **2–7 blinks older** than the far region, where a uniform start is flat across every shell.
+- **In blink count — age — the lead does not relax at all.** The origin region ends **13–18 blinks older**, about **4%**, where a uniform start is flat across every shell.
 - **Every neighbouring pair along the hill is in step**, which is why a coherence reading cannot see it.
 
 > **So the arrow erases the beginning from every rate, and keeps it as an age.** A region that began becoming first stays permanently further along, by a fixed count, while becoming uniformly everywhere.
@@ -76,6 +80,8 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 **The medium of §1 is what that engine produces**, and it is steadier on every reading than one carrying a separate occupancy limit — faster clocks, tighter spread, a larger coherent domain, agreement to the third decimal across box sizes.
 
 > **So the thing clocks run on is possibility itself.** At one unit per place the medium spends it about as fast as it arrives: roughly half the places are committed at any moment and about two thirds hold nothing in reserve. **Becoming is supply-limited, and the supply is ED's own quantity rather than a number of the model's.**
+
+**Where possibility is plentiful, a different limit takes over, and it is also ED's.** A place cannot commit again until its commitment dissolves, so its rate cannot exceed one blink per ħ. **With no second budget in the model, that ceiling is now the only one** — there is no harness number in it. It shows only in a rich medium: at two units per place becoming evens out well before possibility does, while at one unit the two even out together, because there the supply is what binds.
 
 **And that is what makes matter a consumer.** If becoming is limited by possibility, a structure that must keep committing to persist spends what its surroundings would otherwise have had. **§5 is the measurement.**
 
@@ -97,6 +103,8 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 | then, outward, shell by shell | **2.25 → 1.14 → 0.57 → 0.30 → 0.15%**, reaching background |
 
 **Six shells, halving at every step, out to three times the matter's own radius** — every shell positive in both seeds and above the noise floor. **The same sign in every seed, box size and possibility density.**
+
+*The six-shell profile is one parameter set, quoted together rather than assembled from several: two units of possibility per place, possibility wandering freely, a box of 30, matter of radius 3.*
 
 > **This is a clock well, falling monotonically from the matter outward to the background, out of nothing but competition for becoming.** There is no metric in the model, no field equation, and no term that was fitted. **A place near matter is not being pulled on. It is going without.**
 
@@ -125,6 +133,8 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 ### Reach and sensitivity pull against each other
 
 **At two units of possibility per place the shortage *is* screened, and the screening length is measurable for the first time:** the falloff sits below the unscreened solution by a factor fitting **exp(−distance / 5.3)**, with the same length read at every shell (5.4, 5.4, 5.5, 5.3, 4.6). **About five steps.**
+
+**Two lengths are at work here and they multiply, so they are worth keeping apart.** The unscreened shape falls by about 0.70 per shell — that is the Laplacian form in a box of this size, and it is the part that would reach forever in an unbounded one. **Screening multiplies it by 0.83 per shell**, which is the five-step length. Together they give the observed falloff of **about one half per shell**, an apparent decay length of 1.4 shells. **It is the five-step length that makes the reach finite; the halving is the two together.**
 
 **And the clock's answer to a shortage runs the other way.** Per unit of shortage the slowing is **0.028 at four units of possibility per place, 0.11–0.18 at two, and 0.36 or more at one.**
 
@@ -173,14 +183,13 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 - **The clock well is not shown to be unscreened.** The shortage is, in a rich medium; **the clock profile above the noise floor has not been read beyond about three shells**, and boxes larger than 30 are untested.
 - **A bigger mass does not reach further.** Across matter of radius 2 to 5 the skirt does not widen. **What sets the reach is the medium, not the mass** — which is not how gravity behaves, and is unresolved.
 - **One memory setting only.** Everything in §§1–5 is read at ħ = 5; the longer setting is untested on this engine.
-- **§3's arrow was read on an earlier engine** — one carrying a separate occupancy limit alongside the possibility budget. The behaviour is a property of how becoming spreads and is not expected to turn on that limit, but **the readings have not been re-taken on the single-budget engine.**
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
 - **The polarity phase has no variable here.** P09's U(1) polarity and P11's randomisation of it describe a quantity nothing in this model carries — so this line says nothing about either.
-- **A concentrated start made of matter is untested**, as are ball sizes and totals other than those run, and boxes above 20.
+- **A concentrated start made of matter is untested** — every concentrated start here is a pile of possibility, not a structure. Ball sizes and totals other than those run are untested, as are boxes above 30.
 
 ---
 
 ## 8. In one paragraph
 
-**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well** — slow where it stands and halving shell by shell across six shells to the background, read raw, with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** In a rich medium the shortage behind that well takes the exact Newtonian shape, **which is what a conserved thing spreading in three dimensions does; the shape is diffusion's and the sink is ED's.** There is no metric and no field equation anywhere in the model. **And reach and strength are two faces of one quantity, so they cannot both be made large** — a limit of the mechanism rather than of its settings. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
+**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well** — slow where it stands and halving shell by shell across six shells to the background, read raw, with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** In a rich medium the shortage behind that well takes the exact Newtonian shape, **which is what a conserved thing spreading in three dimensions does; the shape is diffusion's and the sink is ED's.** There is no metric and no field equation anywhere in the model. **And reach and strength are two faces of one quantity, so they cannot both be made large** — a limit of the mechanism rather than of its settings. **All of it is read on one ruleset**, so the medium, the arrow and the clock well are three behaviours of the same substrate rather than three separate models. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
