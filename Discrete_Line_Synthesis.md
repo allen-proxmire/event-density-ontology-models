@@ -4,7 +4,7 @@
 
 **The nineteen model results run on continuous amounts: a density of commitment at a place, a rate of dissolution, a clock read off that amount. ED's own content is not continuous.** It says becoming happens in discrete commitments, that each one occupies a place for a while and then dissolves back into possibility, and that a clock at a place counts its own commitments. **This line models that directly — blinks as events, clocks as counts, possibility as a quantity that is spent and returns — and asks what ED's ingredients then do.**
 
-**What is supplied is the same single input the earlier results supply: which pairs of places may be neighbours.** Everything that happens on that relation is ED's, or is a harness choice named in §5.
+**What is supplied is the same single input the earlier results supply: which pairs of places may be neighbours.** Everything that happens on that relation is ED's, or is a harness choice named in §6.
 
 ---
 
@@ -14,8 +14,9 @@
 
 | reading | value |
 |---|---|
-| neighbouring places in step | **0.951–0.954**, flat from tick 300 |
-| coherence of neighbouring cadences | **0.99** |
+| **cadence difference between neighbours** | **a steady ~2 blinks**, reached early and flat thereafter — *the step-invariant reading* |
+| neighbouring places in step | **0.951–0.954**, flat from tick 300 *(at δθ = 0.1 per blink; see below)* |
+| coherence of neighbouring cadences | **0.99** *(same scale)* |
 | largest coherent domain | **99.8–99.9%** of the box |
 | spread of blink rates across places | **0.65–0.67 of chance** — more even than chance |
 | places starved of becoming | **none**, and no fixed busy or idle roles |
@@ -25,6 +26,8 @@
 **Box sizes 15 and 20 agree to the third decimal, and the seeds agree.**
 
 > **So scarcity does not tear the One Being apart.** Places share a budget that cannot serve all of them at once, and what results is neither a frozen structure nor a scatter: a single coherent medium, fully active, with a **steady difference of about two blinks between neighbours** that forms early and then stops growing.
+
+**On the two kinds of reading above.** The cadence difference in blinks is a count and does not depend on how the model converts counts to phase. **The in-step and coherence figures do**: one blink is worth δθ = 0.1 of phase here, which puts a two-blink difference at 0.2 radians, about 11°. **The difference in blinks is the observable; the percentages are that same fact at this scale**, and are quoted with the scale stated.
 
 ---
 
@@ -38,7 +41,7 @@
 
 > **So the medium's coherence does not come from which partner a place chooses. It comes from the fact that a commitment is bilateral** — two places that actualise together are pulled toward agreement, because a commitment with no relational consequence would not be a relation at all. **Whom a place commits with barely matters; that it commits *with* someone is the whole mechanism.**
 
-This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strength — half the phase difference per commitment — is a harness number (§5).
+This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strength — half the phase difference per commitment — is a harness number (§6).
 
 ---
 
@@ -74,13 +77,45 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 > **So the thing clocks run on is possibility itself.** At one unit per place the medium spends it about as fast as it arrives: roughly half the places are committed at any moment and about two thirds hold nothing in reserve. **Becoming is supply-limited, and the supply is ED's own quantity rather than a number of the model's.**
 
-**What that implies for matter** is the subject of the runs in progress: if becoming is limited by possibility, then a structure that must keep committing to persist is a consumer of it, and **mass is a duty cycle rather than a quantity of stuff.** The measurement is §6's open item.
+**And that is what makes matter a consumer.** If becoming is limited by possibility, a structure that must keep committing to persist spends what its surroundings would otherwise have had. **§5 is the measurement.**
 
 ---
 
-## 5. What is ED's and what is the harness's
+## 5. Matter slows the clocks around it
 
-**Every quantity in §§1–4 is one or the other, and the division is stated rather than left implicit.**
+**A matter place is an ordinary place of the medium that *also* holds one internal commitment on a reserved slot.** It keeps its open channels to the space beside it and blinks with its neighbours exactly as empty medium does; what distinguishes it is the internal commitment it renews to stay what it is. **Both draw on the same possibility.**
+
+**The local clock is the place's ordinary blinking** — how fast it interacts with what surrounds it. The internal renewal is the structure's own frequency, the rate at which it persists, and is not what a clock beside it reads.
+
+**A ball of radius 3 is seeded in the steady medium and the profile is read raw against a matched control, with no correction of any kind.**
+
+| shell | clocks run |
+|---|---|
+| the places hosting matter | **33–47% slow** |
+| the surface shell, part matter and part space | **11–14% slow** |
+| first shell wholly outside | **1.2–2.9% slow** |
+| second shell out | up to **0.6% slow** |
+| third shell and beyond | flat — in fact **0.1–0.4% fast** |
+
+**The same sign in every seed, every box size and every possibility density.**
+
+> **This is a clock well, falling monotonically from the matter outward to the background, out of nothing but competition for becoming.** There is no metric in the model, no field equation, and no term that was fitted. **A place near matter is not being pulled on. It is going without.**
+
+### The shortage behind it, and why the well is shallow
+
+**The possibility deficit runs far deeper than the clock effect and reaches further.** At the richest density measured it is 84–91% inside the matter, 61% at the surface, then **36%, 20%, 10%, 4%** outward — a smooth falloff of roughly half per shell.
+
+**But the clock answers that shortage only where possibility is scarce.** Per unit of deficit at the first outside shell, the slowing is **0.36 at one unit of possibility per place, 0.12–0.16 at two, and 0.03 at four.**
+
+> **So the two reaches come apart: in a rich medium the shortage spreads four shells while the slowing spreads one.** A place with possibility to spare does not run slower for having a little less. **That is the saturation of §4 again** — becoming is capped, so only a place already short of possibility has its clock answer a shortage.
+
+**And the far medium ends slightly richer, not poorer.** What matter spends returns to possibility at large rather than to its own neighbourhood, so distant possibility sits 1–3% above the control and those clocks run a fraction fast. **A mass drains its surroundings and feeds the whole.**
+
+---
+
+## 6. What is ED's and what is the harness's
+
+**Every quantity in §§1–5 is one or the other, and the division is stated rather than left implicit.**
 
 | ED's | the harness's |
 |---|---|
@@ -98,14 +133,15 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 **ED declares 38 ingredients: 13 primitives, 10 inherited constants, 15 paper postulates.** The figure of merit is domains over free parameters, against roughly twelve independent domains.
 
-**This line added four discrete mechanisms and none of them changes that count.** The two kinds of commitment, the dynamic neighbour relation, the Relational Entanglement Pull and the persistence of matter give discrete operational content to primitives that assert something of each kind exists without saying how it works in a network. **They introduce no free parameter**; the numbers attached to them are the harness column above.
+**This line added five discrete mechanisms and none of them changes that count.** The two kinds of commitment, the dynamic neighbour relation, the Relational Entanglement Pull, the persistence of matter, and a place’s cadence as the count of its own commitments give discrete operational content to primitives that assert something of each kind exists without saying how it works in a network. **They introduce no free parameter**; the numbers attached to them are the harness column above.
 
 ---
 
-## 6. What this does not show
+## 7. What this does not show
 
 - **Nothing organised itself.** No knot and no dimension arose from the medium. **Every knot in this line is seeded**, and the three-dimensionality of the neighbour relation is supplied.
-- **A knot holds by rule, not by finding.** Its links are reserved for their own partners, so persistence is built in. **What a knot does to the space around it is being measured**, across a range of possibility densities, under the rule that matter must keep committing to persist. **No result on it is stated here.**
+- **Matter holds by rule, not by finding.** Its internal links are reserved for their own partners, so persistence is built in rather than demonstrated. **The clock well of §5 is a consequence of that persistence being paid for**, and the persistence itself is supplied.
+- **The well's reach is one to two shells and the law behind it is not established.** Whether that reach is a property of the rules or of the settings — how fast possibility wanders, how large the matter is — is being scanned now. **No reach law is stated here.**
 - **§3's arrow was read on an earlier engine** — one carrying a separate occupancy limit alongside the possibility budget. The behaviour is a property of how becoming spreads and is not expected to turn on that limit, but **the readings have not been re-taken on the single-budget engine.**
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
@@ -114,6 +150,6 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 7. In one paragraph
+## 8. In one paragraph
 
-**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **And concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older.** That is the ontology's arrow of time, read at the event layer, with no metric and no field equation anywhere in the model. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
+**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well**, 33–47% slow where it stands and falling away to the background within two shells, read raw and with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** There is no metric and no field equation anywhere in the model. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
