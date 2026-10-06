@@ -125,7 +125,7 @@ Needs Python with numpy. It tests the theorem for up to six lanes, for random mi
 python method/models/run_event_layer.py
 ```
 
-Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about five.** What is ED's and what is the model's is in the script's own header.
+Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about ten.** The arrow and the well average two seeds, each read against its own matched control, and print the per-seed values beside the mean. What is ED's and what is the model's is in the script's own header.
 
 Model results 1–12 and the clock floor can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each. The scripts for results 13–18 are held with the working record and available on request.
 

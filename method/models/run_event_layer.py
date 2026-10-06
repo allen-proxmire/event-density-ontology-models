@@ -5,7 +5,7 @@ dissolving back into possibility, with a clock at a place counting its own commi
 This is that, directly -- no continuous amounts anywhere.
 
     python run_event_layer.py medium      result 20: the steady medium
-    python run_event_layer.py arrow       result 22: the arrow and the age relic
+    python run_event_layer.py arrow       result 22: the arrow and the age relic (2 seeds)
     python run_event_layer.py well        results 24-25: the clock well around matter (2 seeds)
     python run_event_layer.py all         all three
     python run_event_layer.py medium --quick      smaller/shorter, for a fast look
@@ -298,29 +298,55 @@ def bench_medium(quick):
         line("spread of rates / chance", f"{cv / ch:.2f}", "0.65-0.67")
 
 
-def bench_arrow(quick):
-    L, ticks = (20, 3000) if not quick else (15, 800)
-    print(f"\nRESULT 22 - the arrow of time   (box {L}, all possibility in a ball of radius 3, "
-          f"{ticks} ticks, seed 1)")
-    conc = World(L, 1, 1, mode="conc")
-    ctrl = World(L, 1, 1, mode="one")
-    rc, nc, _ = run(conc, ticks)
-    rk, nk, _ = run(ctrl, ticks)
-    print("  --- the start is forgotten in every rate (read over the second half)")
-    line("clock rate, concentrated start", f"{rc.mean() / nc:.4f}", "matches the control")
-    line("clock rate, uniform control", f"{rk.mean() / nk:.4f}", "to within 0.0002")
-    line("in step, concentrated / control",
-         f"{conc.in_step():.3f} / {ctrl.in_step():.3f}", "equal")
-    print("  --- and one thing does not fade")
-    a = conc.shell_age()
+def age_lead(world):
+    """how much older the origin region is than the far region, in blinks, by shell"""
+    a = world.shell_age()
     inner = np.mean([a[k] for k in (1, 2) if k in a])
     outer = np.mean([a[k] for k in a if k >= 6])
-    ca = ctrl.shell_age()
-    cin = np.mean([ca[k] for k in (1, 2) if k in ca])
-    cout = np.mean([ca[k] for k in ca if k >= 6])
+    return float(inner - outer)
+
+
+def bench_arrow(quick):
+    """result 22. Each seed's concentrated start is read against its own matched uniform
+    control, and the seeds are then averaged -- the same methodology as the well."""
+    L, ticks = (20, 3000) if not quick else (15, 800)
+    seeds = (1, 2) if not quick else (1,)
+    print(f"\nRESULT 22 - the arrow of time   (box {L}, all possibility in a ball of radius 3, "
+          f"{ticks} ticks, seed{'s' if len(seeds) > 1 else ''} "
+          f"{', '.join(str(s) for s in seeds)})")
+
+    rows = []
+    for s in seeds:
+        conc = World(L, 1, s, mode="conc")
+        ctrl = World(L, 1, s, mode="one")
+        rc, nc, _ = run(conc, ticks)
+        rk, nk, _ = run(ctrl, ticks)
+        rows.append(dict(clock_c=rc.mean() / nc, clock_u=rk.mean() / nk,
+                         step_c=conc.in_step(), step_u=ctrl.in_step(),
+                         lead=age_lead(conc), floor=age_lead(ctrl)))
+
+    def mean(key):
+        return sum(r[key] for r in rows) / len(rows)
+
+    def spread(key, fmt="{:.4f}"):
+        return ("  " + ", ".join(fmt.format(r[key]) for r in rows)) if len(rows) > 1 else ""
+
+    print("  --- the start is forgotten in every rate (read over the second half)")
+    line("clock rate, concentrated start", f"{mean('clock_c'):.4f}", "matches the control")
+    line("clock rate, uniform control", f"{mean('clock_u'):.4f}", "to within 0.0002")
+    line("the difference", f"{abs(mean('clock_c') - mean('clock_u')):.4f}", "0.0001-0.0002")
+    line("in step, concentrated / control",
+         f"{mean('step_c'):.3f} / {mean('step_u'):.3f}", "equal")
+    print("  --- and one thing does not fade")
     line("origin older than the far region, by",
-         f"{inner - outer:.1f} blinks", "13-18 (box 20), 6-17 (box 15)")
-    line("the same reading in the control (the floor)", f"{cin - cout:.1f} blinks", "a few blinks either way")
+         f"{mean('lead'):.1f} blinks", "13-18 (box 20), 6-17 (box 15)")
+    line("the same reading in the control (the floor)",
+         f"{mean('floor'):.1f} blinks", "a few blinks either way")
+    if len(rows) > 1:
+        print(f"    per seed - age lead:{spread('lead', '{:.1f}')}    "
+              f"control floor:{spread('floor', '{:.1f}')}")
+        print("    The lead is many times the control's own shell-to-shell scatter; that gap is")
+        print("    the reading. Its exact size moves with the seed and the box.")
 
 
 def bench_well(quick):

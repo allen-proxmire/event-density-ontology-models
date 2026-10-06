@@ -9,16 +9,16 @@
 **[run_event_layer.py](run_event_layer.py)** is self-contained and reproduces the event-layer results of [../../results/EVENT_LAYER.md](../../results/EVENT_LAYER.md). **It runs the final rules and nothing else** — no superseded modes, no options that were tried and dropped — and prints each published figure beside the one it has just measured.
 
 ```
-python run_event_layer.py            all three benchmarks (about five minutes)
+python run_event_layer.py            all three benchmarks (about ten minutes)
 python run_event_layer.py medium     result 20: the steady medium (under a minute)
-python run_event_layer.py arrow      result 22: the arrow and the age relic (about a minute)
-python run_event_layer.py well       results 24-25: the clock well around matter (a few minutes)
-python run_event_layer.py well --quick     smaller and shorter; the figures will not match
+python run_event_layer.py arrow      result 22: the arrow and the age relic, 2 seeds (2 minutes)
+python run_event_layer.py well       results 24-25: the clock well, 2 seeds (about 6 minutes)
+python run_event_layer.py well --quick     one seed, smaller and shorter; the figures will not match
 ```
 
 **The rules, and whose each one is, are in the script's own header** — which is the part to read first. In short: a place is committed or it is not; a commitment holds for ħ and dissolves back into possibility; one budget, spent in pairs and returned to the whole; chance at every commitment through the Born weighting; the pull that committing together exerts on two cadences; a clock is a place's count of its own commitments. **The grid, the pull's strength, the cadence step, how fast possibility wanders and how much of it there is are the model's numbers, not the ontology's**, and the header says so for each.
 
-**Reproduction is statistical, not bit-for-bit.** The figures come out within the spreads quoted in `EVENT_LAYER.md`; a different seed moves them inside those spreads. The full working record — every build, ledger, dated note, log and data file — is held separately and available on request.
+**Reproduction is statistical, not bit-for-bit.** The arrow and the well average two seeds, each read against its own matched control, which is how the published tables are built; the per-seed values print beside the mean so the scatter is visible. The figures land within the spreads quoted in `EVENT_LAYER.md`, with one known exception the script states in its own output: the two outermost resolvable shells of the well come out a few tenths of a percent high, on a noise floor of 0.07-0.24%. The full working record — every build, ledger, dated note, log and data file — is held separately and available on request.
 
 **Needs:** Python 3 with numpy and scipy. Every model runs on a 32×32×32 periodic grid; most runs take from under a minute to about half an hour on a laptop. Each script prints a one-line JSON summary and writes a JSON file of its full trajectory.
 
