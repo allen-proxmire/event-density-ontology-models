@@ -53,9 +53,9 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 **Becoming spreads out and the gradient flattens.** The far region reaches 90% of the control's blink rate by tick 110–180, and the shell-to-shell rate gradient falls to the control's own noise floor by tick 225–350.
 
-**The start is then forgotten.** By tick 3,000 the concentrated start matches a uniform start on every reading, **to four decimals in the clock rate** — 0.1042–0.1043 against the control's 0.1042–0.1044 in the leaner medium, 0.1346–0.1347 against 0.1347–0.1348 in the richer one. In-step share, spread of rates, largest domain, roles and starvation all match as well, and the blink rate by shell sits inside the noise floor everywhere.
+**The start is then forgotten.** By tick 3,000 the concentrated start matches a uniform start on every reading. **The clock rates agree to within 0.0002** — 0.1042–0.1043 against the control's 0.1042–0.1044 in the leaner medium, 0.1346–0.1347 against 0.1347–0.1348 in the richer one, so **three decimal places clean.** In-step share, spread of rates, largest domain, roles and starvation all match as well, and the blink rate by shell sits inside the noise floor everywhere.
 
-**And what it settles into is more even the richer the medium:** a spread of rates **0.47–0.48 of chance** at two units of possibility per place, in **one domain covering 99.9–100%** of the box, with nothing starved.
+**And what it settles into is more even the richer the medium:** a spread of rates **0.65–0.67 of chance at one unit of possibility per place and 0.47–0.48 at two.** In both, **one domain covering 99.9–100%** of the box, no fixed roles, nothing starved.
 
 > **And what it flattens into is even becoming: a spread of rates below chance.** This is the arrow as the ontology states it — *gradients flatten toward uniform becoming* — read at the event layer.
 
@@ -66,7 +66,7 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 **Where becoming began, more has happened — and part of that is permanent.**
 
 - **In cadence**, a smooth hill: the ball runs **3–5 blinks ahead** of the box mean, falling off smoothly outward, **and relaxing slowly** — about half of it remains after 2,500 ticks.
-- **In blink count — age — the lead does not relax at all.** The origin region ends **13–18 blinks older**, about **4%**, where a uniform start is flat across every shell.
+- **In blink count — age — the lead does not relax at all.** Averaged over the shells of the origin region, it ends **13–18 blinks older** in the larger box and **6–17** in the smaller, about **4%**, where a uniform start is flat across every shell. **The box as a whole ends 3–8 blinks behind its own control** — the late start is never made up.
 - **Every neighbouring pair along the hill is in step**, which is why a coherence reading cannot see it.
 
 > **So the arrow erases the beginning from every rate, and keeps it as an age.** A region that began becoming first stays permanently further along, by a fixed count, while becoming uniformly everywhere.
