@@ -100,6 +100,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — five results applying known mathematics to ED's claims; read first|
 |[results/MODEL\_RESULTS.md](results/MODEL_RESULTS.md)|**results from models** — nineteen results on what ED's own ingredients do in supplied space, run on continuous amounts|
 |[results/EVENT\_LAYER.md](results/EVENT_LAYER.md)|**results from the event layer** — six results on what the same ingredients do when becoming is modelled as discrete events|
+|[papers/Gravity\_As\_Accounting.md](papers/Gravity_As_Accounting.md)|**why a clock near a mass runs slow**, in plain language — the clock well, what the inverse-square shape is and is not, and where the account runs out|
 |[results/CDT\_Constraint.md](results/CDT_Constraint.md)|the CDT result in full, for readers who know causal dynamical triangulations|
 |[results/Constraints.md](results/Constraints.md)|what ED forbids, what it fixes, what it leaves open|
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
