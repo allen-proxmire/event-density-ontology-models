@@ -12,7 +12,7 @@ That is the whole paper. The rest is what it means and what was measured.
 
 ## 1. There is only so much becoming to go around
 
-Event Density starts from activity rather than from things. The world is a web of places, and what happens at a place is a **commitment** — something becoming settled that was not settled before. Nothing is permanent: a commitment holds its place for a while, then dissolves back into **possibility**, the unsettled stuff that has not committed yet.
+Event Density starts from activity rather than from things. The world is a web of places, and what happens at a place is a **commitment** — something becoming settled that was not settled before. Nothing is permanent: a commitment holds its place for a while, then dissolves back into **possibility**, which is simply what has not settled yet.
 
 **So nothing persists by sitting still.** A thing stays what it is by committing again, and again. A ball resting on a table is not idle; it is being re-made continuously, and if it stopped it would not sit there — it would stop existing.
 

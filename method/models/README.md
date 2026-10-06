@@ -31,7 +31,7 @@ python run_event_layer.py well --quick     one seed, smaller and shorter; the fi
 | result | script(s) | example | what to look for |
 |---|---|---|---|
 | **1. The switch** | `b3_switch.py` | `python b3_switch.py` | ripples in a dense uniform state fade below P = 1 and grow above it, at two ħ |
-| **2. Memory is the present state** | `b3_knockout.py`, `b3_knockout_big.py` | `python b3_knockout.py` | a knocked-out clump re-forms where its free stuff remains, and follows it when moved |
+| **2. Memory is the present state** | `b3_knockout.py`, `b3_knockout_big.py` | `python b3_knockout.py` | a knocked-out pattern re-forms where its uncommitted possibility remains, and follows it when moved |
 | **3. The arc, and both endings** | `b3_expand.py` (expansion), `b5_spend.py` (spending), `b6.py` (both) | `python b5_spend.py 100 0.01` | committed fraction rises, peaks and returns to zero |
 | **4. The lifetime estimate** | `b3_peak.py` → `b3_leaklaw.py` → `b3_halo.py` (run in that order: the first saves the peak states the others read) | `python b3_peak.py` | predicted against measured death for each setting |
 | **5. ħ shelters structure** | `b6p.py` (against thinning), `b5b.py` (under spending) | `python b5b.py 100 0.01 1` | lifetime against ħ at fixed drive |
