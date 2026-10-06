@@ -91,23 +91,52 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 | shell | clocks run |
 |---|---|
-| the places hosting matter | **33–47% slow** |
+| the places hosting matter | **12–47% slow**, deepest where possibility wanders slowly |
 | the surface shell, part matter and part space | **11–14% slow** |
-| first shell wholly outside | **1.2–2.9% slow** |
-| second shell out | up to **0.6% slow** |
-| third shell and beyond | flat — in fact **0.1–0.4% fast** |
+| first shell wholly outside | **4.65% slow** |
+| then, outward, shell by shell | **2.25 → 1.14 → 0.57 → 0.30 → 0.15%**, reaching background |
 
-**The same sign in every seed, every box size and every possibility density.**
+**Six shells, halving at every step, out to three times the matter's own radius** — every shell positive in both seeds and above the noise floor. **The same sign in every seed, box size and possibility density.**
 
 > **This is a clock well, falling monotonically from the matter outward to the background, out of nothing but competition for becoming.** There is no metric in the model, no field equation, and no term that was fitted. **A place near matter is not being pulled on. It is going without.**
 
-### The shortage behind it, and why the well is shallow
+**Two of those numbers depend on the model's own settings and are quoted as a range for that reason.** How deep the well is at the matter itself depends on how fast possibility wanders — 39% when it wanders slowly, 12% when it wanders freely, because a better-fed structure starves less. **How far the skirt reaches depended on the box** until the box was made large enough: the same settings that gave four shells in a box of 20 give six in a box of 30. **The shape does not depend on either.**
 
-**The possibility deficit runs far deeper than the clock effect and reaches further.** At the richest density measured it is 84–91% inside the matter, 61% at the surface, then **36%, 20%, 10%, 4%** outward — a smooth falloff of roughly half per shell.
+### The shortage behind it, and the shape it takes
 
-**But the clock answers that shortage only where possibility is scarce.** Per unit of deficit at the first outside shell, the slowing is **0.36 at one unit of possibility per place, 0.12–0.16 at two, and 0.03 at four.**
+**The clock well is the visible half of a shortage of possibility, and the shortage is the thing with a shape.** Around matter it falls away smoothly, and **in a rich medium it does not screen at all.**
 
-> **So the two reaches come apart: in a rich medium the shortage spreads four shells while the slowing spreads one.** A place with possibility to spare does not run slower for having a little less. **That is the saturation of §4 again** — becoming is capped, so only a place already short of possibility has its clock answer a shortage.
+**At four units of possibility per place the shortage matches the exact solution for a drain of that size in a box of that size** — the lattice Poisson solution, with nothing in it fitted:
+
+| shell outward | measured, relative to the first | the exact solution |
+|---|---|---|
+| 1 | 1 | 1 |
+| 2 | 0.674 | 0.677 |
+| 3 | 0.469 | 0.468 |
+| 4 | 0.332 | 0.332 |
+| 5 | 0.230 | 0.230 |
+| 6 | 0.153 | 0.147 |
+| 7 | 0.092 | 0.084 |
+
+**Misfit 0.7% of the first-shell value, at every wandering speed and both box sizes.** Changing how fast possibility wanders changes the shortage's *size* and not its *shape*.
+
+> **That shape is the Newtonian one, and the credit for it belongs where the ontology has always put it.** A conserved quantity spreading in three dimensions from a point sink obeys Laplace's equation, and its solution falls off that way; **the falloff is diffusion's, not ED's.** **What is ED's is the sink** — that matter is a net drain on becoming at all, because it must keep committing to persist and what it spends returns to the whole rather than to its own neighbourhood. **The shape was never the claim. The mechanism is.**
+
+### Reach and sensitivity pull against each other
+
+**At two units of possibility per place the shortage *is* screened, and the screening length is measurable for the first time:** the falloff sits below the unscreened solution by a factor fitting **exp(−distance / 5.3)**, with the same length read at every shell (5.4, 5.4, 5.5, 5.3, 4.6). **About five steps.**
+
+**And the clock's answer to a shortage runs the other way.** Per unit of shortage the slowing is **0.028 at four units of possibility per place, 0.11–0.18 at two, and 0.36 or more at one.**
+
+| the medium | the shortage | the clock's response |
+|---|---|---|
+| **rich** | unscreened, the exact Newtonian shape | **barely answers** — ~3% per unit |
+| **lean** | screened within one or two shells | **answers strongly** — 36% or more per unit |
+| **between** | screened at about five steps | enough of both: **the six-shell well above** |
+
+> **This is not a matter of choosing better numbers, and that is the finding.** The quantity that makes a clock sensitive to a shortage is **the same quantity** that makes the medium consume possibility and refill the shortage. A medium whose clocks notice a missing unit is a medium that replaces it quickly; a medium that lets a shortage spread is one whose clocks have enough in hand not to care. **Reach and strength are two faces of one thing**, and on this mechanism they cannot both be made large.
+
+**The relation behind it is approximately right and not exact.** Taking the clock's fractional response as the medium's own marginal consumption gives a screening length of 3.0–3.6 steps where 5.3 is measured — the right order. **The earlier estimate, built on the medium's average consumption rather than its marginal consumption, is wrong in kind:** it predicts about one step where five is measured, and predicts screening in the rich medium where there is none.
 
 **And the far medium ends slightly richer, not poorer.** What matter spends returns to possibility at large rather than to its own neighbourhood, so distant possibility sits 1–3% above the control and those clocks run a fraction fast. **A mass drains its surroundings and feeds the whole.**
 
@@ -119,12 +148,12 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 | ED's | the harness's |
 |---|---|
-| a commitment occupies a place for ħ, then dissolves back into possibility | the hop probability for possibility's wandering (**0.2**) |
+| a commitment occupies a place for ħ, then dissolves back into possibility | how fast possibility wanders (**0.2 to 1.0** per tick, 1.0 being its ceiling) — it sets the well's depth and, with the box, its reach |
 | **possibility is the only budget** a commitment draws on | the strength of the pull (**K = 0.5**, half the difference per commitment) |
 | dissolved possibility returns to **possibility at large**, not to the place that spent it | how much phase one blink is worth (**0.1**) |
 | chance acts at **every** commitment, through the Born weighting | ħ = 5 or 10 ticks; the density of possibility the run starts with |
 | a clock counts a place's **own** commitments | a pair commits only on mutual proposal |
-| **the pull**: committing together pulls two places toward agreement | the knot's radius, and that it is seeded at all |
+| **the pull**: committing together pulls two places toward agreement | the matter's radius, that it is seeded at all, and **the size of the box** — which limited the reach until it was made large enough |
 | matter must keep re-committing to persist | |
 
 **The neighbour relation itself is supplied** — the same input as every earlier model result.
@@ -141,7 +170,9 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 - **Nothing organised itself.** No knot and no dimension arose from the medium. **Every knot in this line is seeded**, and the three-dimensionality of the neighbour relation is supplied.
 - **Matter holds by rule, not by finding.** Its internal links are reserved for their own partners, so persistence is built in rather than demonstrated. **The clock well of §5 is a consequence of that persistence being paid for**, and the persistence itself is supplied.
-- **The well's reach is one to two shells and the law behind it is not established.** Whether that reach is a property of the rules or of the settings — how fast possibility wanders, how large the matter is — is being scanned now. **No reach law is stated here.**
+- **The clock well is not shown to be unscreened.** The shortage is, in a rich medium; **the clock profile above the noise floor has not been read beyond about three shells**, and boxes larger than 30 are untested.
+- **A bigger mass does not reach further.** Across matter of radius 2 to 5 the skirt does not widen. **What sets the reach is the medium, not the mass** — which is not how gravity behaves, and is unresolved.
+- **One memory setting only.** Everything in §§1–5 is read at ħ = 5; the longer setting is untested on this engine.
 - **§3's arrow was read on an earlier engine** — one carrying a separate occupancy limit alongside the possibility budget. The behaviour is a property of how becoming spreads and is not expected to turn on that limit, but **the readings have not been re-taken on the single-budget engine.**
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
@@ -152,4 +183,4 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ## 8. In one paragraph
 
-**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well**, 33–47% slow where it stands and falling away to the background within two shells, read raw and with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** There is no metric and no field equation anywhere in the model. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
+**The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well** — slow where it stands and halving shell by shell across six shells to the background, read raw, with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** In a rich medium the shortage behind that well takes the exact Newtonian shape, **which is what a conserved thing spreading in three dimensions does; the shape is diffusion's and the sink is ED's.** There is no metric and no field equation anywhere in the model. **And reach and strength are two faces of one quantity, so they cannot both be made large** — a limit of the mechanism rather than of its settings. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**
