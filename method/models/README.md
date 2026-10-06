@@ -1,6 +1,24 @@
-# The models: code for model results 1–12
+# The models: code for model results 1–12, and for the event layer
 
 *The scripts behind [../../results/MODEL_RESULTS.md](../../results/MODEL_RESULTS.md) and the clock-floor result in [../../results/RESULTS.md](../../results/RESULTS.md), as they were run, for model results 1–12 and the clock floor; the scripts for results 13–18 are held with the working record and available on request. Each script's opening comment states what it tests and was written before it ran.*
+
+---
+
+## The event layer: results 20–25
+
+**[run_event_layer.py](run_event_layer.py)** is self-contained and reproduces the event-layer results of [../../results/EVENT_LAYER.md](../../results/EVENT_LAYER.md). **It runs the final rules and nothing else** — no superseded modes, no options that were tried and dropped — and prints each published figure beside the one it has just measured.
+
+```
+python run_event_layer.py            all three benchmarks (about five minutes)
+python run_event_layer.py medium     result 20: the steady medium (under a minute)
+python run_event_layer.py arrow      result 22: the arrow and the age relic (about a minute)
+python run_event_layer.py well       results 24-25: the clock well around matter (a few minutes)
+python run_event_layer.py well --quick     smaller and shorter; the figures will not match
+```
+
+**The rules, and whose each one is, are in the script's own header** — which is the part to read first. In short: a place is committed or it is not; a commitment holds for ħ and dissolves back into possibility; one budget, spent in pairs and returned to the whole; chance at every commitment through the Born weighting; the pull that committing together exerts on two cadences; a clock is a place's count of its own commitments. **The grid, the pull's strength, the cadence step, how fast possibility wanders and how much of it there is are the model's numbers, not the ontology's**, and the header says so for each.
+
+**Reproduction is statistical, not bit-for-bit.** The figures come out within the spreads quoted in `EVENT_LAYER.md`; a different seed moves them inside those spreads. The full working record — every build, ledger, dated note, log and data file — is held separately and available on request.
 
 **Needs:** Python 3 with numpy and scipy. Every model runs on a 32×32×32 periodic grid; most runs take from under a minute to about half an hour on a laptop. Each script prints a one-line JSON summary and writes a JSON file of its full trajectory.
 

@@ -130,7 +130,7 @@ Not all results carry the same weight, and they shouldn't be quoted as if they d
 * **What would be measured was fixed before each run**, not what would count as success.
 * **Every instrument was checked on known answers first**, including a null.
 * **Two working sessions reviewed each other** before anything was recorded as a result.
-* **The code for model results 1–12 is in the repository**, so each can be rerun; the scripts for the later results are available on request.
+* **The code for model results 1–12 is in the repository**, so each can be rerun; the scripts for the later results of Part 2 are available on request. **And the event layer of Part 3 has its own single script**, `method/models/run_event_layer.py`, which runs the final rules and prints each published figure beside the one it has just measured — so the headline results can be checked in about five minutes on a laptop.
 
 The full working record is held separately and available on request.
 

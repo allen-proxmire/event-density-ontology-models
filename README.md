@@ -106,15 +106,26 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
 |[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
 |[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
+|[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–25 and prints the published figures beside the measured ones|
 |[method/models/](method/models/)|the code for model results 1–12 and the clock floor, with a table of which script reproduces which result|
 
 ## Check it yourself
+
+**The handedness theorem:**
 
 ```
 python results/Handedness/check_result.py
 ```
 
-Needs Python with numpy. It tests the handedness theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases.
+Needs Python with numpy. It tests the theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases.
+
+**The event layer — results 20–25:**
+
+```
+python method/models/run_event_layer.py
+```
+
+Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about five.** What is ED's and what is the model's is in the script's own header.
 
 Model results 1–12 and the clock floor can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each. The scripts for results 13–18 are held with the working record and available on request.
 
