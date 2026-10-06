@@ -28,21 +28,15 @@ The only other inputs are the Born rule, the area law, 3+1 dimensions, and a sta
 
 *These apply known mathematics and physics to ED's own claims; none is new mathematics. ED's contribution is the connection. Read these first.*
 
-**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: 
+* **1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT builds spacetime from blocks stacked in time-slices and leaves three totals free — the corner points N₀ and the two kinds of block N₄₁ and N₃₂ — tuned through κ₀, Δ and κ₄. **ED's conserved budgets fix all three**: its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1 it has been measured and lies outside that phase — ED needs a vertex density of 0.044, and CDT's own value there is about 0.075 and never below 0.073 anywhere scanned.
 
-1. its event budget fixes N₀, 
-2. its link budget fixes N₄₁, 
-3. and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. 
+* **2. Below three dimensions, clocks cannot keep time together.** The coupling needed to hold a pattern's clocks together rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority staying locked. It reads the dimension, not the number of connections. So ED's own content rules out one- and two-dimensional worlds.
 
-Exact algebra, no new free parameters. In 2+1 dimensions the point they fix sits inside the phase where space does not collapse; in 3+1 it has been measured and lies outside that phase — ED needs a vertex density of 0.044, and CDT's own value there is about 0.075 and never below 0.073 anywhere scanned.
+* **3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
 
-**2. Below three dimensions, clocks cannot keep time together.** The coupling needed to hold a pattern's clocks together rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority staying locked. It reads the dimension, not the number of connections. So ED's own content rules out one- and two-dimensional worlds.
+* **4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With results 2 and 5 it is bounded to three, conditionally.
 
-**3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
-
-**4. ED carries the dimension it is given.** Three-plus-one is a declared primitive; measured with ED's own definition of dimension, the rules carry a dimension they are given and add none of their own. With results 2 and 5 it is bounded to three, conditionally.
-
-**5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space. **What makes such a knot uncuttable in ED is that an uncommitted link's place is held for its own pair**, by identities fixed when those places came into being; models show the knot comes apart quickly without it. The same reservation keeps a knot its own kind while it travels through grown, blinking space, where without it the kind changes in every run.
+* **5. If a particle is an uncuttable knot, three is the only dimension that works.** Loops cannot knot in two dimensions, and every knot comes undone in four or more; only in three do uncuttable loops come in many kinds that last. With result 2, that bounds the number from both sides: a reason for three, conditional on what a particle is, not a derivation of space. **What makes such a knot uncuttable in ED is that an uncommitted link's place is held for its own pair**, by identities fixed when those places came into being; models show the knot comes apart quickly without it. The same reservation keeps a knot its own kind while it travels through grown, blinking space, where without it the kind changes in every run.
 
 ### Results from models
 
