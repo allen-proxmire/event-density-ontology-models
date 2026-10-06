@@ -6,7 +6,7 @@ This is that, directly -- no continuous amounts anywhere.
 
     python run_event_layer.py medium      result 20: the steady medium
     python run_event_layer.py arrow       result 22: the arrow and the age relic
-    python run_event_layer.py well        results 24-25: the clock well around matter
+    python run_event_layer.py well        results 24-25: the clock well around matter (2 seeds)
     python run_event_layer.py all         all three
     python run_event_layer.py medium --quick      smaller/shorter, for a fast look
 
@@ -324,29 +324,49 @@ def bench_arrow(quick):
 
 
 def bench_well(quick):
+    """results 24-25. Each seed is read against its own matched control, and the two seeds
+    are then averaged -- the same way the published table is built."""
     L, dens, phop, ticks = (30, 2, 1.0, 3000) if not quick else (20, 2, 1.0, 800)
+    seeds = (1, 2) if not quick else (1,)
     print(f"\nRESULTS 24-25 - the clock well around matter   (box {L}, {dens} units per place, "
-          f"possibility wandering at {phop}, {ticks} ticks, seed 1)")
+          f"possibility wandering at {phop}, {ticks} ticks, "
+          f"seed{'s' if len(seeds) > 1 else ''} {', '.join(str(s) for s in seeds)})")
     print("  matter is a ball of radius 3; the profile is raw against a matched control, "
           "with no correction")
-    knot = World(L, dens, 1, mode="knot", phop=phop)
-    ctrl = World(L, dens, 1, mode="one", phop=phop)
-    rk, n, _ = run(knot, ticks)
-    rc, _, _ = run(ctrl, ticks)
-    sk, sc = knot.shell_rate(rk, n), ctrl.shell_rate(rc, n)
+
+    per_seed = []
+    for s in seeds:
+        knot = World(L, dens, s, mode="knot", phop=phop)
+        ctrl = World(L, dens, s, mode="one", phop=phop)
+        rk, n, _ = run(knot, ticks)
+        rc, _, _ = run(ctrl, ticks)
+        sk, sc = knot.shell_rate(rk, n), ctrl.shell_rate(rc, n)
+        per_seed.append({k: 100.0 * (sc[k] - sk[k]) / sc[k]
+                         for k in sk if k in sc and sc[k] > 0})
+
     pub = {0: "33-47%", 1: "33-47%", 2: "33-47%", 3: "11-14%", 4: "4.65%", 5: "2.25%",
            6: "1.14%", 7: "0.57%", 8: "0.30%", 9: "0.15%"}
-    print(f"  {'shell':>6}  {'clock slowing':>14}   published")
-    for k in sorted(sk):
-        if k not in sc or sc[k] == 0 or k > 11:
+    wide = len(seeds) > 1
+    head = f"  {'shell':>6}  {'clock slowing':>14}   {'published':<18}"
+    print(head + ("  per seed" if wide else ""))
+    for k in sorted(per_seed[0]):
+        if k > 11 or any(k not in d for d in per_seed):
             continue
-        slow = 100.0 * (sc[k] - sk[k]) / sc[k]
+        vals = [d[k] for d in per_seed]
+        mean = sum(vals) / len(vals)
         tag = "   <- matter" if k <= 3 else ""
-        print(f"  {k:>6}  {slow:>13.2f}%   {pub.get(k, ''):<18}{tag}")
+        spread = ("  " + ", ".join(f"{v:.2f}" for v in vals)) if wide else ""
+        print(f"  {k:>6}  {mean:>13.2f}%   {pub.get(k, ''):<18}{spread}{tag}")
     print("  (shells 0-2 are inside the matter, 3 is its surface, 4 and outward are space)")
-    print("  The published figures are means of two seeds. This is one seed, so the outer")
-    print("  shells -- where the noise floor is 0.07-0.24% -- scatter around them; the shape,")
-    print("  the sign and the roughly-halving falloff are what reproduce.")
+    if wide:
+        print("  Reproduction is statistical, not bit-for-bit. Expect the inner shells, the")
+        print("  surface and shells 4-6, 8, 10-11 to land on the published figures. Shells 7")
+        print("  and 9 come out a few tenths of a percent high in both seeds -- a small")
+        print("  systematic difference in the outer tail rather than scatter, on a noise floor")
+        print("  of 0.07-0.24%. What reproduces is the depth, the shape, the roughly-halving")
+        print("  falloff and the crossing to background by shell 11.")
+    else:
+        print("  QUICK MODE is one seed and a smaller box: the figures will not match.")
 
 
 def main():
