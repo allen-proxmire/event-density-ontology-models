@@ -96,7 +96,7 @@ So the account has two regimes and they pull apart:
 
 **Gravity has both.** It reaches without limit and it is felt. So **either the reach or the strength comes from something this account does not yet contain** — and saying so is more useful than claiming the problem away.
 
-**What was tried, and where the limit actually sits.** Everything above runs on the simplest version of the rules: one commitment at a place at a time. The ontology does not actually say that — it says a place has several distinguishable channels, and nothing forbids it from committing on more than one at once. **Permitting concurrent commitments at a place was tested as a way past this ceiling and failed to lift it: in a rich medium, becoming is capped by the protocol for finding a partner rather than by the limit of one commitment at a time.** The trade-off remains open, and its binding constraint sits in the pairing rule.
+**What has been tried.** Everything above runs on the simplest version of the rules: one commitment at a place at a time. The ontology does not say that — a place has several distinguishable channels — so the model was run with places free to commit on several at once. **It did not get past the limit.** In a rich medium the clock rose by about a third and stopped just short of the single-commitment ceiling, and it became no more sensitive to a shortage. **What caps becoming there is no longer the one-at-a-time limit but the model's own step for pairing places up:** each place offers to one neighbour per tick and commits only if the offer is returned. **That step is the model's, not the ontology's.** The trade-off stands, and whether the pairing step is where it is decided has not been tested.
 
 ---
 

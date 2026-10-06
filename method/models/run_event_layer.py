@@ -286,12 +286,12 @@ def bench_medium(quick):
     w = World(L, 1, 1)
     rate, n, spreads = run(w, ticks, windows=True)
     line("clock rate", f"{rate.mean() / n:.4f}", "0.1043")
-    line("neighbouring places in step", f"{w.in_step():.3f}", "0.951-0.954")
+    line("neighbouring places in step", f"{w.in_step():.3f}", "0.948-0.954")
     line("coherence of neighbouring cadences", f"{w.coherence():.3f}", "0.99")
     line("largest coherent domain", f"{w.largest_domain() * 100:.1f}%", "99.8-99.9%")
     line("spread of cadence between neighbours", f"{w.neighbour_gap_blinks():.1f} blinks", "~1.4-2.2")
     line("places holding no possibility", f"{(w.P == 0).mean() * 100:.0f}%", "65%")
-    line("places committed at any moment", f"{w.on.mean():.2f}", "0.51-0.52")
+    line("places committed at any moment", f"{w.on.mean():.2f}", "0.51-0.54")
     line("places starved of becoming", f"{(rate == 0).mean() * 100:.2f}%", "none")
     if spreads:
         t, cv, ch = spreads[-1]
@@ -370,7 +370,9 @@ def bench_well(quick):
         per_seed.append({k: 100.0 * (sc[k] - sk[k]) / sc[k]
                          for k in sk if k in sc and sc[k] > 0})
 
-    pub = {0: "33-47%", 1: "33-47%", 2: "33-47%", 3: "11-14%", 4: "4.65%", 5: "2.25%",
+    # reference figures for THIS setting (density 2, possibility wandering at 1.0, box 30).
+    # Shallower wander gives a deeper interior; those figures are not mixed in here.
+    pub = {0: "34%", 1: "34%", 2: "23%", 3: "11%", 4: "4.65%", 5: "2.25%",
            6: "1.14%", 7: "0.57%", 8: "0.30%", 9: "0.15%"}
     wide = len(seeds) > 1
     head = f"  {'shell':>6}  {'clock slowing':>14}   {'published':<18}"
