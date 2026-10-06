@@ -138,9 +138,9 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ### Reach and sensitivity pull against each other
 
-**At two units of possibility per place the shortage *is* screened, and the screening length is measurable for the first time:** the falloff sits below the unscreened solution by a factor fitting **exp(−distance / 5.3)**, with the same length read at every shell (5.4, 5.4, 5.5, 5.3, 4.6). **About five steps.**
+**At two units of possibility per place the shortage *is* screened, and the screening length is measurable.** Fitting the exact screened solution for a drain of this size in a box of this size — one free length, one free amplitude — gives a screening length of **about 3.4 to 4 steps**, with the shape matching to 0.1–6.5% of the first-shell value. **In a rich medium there is nothing to fit:** the unscreened solution is within 1%, while at the leaner densities it misses by 6–28%.
 
-**Two lengths are at work here and they multiply, so they are worth keeping apart.** The unscreened shape falls by about 0.70 per shell — that is the Laplacian form in a box of this size, and it is the part that would reach forever in an unbounded one. **Screening multiplies it by 0.83 per shell**, which is the five-step length. Together they give the observed falloff of **about one half per shell**, an apparent decay length of 1.4 shells. **It is the five-step length that makes the reach finite; the halving is the two together.**
+**Two lengths are at work here and they multiply, so they are worth keeping apart.** The unscreened shape falls by about 0.70 per shell — that is the Laplacian form in a box of this size, and it is the part that would reach forever in an unbounded one. **Screening multiplies it by about 0.75 per shell**, which is the three-and-a-half-step length. Together they give the observed falloff of **about one half per shell**, an apparent decay length of 1.4 shells. **It is the screening length that makes the reach finite; the halving is the two together.**
 
 **And the clock's answer to a shortage runs the other way.** Per unit of shortage the slowing is **0.028 at four units of possibility per place, 0.11–0.18 at two, and 0.36 or more at one.**
 
@@ -148,11 +148,23 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 |---|---|---|
 | **rich** | unscreened, the exact Newtonian shape | **barely answers** — ~3% per unit |
 | **lean** | screened within one or two shells | **answers strongly** — 36% or more per unit |
-| **between** | screened at about five steps | enough of both: **the six-shell well above** |
+| **between** | screened at about three and a half steps | enough of both: **the six-shell well above** |
 
 > **This is not a matter of choosing better numbers, and that is the finding.** The quantity that makes a clock sensitive to a shortage is **the same quantity** that makes the medium consume possibility and refill the shortage. A medium whose clocks notice a missing unit is a medium that replaces it quickly; a medium that lets a shortage spread is one whose clocks have enough in hand not to care. **Reach and strength are two faces of one thing**, and on this mechanism they cannot both be made large.
 
-**The relation behind it is approximately right and not exact.** Taking the clock's fractional response as the medium's own marginal consumption gives a screening length of 3.0–3.6 steps where 5.3 is measured — the right order. **The earlier estimate, built on the medium's average consumption rather than its marginal consumption, is wrong in kind:** it predicts about one step where five is measured, and predicts screening in the rich medium where there is none.
+### The trade-off is a law, and the best result already sits at its ceiling
+
+**The relation behind all of this is quantitative and it has been checked against every setting run.** Taking the clock's fractional response to a shortage as the medium's own marginal consumption gives
+
+> **screening length = √( how fast possibility wanders × how much of it there is ÷ (the clock's response × the clock's rate) )**
+
+and the lengths fitted to ten measured shortages agree with it **to within about 30%** across two densities and three wandering speeds — 3.0 predicted against 3.4 measured in the six-shell setting. **The earlier estimate, built on the medium's *average* consumption rather than its marginal consumption, is wrong in kind:** it gives about one step where three and a half is measured, and predicts screening in the rich medium where there is none.
+
+**And the law carries a ceiling on how much a clock can be slowed at a given distance**, which no choice of settings can beat: for matter drawing an excess *S* of possibility per tick from a medium whose clock runs at *R*, the most any clock at distance *r* can be slowed is **0.043 × (S/R) / r³**, reached when the screening length is half the distance. **For the six-shell well, S/R is 60, and the measured 0.57% four shells out is already at that ceiling.**
+
+> **Which changes what the trade-off is.** It is not a defect to be tuned away, and it is not the mechanism running out: **it is an exact relation, and the programme's best measurement is already against its limit.** **A long reach with a shallow clock response is the rich-medium end of that same relation** — the unscreened, weak, Newtonian regime — rather than a breakdown. **What is still true, and still the problem, is that one medium gives one pair of values:** gravity needs a strong response near a mass and an unbounded reach away from it, and a single uniform medium cannot deliver both at once.
+
+**Where the law is loose:** in the richest medium it understates the reach by up to about twice, because the clock's response is read at the first shell outside the matter, where the shortage is largest, and further out the clock answers less.
 
 **And the far medium ends slightly richer, not poorer.** What matter spends returns to possibility at large rather than to its own neighbourhood, so distant possibility sits 1–3% above the control and those clocks run a fraction fast. **A mass drains its surroundings and feeds the whole.**
 

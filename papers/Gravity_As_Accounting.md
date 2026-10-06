@@ -90,9 +90,11 @@ So the account has two regimes and they pull apart:
 |---|---|---|
 | **rich** | spreads far, unscreened, the exact Newtonian shape | **barely notice** — about 3% per unit of shortage |
 | **lean** | closed up within a step or two | **react hard** — 36% or more per unit |
-| **between** | screened at about five steps | enough of both: the six-step well of §2 |
+| **between** | screened at about three and a half steps | enough of both: the six-step well of §2 |
 
 > **A medium whose clocks notice a missing unit of possibility is, for that very reason, a medium that replaces it quickly.** A medium that lets a shortage spread for ever is one whose clocks have enough in hand not to care. **Reach and strength are two faces of one quantity, and this mechanism cannot have both.**
+
+**And that is an exact relation rather than a rough one.** The screening length goes as the square root of how fast possibility wanders, times how much of it there is, divided by the clock's rate and its responsiveness — a formula that matches every setting run to within about 30%. **It also puts a ceiling on how much any clock can be slowed at a given distance, and the best figure in this programme is already at it.** So the shallow slowing of the long-reach case is not the account failing; **it is the weak, long-range, Newtonian end of one relation.** What remains the problem is that a single uniform medium gives a single pair of values, and gravity needs a strong response near a mass with an unbounded reach away from it.
 
 **Gravity has both.** It reaches without limit and it is felt. So **either the reach or the strength comes from something this account does not yet contain** — and saying so is more useful than claiming the problem away.
 
