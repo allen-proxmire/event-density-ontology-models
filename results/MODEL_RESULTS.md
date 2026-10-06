@@ -178,7 +178,7 @@ In the author's reading, **the rate of commitment is the local clock**: committi
 
 These are resemblances, not claims.
 
-- Matter gathering where clocks run slow is how ED describes gravity, and it is what the models do.
+- Matter gathering where clocks run slow is how ED describes gravity, and **it is what these continuous models do** — commitment density accumulating where it has slowed the clocks. **The event layer, which can follow a single free pattern rather than a density, does not reproduce it:** a free pattern is found *less* often near matter than beside an inert obstacle of the same shape, and its steps lean outward ([EVENT_LAYER.md](EVENT_LAYER.md)). **So nothing in this programme establishes motion toward matter**, and the resemblance above belongs to the density picture only.
 - Settled structures surviving while the possibility between them thins resembles bound galaxies in an expanding universe.
 - Complexity rising and then falling, only when the parts interact, matches Aaronson, Carroll & Ouellette (arXiv:1405.6903).
 - The clumping mechanism has a known cousin, motility-induced phase separation (Cates & Tailleur 2015).

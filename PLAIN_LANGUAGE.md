@@ -95,7 +95,7 @@ Smaller findings: ħ shelters structure, more the harder structure is driven, an
 
 | ingredient | what it does |
 |---|---|
-| committed matter slows clocks | makes structure (the amplifier), and makes structured things gather |
+| committed matter slows clocks | makes structure (the amplifier), and makes density gather — but a single free pattern, followed at the event layer, is *not* drawn in |
 | ħ, one fixed number | sets the bar for structure; shelters it; lengthens it under spending |
 | new places being born | ends structure from outside — the main ending when commitment is the clock |
 | commitments using up a budget | ends structure from inside |
