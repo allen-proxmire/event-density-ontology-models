@@ -12,6 +12,8 @@
 
 ED's ontology declares three-plus-one dimensions as an input; it does not claim to make space. So these models **supply space as a 3D grid and ask what ED's own ingredients do in it.**
 
+> **These nineteen are the coarse-grained layer.** They run on **amounts** — a density of commitment at a place, a rate of dissolution, a clock read off that amount — which is the ontology's own *shadow* (§6). **ED's content is not continuous:** it says becoming happens in discrete commitments, each occupying a place before dissolving back into possibility, with a clock counting its own commitments. **That layer is modelled separately, in [EVENT_LAYER.md](EVENT_LAYER.md), as results 20–25.** Both are the same ontology; these describe it smoothed out, and those describe what is doing the smoothing.
+
 The ingredients, and nothing else:
 
 - **possibility** — what has not yet committed — flows from concentrated toward diffuse;

@@ -1,6 +1,6 @@
 # Event Density in plain language
 
-*Allen Proxmire, 2026-09-27, updated 2026-10-02. The whole programme — what ED is, what testing established, what its ingredients do, and how strongly each result stands — without the technical detail. The full statements are in [results/RESULTS.md](results/RESULTS.md) and [results/MODEL_RESULTS.md](results/MODEL_RESULTS.md); how it was done is in [method/HOW_IT_WAS_DONE.md](method/HOW_IT_WAS_DONE.md).*
+*Allen Proxmire, 2026-09-27, updated 2026-10-06. The whole programme — what ED is, what testing established, what its ingredients do, and how strongly each result stands — without the technical detail. The full statements are in [results/RESULTS.md](results/RESULTS.md), [results/MODEL_RESULTS.md](results/MODEL_RESULTS.md) and [results/EVENT_LAYER.md](results/EVENT_LAYER.md); how it was done is in [method/HOW_IT_WAS_DONE.md](method/HOW_IT_WAS_DONE.md).*
 
 ---
 
@@ -11,6 +11,8 @@
 **Phase 1 — analysis and proof.** Fourteen model builds, each with its meanings fixed in advance and its expected results written down before it ran, inspired in part by Causal Dynamical Triangulations (CDT). Four solid results came out of those builds, and a fifth from later analysis (Part 1). They also confirmed that ED does what its founding statement says: it supplies *"the conditions of possibility, not the full catalogue of outcomes"* — it says what may happen, not where a new event goes, and it takes three-plus-one dimensions as a declared input rather than making them.
 
 **Phase 2 — models.** So the question turned: **take space as given, as the ontology declares, and ask what ED's own ingredients do in it.** Build a model, measure what it does, interpret last. That produced a coherent little world (Part 2) — and, at the end, two checks on space itself: whether it can be grown (it can't) and whether it can be kept orderly as it grows (only locally).
+
+**Phase 3 — one layer down.** Those models all ran on **amounts**: how much commitment is at a place, how fast it drains, a clock read off that amount. **But ED doesn't say the world is made of amounts.** It says becoming happens in separate commitments, each one holding a place for a while and then dissolving back into possibility, and that a clock at a place counts its own commitments. **Amounts are the smoothed-out picture — what the ontology itself calls the shadow.** So the question turned again: **model the events themselves, and see whether the same ontology still works when nothing is averaged.** It does, and it does more than before (Part 3): the medium holds itself together, the arrow of time comes out as written, and matter digs a well in the clocks around it.
 
 ---
 
@@ -72,6 +74,23 @@ Smaller findings: ħ shelters structure, more the harder structure is driven, an
 
 ---
 
+## Part 3 — results from the event layer: the same ontology, unaveraged
+
+*Blinks instead of amounts. A place is either committed or it isn't; a clock counts its own blinks; possibility is units that get spent and come back. Everything below is read off one set of rules.*
+
+**The starting point is the One Being** — everything in step, possibility spread evenly, nothing distinguished — which is where ED says to start, not from nothing.
+
+6. **Scarcity doesn't tear it apart.** Places share a budget too small to serve them all at once. It neither freezes into a fixed pattern nor scatters into noise: **it settles, by about three hundred ticks, into one coherent medium and stays there** — blink rates **more even than pure chance would give**, neighbours holding a steady gap of about two blinks, nobody starved, no place stuck busy or stuck idle. Two box sizes agree to three decimal places.
+7. **What holds it together is that committing is something two places do *together*.** This was found by taking the candidates away one at a time. **Remove the pull that two places exert on each other when they commit, and the whole thing falls apart.** Remove instead the clever rule about *which* partner to choose, and nothing is lost at all. **So whom a place commits with barely matters — that it commits *with* someone is the entire mechanism.** A commitment with no effect on its partner wouldn't be a relation in the first place.
+8. **The arrow of time comes out exactly as the ontology states it.** Pile all the possibility into a ball and leave the rest of space quiet. **Becoming spreads out, the gradient flattens, and within a few hundred ticks the beginning is forgotten** — every rate matches a universe that started uniform, to three decimals. **But one thing never fades: the place where becoming began ends up permanently older, by 13 to 18 blinks.** That is time as ED defines it — accumulated becoming, which can't be repaid. **The rates all even out and the age difference stays.**
+9. **There is one budget, and it is possibility.** No second limit on how many neighbours can commit at once. Where possibility is scarce the medium spends it as fast as it arrives; **where it is plentiful the only ceiling left is ħ** — a place can't commit again until its commitment dissolves — and that ceiling is the ontology's own, with no number of ours in it.
+10. **Matter slows the clocks around it, and this is the one to look at.** A knot of matter has to keep committing to stay what it is, so it spends possibility its neighbours would have had. **Read raw, with no correction of any kind: clocks run slow where the matter sits, and recover by about half per step outward across six steps until they match the background.** Same sign in every run, every box size, every density. **A place near matter is not being pulled on. It is going without.**
+11. **The shortage behind that well has the shape gravity has** — in a rich medium it matches the exact textbook answer for a drain of that size to within a percent. **That shape is not ED's achievement and the document says so plainly:** anything conserved that spreads out in three dimensions falls off that way. **What is ED's is the drain** — that matter eats becoming at all, because it has to keep committing to exist. And one real limit came with it: **a medium whose clocks notice a shortage is also a medium that refills it quickly**, so reach and strength are two sides of one thing and you cannot have both.
+
+> **What Part 3 changes.** Phase 2 showed ED's ingredients make a coherent world when space is handed to them. **Phase 3 shows the same thing without averaging anything** — and two claims the ontology leans on hardest, *gravity is the architecture of gradients* and *time is the accumulation of becoming*, stopped being claims and became readings.
+
+---
+
 ## What ED's ingredients do, at a glance
 
 | ingredient | what it does |
@@ -84,6 +103,10 @@ Smaller findings: ħ shelters structure, more the harder structure is driven, an
 | grains / one-per-place | grains keep the behaviour; one-per-place forbids it |
 | polarity | binds in step, parts out of step; must match its surroundings; needs local agreement at commitment; lets a medium order itself |
 | the rate of commitment as the clock | leaves the switch exactly in place; slows everything in dense places |
+| **blinking** — a place is committed or it isn't | nothing persists passively; a thing has to keep committing to stay what it is |
+| **committing together pulls a pair into step** | holds the whole medium coherent; **it is the only thing that does** |
+| **one budget: possibility, spent and returned to the whole** | makes matter a drain on its neighbourhood and a gift to the far field |
+| **matter never idles** | digs the clock well; makes mass a rate of becoming rather than a quantity of stuff |
 
 ---
 
@@ -96,6 +119,7 @@ Not all results carry the same weight, and they shouldn't be quoted as if they d
 * **Clean, reproduced observations:** the memory result; the full ink arc and both endings; hosting and merging; binding and parting; selection by surroundings; local agreement at commitment; the medium ordering itself; where new places are born; the ending balance when commitment is the clock; exclusion forbidding structure.
 * **Tested on cases it had not seen:** the lifetime formula for crowded patterns (within about 15%, inside a stated range — four unseen cases).
 * **Estimates and approximate trends:** the lifetime formula for lone clumps (about a factor of two); ħ's sheltering; the square-root lifetime under spending; the grain model's switch.
+* **The event-layer results (Part 3):** all six are clean, reproduced observations on one ruleset, agreeing across seeds and box sizes — the medium and the arrow to three decimals, the clock well with the same sign in every run. **Two carry stated limits:** the clock well's *reach* was set by the size of the box until the box was made large enough, and the shortage's Newtonian shape is what diffusion in three dimensions gives, so the result there is the drain and not the shape. Everything is at one memory setting.
 * **The later results:** order made by commitment, the polarity field's reach, and the 1/r reach of a mass are clean, reproduced observations; space as a necessary input rests on nine models with their measurements fixed in advance on calibrated instruments; the two ways to cut a region off, and the glass, are observed across many runs and seeds, each with its decisive check (box size and grid size for the surface; unrestricted rearrangement for the glass).
 
 ---
@@ -115,9 +139,9 @@ The full working record is held separately and available on request.
 ## Where ED stands
 
 * **What it is:** an ontology, with its inputs stated openly (the Born rule, the area law, 3+1 dimensions, a starting shape).
-* **What testing established:** it fixes what another theory tunes (three numbers in CDT); it rules things out (one and two dimensions, four or more if a particle is an uncuttable knot, handedness in symmetric rules, a grid substrate); with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity; space itself is a necessary input; and grown space keeps its local order but becomes a glass.
+* **What testing established:** it fixes what another theory tunes (three numbers in CDT); it rules things out (one and two dimensions, four or more if a particle is an uncuttable knot, handedness in symmetric rules, a grid substrate); with space given, its own ingredients produce a coherent world of structure, memory, hosting, binding and parting, self-ordering, and a return to uniformity; space itself is a necessary input; and grown space keeps its local order but becomes a glass. **And modelled as events rather than amounts, the same ingredients hold a medium together under scarcity, deliver the arrow of time with an age that never fades, and put matter at the bottom of a clock well — with no metric and no field equation in the model.**
 * **What it leaves open, by design:** where a new event goes — what the commitment that makes a place decides about its relations — and every specific structure. ED supplies the conditions of possibility, not the catalogue.
 * **The open questions:**
-  1. What sets how high possibility sits around a clump? (Whether polarity is a field of its own is answered: nothing in ED is, and committed polarity acts as an emergent field with a reach set by how far possibility spreads in one memory lifetime.)
+  1. **Answered.** What sets how high possibility sits around a clump: in a rich medium the shortage around matter takes the textbook shape for a drain, matching it to within a percent, and where the medium is leaner it is screened with a reach of about five steps. What remains open is narrower and sharper — **why a bigger mass does not reach further**, which is not how gravity behaves. (Whether polarity is a field of its own is answered too: nothing in ED is, and committed polarity acts as an emergent field with a reach set by how far possibility spreads in one memory lifetime.)
   2. Exact lifetime laws in the hard cases.
   3. What the commitment that makes a place decides about its relations — the deepest one. (Whether new events build space is answered: they don't, and space is an input.)

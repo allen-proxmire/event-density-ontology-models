@@ -115,9 +115,26 @@ Those two meanings, with standard knot theory, give a sharp statement about dime
 
 ## What ED takes as input
 
-**Declared inputs:** the Born rule, the area law, 3+1 dimensions, and a starting shape in every model.
+**Declared inputs, at the level this document works at:** the Born rule, the area law, 3+1 dimensions, and a starting shape in every model.
 
 Result 1 removes free numbers from *another* framework; it leaves ED's own input list as declared. The distinction is kept deliberately: a result would shorten ED's own input list only if one of these came out as a consequence, with no new free parameters.
+
+### The same list counted at the foundational level
+
+**The four inputs above are the paper-level assumptions. Counted as foundations, ED declares 38 ingredients:**
+
+| | count | what they are |
+|---|---|---|
+| **primitives** | **13** | the structural commitments, P01–P13 — participation, bandwidth, commitment, the stability landscape, time homogeneity and the rest |
+| **inherited constants** | **10** | values taken from the world rather than derived: *c*, ħ, the Planck length, *G*, a₀, Λ, H₀, particle masses, gauge couplings, α |
+| **paper postulates** | **15** | assumptions specific to individual results across cosmology, entanglement, gravity, field theory and the rest |
+| | **38** | **the whole declared ingredient list** |
+
+**The two counts do not conflict; they are the same thing at two grains.** "The Born rule, the area law, 3+1 dimensions, a starting shape" names what a reader of the results has to accept. The 38 is what the foundations actually contain, and it is the denominator of the measure this programme is judged on: **domains accounted for, divided by free ingredients** — against roughly twelve independent domains, with the same 13 primitives shared across all of them rather than 13 per domain.
+
+**The event layer added no ingredient.** Its five mechanisms — two kinds of commitment, a neighbour relation that varies with possibility, the pull two places exert by committing together, matter that cannot idle, and cadence as a place's own count of its commitments — give **discrete operational content** to primitives that already assert something of each kind exists without saying how it works in a network. **None introduces a free parameter**; the numbers attached to them are the model's, and each is listed as such in [EVENT_LAYER.md](EVENT_LAYER.md). **The denominator stays 38.**
+
+> **And one input the models supply that the list above does not name: which pairs of places may be neighbours.** Every model result, in supplied space and at the event layer alike, is handed that relation. It is the same input 3+1 dimensions names, stated the way a discrete model needs it — and nine models failed to produce it from ED's other ingredients (result 4).
 
 ---
 

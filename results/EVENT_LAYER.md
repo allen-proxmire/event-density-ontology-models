@@ -1,16 +1,18 @@
-# The event layer: what ED's ingredients do when becoming is modelled as events
+# Results from the event layer: what ED's ingredients do when becoming is modelled as events
 
-*Allen Proxmire, 2026-10-05. A companion to [results/MODEL_RESULTS.md](results/MODEL_RESULTS.md) and [results/RESULTS.md](results/RESULTS.md).*
+*Allen Proxmire, 2026-10-05, updated 2026-10-06. **Results 20–25.** The third tier of results, after [RESULTS.md](RESULTS.md) (analysis and proof) and [MODEL_RESULTS.md](MODEL_RESULTS.md) (ED's ingredients in supplied space, run on continuous amounts).*
+
+> **The three tiers, and why this one is separate.** The nineteen model results run on **amounts**: a density of commitment at a place, a rate of dissolution, a clock read off that amount. **That is the coarse-grained layer — what the ontology calls the shadow.** These six run on **events**: discrete blinks, clocks as integer counts, possibility as units that are spent and returned. **Same ontology, one layer down.** Keeping them apart is the point: the nineteen describe what ED looks like smoothed out, and these describe what is doing the smoothing.
 
 **The nineteen model results run on continuous amounts: a density of commitment at a place, a rate of dissolution, a clock read off that amount. ED's own content is not continuous.** It says becoming happens in discrete commitments, that each one occupies a place for a while and then dissolves back into possibility, and that a clock at a place counts its own commitments. **This line models that directly — blinks as events, clocks as counts, possibility as a quantity that is spent and returns — and asks what ED's ingredients then do.**
 
-**What is supplied is the same single input the earlier results supply: which pairs of places may be neighbours.** Everything that happens on that relation is ED's, or is a harness choice named in §6.
+**What is supplied is the same single input the earlier results supply: which pairs of places may be neighbours.** Everything that happens on that relation is ED's, or is a harness choice named below, under *What is ED's and what is the model's*.
 
 **Every reading below comes from one ruleset:** a single conserved budget of possibility, dissolved possibility returning to the whole, matter that re-commits without idling while keeping its channels open to the space beside it, and the pull two places exert on each other by committing together.
 
 ---
 
-## 1. The medium: the One Being settles and stays settled
+## Result 20. The medium: the One Being settles and stays settled
 
 **From a start in which every place is in step and possibility is spread evenly, the medium reaches a steady state by about tick 300 and holds it to 3,000.**
 
@@ -33,7 +35,7 @@
 
 ---
 
-## 2. What holds it together: commitment is something two places do together
+## Result 21. What holds it together: commitment is something two places do together
 
 **Two controls separate the candidate mechanisms, and one of them carries everything.**
 
@@ -43,11 +45,11 @@
 
 > **So the medium's coherence does not come from which partner a place chooses. It comes from the fact that a commitment is bilateral** — two places that actualise together are pulled toward agreement, because a commitment with no relational consequence would not be a relation at all. **Whom a place commits with barely matters; that it commits *with* someone is the whole mechanism.**
 
-This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strength — half the phase difference per commitment — is a harness number (§6).
+This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strength — half the phase difference per commitment — is a number of the model's, not the ontology's.
 
 ---
 
-## 3. The arrow of time: concentrated becoming spreads, and leaves an age behind
+## Result 22. The arrow of time: concentrated becoming spreads, and leaves an age behind
 
 **All of the possibility in the box is piled into a central ball of radius 3, the rest of space left quiescent, every beat in step. Then the rules run.**
 
@@ -73,21 +75,21 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 4. One budget: possibility is the only thing a commitment draws on
+## Result 23. One budget: possibility is the only thing a commitment draws on
 
 **A commitment needs a unit of possibility, and that is the whole of what constrains it.** There is no second limit on how many neighbours may be committed at once: if the possibility is there, the commitment happens.
 
-**The medium of §1 is what that engine produces**, and it is steadier on every reading than one carrying a separate occupancy limit — faster clocks, tighter spread, a larger coherent domain, agreement to the third decimal across box sizes.
+**The medium of result 20 is what that engine produces**, and it is steadier on every reading than one carrying a separate occupancy limit — faster clocks, tighter spread, a larger coherent domain, agreement to the third decimal across box sizes.
 
 > **So the thing clocks run on is possibility itself.** At one unit per place the medium spends it about as fast as it arrives: roughly half the places are committed at any moment and about two thirds hold nothing in reserve. **Becoming is supply-limited, and the supply is ED's own quantity rather than a number of the model's.**
 
 **Where possibility is plentiful, a different limit takes over, and it is also ED's.** A place cannot commit again until its commitment dissolves, so its rate cannot exceed one blink per ħ. **With no second budget in the model, that ceiling is now the only one** — there is no harness number in it. It shows only in a rich medium: at two units per place becoming evens out well before possibility does, while at one unit the two even out together, because there the supply is what binds.
 
-**And that is what makes matter a consumer.** If becoming is limited by possibility, a structure that must keep committing to persist spends what its surroundings would otherwise have had. **§5 is the measurement.**
+**And that is what makes matter a consumer.** If becoming is limited by possibility, a structure that must keep committing to persist spends what its surroundings would otherwise have had. **Results 24 and 25 are the measurement.**
 
 ---
 
-## 5. Matter slows the clocks around it
+## Result 24. Matter slows the clocks around it
 
 **A matter place is an ordinary place of the medium that *also* holds one internal commitment on a reserved slot.** It keeps its open channels to the space beside it and blinks with its neighbours exactly as empty medium does; what distinguishes it is the internal commitment it renews to stay what it is. **Both draw on the same possibility.**
 
@@ -110,7 +112,11 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 **Two of those numbers depend on the model's own settings and are quoted as a range for that reason.** How deep the well is at the matter itself depends on how fast possibility wanders — 39% when it wanders slowly, 12% when it wanders freely, because a better-fed structure starves less. **How far the skirt reaches depended on the box** until the box was made large enough: the same settings that gave four shells in a box of 20 give six in a box of 30. **The shape does not depend on either.**
 
-### The shortage behind it, and the shape it takes
+---
+
+## Result 25. The shape of the shortage, its reach, and the limit on both
+
+### The shape it takes
 
 **The clock well is the visible half of a shortage of possibility, and the shortage is the thing with a shape.** Around matter it falls away smoothly, and **in a rich medium it does not screen at all.**
 
@@ -152,9 +158,9 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 6. What is ED's and what is the harness's
+## What is ED's and what is the model's
 
-**Every quantity in §§1–5 is one or the other, and the division is stated rather than left implicit.**
+**Every quantity in results 20–25 is one or the other, and the division is stated rather than left implicit.**
 
 | ED's | the harness's |
 |---|---|
@@ -176,13 +182,13 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 7. What this does not show
+## What these results do not show
 
 - **Nothing organised itself.** No knot and no dimension arose from the medium. **Every knot in this line is seeded**, and the three-dimensionality of the neighbour relation is supplied.
-- **Matter holds by rule, not by finding.** Its internal links are reserved for their own partners, so persistence is built in rather than demonstrated. **The clock well of §5 is a consequence of that persistence being paid for**, and the persistence itself is supplied.
+- **Matter holds by rule, not by finding.** Its internal links are reserved for their own partners, so persistence is built in rather than demonstrated. **The clock well is a consequence of that persistence being paid for**, and the persistence itself is supplied.
 - **The clock well is not shown to be unscreened.** The shortage is, in a rich medium; **the clock profile above the noise floor has not been read beyond about three shells**, and boxes larger than 30 are untested.
 - **A bigger mass does not reach further.** Across matter of radius 2 to 5 the skirt does not widen. **What sets the reach is the medium, not the mass** — which is not how gravity behaves, and is unresolved.
-- **One memory setting only.** Everything in §§1–5 is read at ħ = 5; the longer setting is untested on this engine.
+- **One memory setting only.** Every result here is read at ħ = 5; the longer setting is untested on this engine.
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
 - **The polarity phase has no variable here.** P09's U(1) polarity and P11's randomisation of it describe a quantity nothing in this model carries — so this line says nothing about either.
@@ -190,6 +196,6 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 ---
 
-## 8. In one paragraph
+## In one paragraph
 
 **The event layer was built and it works: blinks as events, clocks as counts, a shared budget, possibility that flows, is spent, and returns to the whole.** Within it, the One Being under scarcity settles into a single steady, even, fully coherent medium in which nothing starves — held there by the plain fact that committing is something two places do together, which is ED's. **Concentrated becoming spreads into even becoming and forgets where it started, leaving one trace: the place where becoming began is permanently a few blinks older** — the ontology's arrow of time, read at the event layer. **And matter seeded in that medium sits at the bottom of a clock well** — slow where it stands and halving shell by shell across six shells to the background, read raw, with the same sign at every seed, box and density — **because a structure that must keep committing to persist spends the possibility its neighbours would have had.** In a rich medium the shortage behind that well takes the exact Newtonian shape, **which is what a conserved thing spreading in three dimensions does; the shape is diffusion's and the sink is ED's.** There is no metric and no field equation anywhere in the model. **And reach and strength are two faces of one quantity, so they cannot both be made large** — a limit of the mechanism rather than of its settings. **All of it is read on one ruleset**, so the medium, the arrow and the clock well are three behaviours of the same substrate rather than three separate models. **What is supplied is which pairs of places may be neighbours; what is added beyond the ontology's 38 declared ingredients is nothing.**

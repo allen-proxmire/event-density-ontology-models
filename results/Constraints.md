@@ -1,6 +1,6 @@
 ﻿# ED as an ontology: what it forbids, what it fixes, what it leaves open
 
-*Allen Proxmire, 2026-09-23, updated 2026-10-02. The framing piece. Results are in [RESULTS.md](RESULTS.md) and [MODEL_RESULTS.md](MODEL_RESULTS.md).*
+*Allen Proxmire, 2026-09-23, updated 2026-10-06. The framing piece. Results are in [RESULTS.md](RESULTS.md), [MODEL_RESULTS.md](MODEL_RESULTS.md) and [EVENT_LAYER.md](EVENT_LAYER.md).*
 
 ---
 
@@ -36,6 +36,10 @@ An ontology earns its keep by ruling things out. These are the exclusions that s
 **A regular lattice as the substrate.** If ED's connections lay on a regular grid, the number crossing a surface would depend on which way the surface faced — measured at 1.00, 1.41 and 1.73 for surfaces facing along an edge, a face diagonal and a body diagonal. Read through Jacobson's thermodynamic derivation of Einstein's equations, that would give **different gravity in different directions**. So ED's connections have to point every way equally: a random web, not a grid.
 
 *(From a numerical check with its expectations fixed first. It came out of an earlier reading in which ED supplies the one physical assumption in Jacobson's derivation — a reading that rested on ED's web being smooth and three-dimensional at large scales, which the rules tested could not supply. The constraint above does not depend on that reading and stands on its own.)*
+
+**A long reach and a strong clock response, together.** This one forbids something about ED's *own* mechanism rather than about the world, and it was measured at the event layer (result 25). A mass slows nearby clocks by spending the possibility they would have used. **The quantity that decides how much a clock notices a shortage is the same quantity that decides how fast the medium refills it.** So a medium whose clocks react strongly is one that screens the shortage within a step or two, and a medium that lets the shortage spread without limit is one whose clocks barely react — about 3% per unit of shortage where it reaches furthest, against 36% or more where the reach is shortest.
+
+> **This is a limit of the mechanism, not of the model's settings.** It cannot be escaped by choosing better numbers, because both effects come from the same fact: clocks run on possibility, and so does everyone else's consumption of it. **Either gravity's reach or its strength has to come from something the present mechanism does not contain.** Stated as an open problem rather than a refutation — and it is the sharpest one the programme currently has.
 
 ---
 
