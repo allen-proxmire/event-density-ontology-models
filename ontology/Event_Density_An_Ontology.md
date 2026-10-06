@@ -81,11 +81,15 @@ If becoming is primitive, time is not a dimension in which becoming occurs. Time
 
 Where Event Density is high, the local budget is heavily used, so everything there receives fewer updates: its clock runs slow. That is the ontological basis of time dilation. And because the budget belongs to the place, everything at the same place — a person, a table, the air — keeps the same time. A clock belongs to a place, not to a thing.
 
+**Which means a thing has two rates, and only one of them is a clock.** A pattern that persists must keep re-committing to stay what it is, and the frequency of that renewal is its own — it is what the pattern *is*, its rest-mass frequency, and it does not change with where the pattern sits. The clock is the other rate: how often the place it occupies commits with the space around it. **Time dilation is the second rate falling, not the first.** A clock near a mass is not running slow because the mass is running slow. It is running slow because it is getting fewer turns.
+
 **Load and rate.** Two things must not be confused. A pattern's **load** is how much of the local budget it uses — how much it commits. That is what physics measures as mass: Cavendish weighed the Earth's load when he measured its pull. A place's **rate** is how many updates anything there receives — its clock. Load makes rate. Where the surrounding load is greatest, every clock runs slowest, which is why the deepest point in the Earth, surrounded by all of its load, keeps the slowest time. A mass's load reaches outward as a ripple from everything it commits with; spread over a sphere whose surface grows with the square of the distance, it thins as it goes — which is why gravity weakens with the square of distance, and why that law belongs to three dimensions. So a mass's load is felt beyond where it sits, through the gradient in Event Density it creates, and clocks slow even in empty space near it. Given a mass and a distance, the rate follows.
 
 The arrow follows just as naturally. Becoming diffuses. Gradients flatten. The universe moves from concentrated becoming toward uniform becoming, and the direction of that diffusion is what we call the arrow of time.
 
 It is not imposed. It is not statistical. It is not contingent on initial conditions. It is what a universe made of becoming does.
+
+**This has been read.** All of a region's possibility gathered into one ball, the rest of space left quiet, and then nothing but the rules: becoming spreads outward, the gradient flattens, and within a few hundred steps the beginning is gone from every rate — the world indistinguishable from one that began uniform. **And one thing does not flatten.** If time is the count of becoming, a region that began becoming first has counted more, and no amount of evening-out can repay it. **The place where becoming began ends permanently older.** The rates equalise; the age does not. That is this section's own definition of time, measured.
 
 ## 5. Space is the pattern of stable relations
 
@@ -111,6 +115,8 @@ The transition from events to manifolds is the transition from thin to thick par
 
 This is why general relativity works so well. And like any emergent structure, spacetime has limits. It breaks down where ED is maximal, minimal or discontinuous. Those failures are not pathologies. They are reminders that spacetime is not fundamental.
 
+**The granular layer is no longer only what the smooth one is said to approximate.** It has been built and run on its own terms: places that are committed or not, clocks that count their own commitments, possibility as units that are spent and returned to the whole. **The same ontology holds there with nothing averaged** — a medium that keeps itself coherent under scarcity, the arrow of §4, and the clock well of §8. So the two layers of this section are two sets of readings rather than one set and an assumption. **The shadow and what casts it have both been modelled, and they agree.**
+
 ## 7. Thresholds
 
 Every structure in this ontology exists only where the local rate of becoming exceeds what is needed to sustain it.
@@ -135,9 +141,15 @@ In general relativity, curvature is a geometric response to mass-energy. Here it
 
 Where ED is high, the budget is heavily used and clocks run slow; where it is low, they run fast. **Where ED changes sharply, the flow of becoming bends.** That bending is what we perceive as curvature.
 
+**This has been read raw.** A knot of matter in an otherwise even medium must keep committing to stay what it is, so it spends the possibility its neighbours would have used. Clocks run slow where it sits and recover outward by about half per step until they reach the background. **A place near matter is not being pulled on. It is going without.** There is no metric in the model and no field equation; the well is what competition for a finite budget does. **And the shortage behind it takes the form this paper already derives in §4** — a conserved thing spreading over a sphere thins with the square of the distance — matching the exact solution to within a percent where the medium is rich. **The falloff is what spreading does. What is ED's is the drain.**
+
 A geodesic is not a path chosen by a particle. It is the path along which becoming propagates most efficiently — the route of least participation resistance.
 
 **Mass is not an intrinsic property.** It is the resistance of a commitment pattern to gradient reconfiguration. A pattern has mass when its adjacency structure is costly to reorganise, and when gradients must rearrange to move it. Inertia is gradient resistance; relativistic mass increase is gradient distortion.
+
+**And the resistance has a mechanism: it is how much of the time the pattern is committed.** A place cannot take up new relations while it is in the middle of a commitment; renegotiating which neighbours it holds happens in the gaps. **Empty space is mostly gaps.** It commits intermittently, so it is fluid — its relations are cheap to change. **A pattern that must re-commit the moment each commitment dissolves has almost no gaps at all.** Its places are locked in renewal, keeping the pattern from dissolving, and the window in which anything could be rearranged shrinks toward nothing.
+
+So the two accounts of mass are one account. **A pattern is stiff because it is busy.** Resistance to reconfiguration is not a property laid on top of persistence — it is persistence, seen from outside. **The more a thing must do to remain itself, the less of it is free to become something else**, and that is what it is for a pattern to have mass.
 
 Matter does not curve spacetime. Differences in becoming generate the relational structure that spacetime approximates.
 
@@ -388,9 +400,11 @@ It also has a list of what it assumes, and that list has not got shorter.
 
 **Refuted if:** a world with a handedness written into mirror-symmetric laws; stable extended structure in a regime where participation is too thin to sustain it; a substrate with preferred directions and direction-independent gravity.
 
-**Extended if:** something in ED says where a new event goes — what the commitment that makes a place decides about its relations. That one statement would reopen every question in Part VII.
+**Extended if:** something in ED says where a new event goes — what the commitment that makes a place decides about its relations. That one statement would reopen every question in Part VII. **Partly addressed, and not yet met:** the relation that says which places may be neighbours has been read as the standing structure of *possibility* rather than as a separate thing prior to commitment, which puts it under the primitives that already govern possibility and makes it vary as possibility flows. **It has still not been produced from nothing.** Space remains an input.
 
 **Strengthened if:** a second result of the same form — a free parameter of an established framework shown not to be free, given what ED conserves.
+
+**Open, and the hardest thing on this list:** a mass slows nearby clocks by spending what they would have used. **But the quantity that decides how strongly a clock answers a shortage is the same quantity that decides how fast the surrounding medium refills it.** A medium whose clocks react strongly closes the shortage within a step or two; a medium that lets the shortage spread without limit has clocks that barely react. **Reach and strength are two faces of one thing, and the account as it stands cannot have both.** Gravity has both. So either the reach or the strength comes from something this account does not yet contain — named here rather than left in the working record, because it is the sharpest thing standing between the architecture of gradients and gravity itself.
 
 ## 28. The universe as the flow of becoming
 
@@ -412,8 +426,8 @@ When becoming ceases, the universe is complete.
 
 The ontology in Parts I, II, III and VIII carries forward *Event Density and the Architecture of the Universe* (January 2026), *Event Density and the Emergence of Spacetime* (February 2026) and *Event Density and the Architecture of Physical Law* (February 2026).
 
-Parts IV, V and VI, and the testing notes in sections 2, 5 and 11, report work carried out in 2026: fourteen model builds, then a programme of some forty models, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
+Parts IV, V and VI, and the testing notes in sections 2, 4, 5, 6, 8 and 11, report work carried out in 2026: fourteen model builds, then a programme of some forty models of ED's ingredients in supplied space, then a further programme at the event layer — commitments as discrete events, clocks as counts — where every standing result sits on one set of rules. Each had its meanings fixed and its expected results recorded before anything ran, with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
-Supporting documents — the results, the CDT result in technical form, the models of what ED's ingredients do in supplied space, how the work was done, and the code — are at **github.com/allen-proxmire/event-density-ontology-models**, along with the handedness theorem and a script that checks it.
+Supporting documents — the results, the CDT result in technical form, the models of what ED's ingredients do in supplied space, the results from the event layer, how the work was done, and the code — are at **github.com/allen-proxmire/event-density-ontology-models**, along with the handedness theorem and a script that checks it.
 
 The working record behind the testing — every build with its ledgers, dated notes, code and data — is held separately and available on request.
