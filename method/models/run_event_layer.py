@@ -282,20 +282,20 @@ def line(label, measured, published):
 def bench_medium(quick):
     L, ticks = (15, 3000) if not quick else (15, 600)
     print(f"\nRESULT 20 - the steady medium   (box {L}, 1 unit of possibility per place, "
-          f"{ticks} ticks, seed 1)")
-    w = World(L, 1, 1)
+          f"possibility wandering at 0.99, {ticks} ticks, seed 1)")
+    w = World(L, 1, 1, phop=0.99)
     rate, n, spreads = run(w, ticks, windows=True)
-    line("clock rate", f"{rate.mean() / n:.4f}", "0.1043")
-    line("neighbouring places in step", f"{w.in_step():.3f}", "0.948-0.954")
-    line("coherence of neighbouring cadences", f"{w.coherence():.3f}", "0.99")
-    line("largest coherent domain", f"{w.largest_domain() * 100:.1f}%", "99.8-99.9%")
-    line("spread of cadence between neighbours", f"{w.neighbour_gap_blinks():.1f} blinks", "~1.4-2.2")
+    line("clock rate", f"{rate.mean() / n:.4f}", "0.1085")
+    line("neighbouring places in step", f"{w.in_step():.3f}", "0.982")
+    line("coherence of neighbouring cadences", f"{w.coherence():.3f}", "0.993")
+    line("largest coherent domain", f"{w.largest_domain() * 100:.1f}%", "~100%")
+    line("spread of cadence between neighbours", f"{w.neighbour_gap_blinks():.1f} blinks", "~1.2")
     line("places holding no possibility", f"{(w.P == 0).mean() * 100:.0f}%", "65%")
-    line("places committed at any moment", f"{w.on.mean():.2f}", "0.51-0.54")
+    line("places committed at any moment", f"{w.on.mean():.2f}", "0.54")
     line("places starved of becoming", f"{(rate == 0).mean() * 100:.2f}%", "none")
     if spreads:
         t, cv, ch = spreads[-1]
-        line("spread of rates / chance", f"{cv / ch:.2f}", "0.65-0.67")
+        line("spread of rates / chance", f"{cv / ch:.2f}", "0.53")
 
 
 def age_lead(world):
@@ -352,7 +352,7 @@ def bench_arrow(quick):
 def bench_well(quick):
     """results 24-25. Each seed is read against its own matched control, and the two seeds
     are then averaged -- the same way the published table is built."""
-    L, dens, phop, ticks = (30, 2, 1.0, 3000) if not quick else (20, 2, 1.0, 800)
+    L, dens, phop, ticks = (30, 2, 0.99, 3000) if not quick else (20, 2, 0.99, 800)
     seeds = (1, 2) if not quick else (1,)
     print(f"\nRESULTS 24-25 - the clock well around matter   (box {L}, {dens} units per place, "
           f"possibility wandering at {phop}, {ticks} ticks, "
@@ -370,10 +370,10 @@ def bench_well(quick):
         per_seed.append({k: 100.0 * (sc[k] - sk[k]) / sc[k]
                          for k in sk if k in sc and sc[k] > 0})
 
-    # reference figures for THIS setting (density 2, possibility wandering at 1.0, box 30).
+    # reference figures for THIS setting (density 2, possibility wandering at 0.99, box 30).
     # Shallower wander gives a deeper interior; those figures are not mixed in here.
-    pub = {0: "34%", 1: "34%", 2: "23%", 3: "11%", 4: "4.65%", 5: "2.25%",
-           6: "1.14%", 7: "0.57%", 8: "0.30%", 9: "0.15%"}
+    pub = {0: "34-36%", 1: "34-36%", 2: "23%", 3: "11%", 4: "4.4%", 5: "1.9%",
+           6: "1.1%", 7: "0.7%", 8: "0.6%", 9: "0.25%"}
     wide = len(seeds) > 1
     head = f"  {'shell':>6}  {'clock slowing':>14}   {'published':<18}"
     print(head + ("  per seed" if wide else ""))

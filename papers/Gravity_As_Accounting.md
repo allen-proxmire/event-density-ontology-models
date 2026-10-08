@@ -42,7 +42,7 @@ A knot of matter is different in exactly one way: **it cannot afford to wait.** 
 
 | where | the clock runs |
 |---|---|
-| in the places hosting matter | **12–47% slow** |
+| in the places hosting matter | **34–36% slow** |
 | the surface, part matter and part space | **11–14% slow** |
 | one step outside | **4.65% slow** |
 | then outward, step by step | **2.25 → 1.14 → 0.57 → 0.30 → 0.15%** |

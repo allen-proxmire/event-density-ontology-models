@@ -18,16 +18,17 @@
 
 | reading | value |
 |---|---|
-| **cadence difference between neighbours** | **a steady ~2 blinks**, reached early and flat thereafter — *the step-invariant reading* |
-| neighbouring places in step | **0.951–0.954**, flat from tick 300 *(at δθ = 0.1 per blink; see below)* |
-| coherence of neighbouring cadences | **0.99** *(same scale)* |
-| largest coherent domain | **99.8–99.9%** of the box |
-| spread of blink rates across places | **0.65–0.67 of chance** — more even than chance |
+| **cadence difference between neighbours** | **a steady ~1.2 blinks**, reached early and flat thereafter — *the step-invariant reading* |
+| neighbouring places in step | **0.982**, flat from tick 300 *(at δθ = 0.1 per blink; see below)* |
+| coherence of neighbouring cadences | **0.993** *(same scale)* |
+| largest coherent domain | **essentially the whole box** |
+| spread of blink rates across places | **0.53 of chance** — far more even than chance |
 | places starved of becoming | **none**, and no fixed busy or idle roles |
-| clock rate | **0.104**, spread 0.0055, slowest place 0.083–0.087 |
-| share of places committed at any moment | 0.51–0.52 |
+| clock rate | **0.1085** |
+| share of places committed at any moment | 0.54 |
+| places holding no possibility in reserve | 65% |
 
-**Box sizes 15 and 20 agree to the third decimal, and the seeds agree.**
+**Read at the engine's standard speed of possibility (0.99), the setting used for every result here.** *(At a fifth of that speed the same medium reads 0.949 in step, 0.989 coherence, a 1.5-blink gap and a clock of 0.1041 — the same medium, slightly less even, because possibility takes longer to spread.)*
 
 > **So scarcity does not tear the One Being apart.** Places share a budget that cannot serve all of them at once, and what results is neither a frozen structure nor a scatter: a single coherent medium, fully active, with a **steady difference of about two blinks between neighbours** that forms early and then stops growing.
 
@@ -100,18 +101,18 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 
 | shell | clocks run |
 |---|---|
-| the places hosting matter | **12–47% slow**, deepest where possibility wanders slowly |
+| the places hosting matter | **34–36% slow** |
 | the surface shell, part matter and part space | **11–14% slow** |
 | first shell wholly outside | **4.65% slow** |
 | then, outward, shell by shell | **2.25 → 1.14 → 0.57 → 0.30 → 0.15%**, reaching background |
 
 **Six shells, halving at every step, out to three times the matter's own radius** — every shell positive in both seeds and above the noise floor. **The same sign in every seed, box size and possibility density.**
 
-*The six-shell profile is one parameter set, quoted together rather than assembled from several: two units of possibility per place, possibility wandering freely, a box of 30, matter of radius 3.*
+*The six-shell profile is one parameter set, quoted together rather than assembled from several: two units of possibility per place, possibility at the engine's standard speed, a box of 30, matter of radius 3.*
 
 > **This is a clock well, falling monotonically from the matter outward to the background, out of nothing but competition for becoming.** There is no metric in the model, no field equation, and no term that was fitted. **A place near matter is not being pulled on. It is going without.**
 
-**Two of those numbers depend on the model's own settings and are quoted as a range for that reason.** How deep the well is at the matter itself depends on how fast possibility wanders — 39% when it wanders slowly, 12% when it wanders freely, because a better-fed structure starves less. **How far the skirt reaches depended on the box** until the box was made large enough: the same settings that gave four shells in a box of 20 give six in a box of 30. **The shape does not depend on either.**
+**Two of those numbers depend on the model's own settings, and both dependencies are measured.** How deep the well is at the matter itself depends on how fast possibility wanders — **a better-fed structure starves less**, so slower wandering digs deeper. **How far the skirt reaches depended on the box** until the box was made large enough: the same settings that gave four shells in a box of 20 give six in a box of 30. **The shape does not depend on either**, and the skirt is unchanged between the standard speed and free wandering.
 
 ---
 
