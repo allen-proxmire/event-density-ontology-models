@@ -317,8 +317,8 @@ def bench_arrow(quick):
 
     rows = []
     for s in seeds:
-        conc = World(L, 1, s, mode="conc")
-        ctrl = World(L, 1, s, mode="one")
+        conc = World(L, 1, s, mode="conc", phop=0.99)
+        ctrl = World(L, 1, s, mode="one", phop=0.99)
         rc, nc, _ = run(conc, ticks)
         rk, nk, _ = run(ctrl, ticks)
         rows.append(dict(clock_c=rc.mean() / nc, clock_u=rk.mean() / nk,
@@ -339,7 +339,7 @@ def bench_arrow(quick):
          f"{mean('step_c'):.3f} / {mean('step_u'):.3f}", "equal")
     print("  --- and one thing does not fade")
     line("origin older than the far region, by",
-         f"{mean('lead'):.1f} blinks", "13-18 (box 20), 6-17 (box 15)")
+         f"{mean('lead'):.1f} blinks", "about 5 (box 20, wandering 0.99)")
     line("the same reading in the control (the floor)",
          f"{mean('floor'):.1f} blinks", "a few blinks either way")
     if len(rows) > 1:

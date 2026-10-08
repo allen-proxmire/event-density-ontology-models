@@ -68,7 +68,8 @@ This is **the Relational Entanglement Pull** (ruling of 2026-10-05). Its strengt
 **Where becoming began, more has happened — and part of that is permanent.**
 
 - **In cadence**, a smooth hill: the ball runs **3–5 blinks ahead** of the box mean, falling off smoothly outward, **and relaxing slowly** — about half of it remains after 2,500 ticks.
-- **In blink count — age — the lead does not relax at all.** Averaged over the shells of the origin region, it ends **13–18 blinks older** in the larger box and **6–17** in the smaller, about **4%**, where a uniform start is flat across every shell. **The box as a whole ends 3–8 blinks behind its own control** — the late start is never made up.
+- **In blink count — age — the lead does not relax at all.** Averaged over the shells of the origin region, it ends **about 5 blinks older** — 4.6 and 6.4 across two seeds, against a control floor of −2.0 — roughly **2%** of the total count, where a uniform start is flat across every shell. **The box as a whole ends behind its own control** — the late start is never made up.
+  - **The lead is permanent at every speed of possibility, and its size depends on how long possibility has to spread.** At the engine's standard setting it is the figure above. **At a fifth of that speed it is 13–18 blinks** — the same relic, read where possibility takes longer to even out, so more of the head start is still visible when the run ends.
 - **Every neighbouring pair along the hill is in step**, which is why a coherence reading cannot see it.
 
 > **So the arrow erases the beginning from every rate, and keeps it as an age.** A region that began becoming first stays permanently further along, by a fixed count, while becoming uniformly everywhere.
