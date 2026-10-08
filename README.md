@@ -8,7 +8,13 @@
 
 It is a theory of possibilities. It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-This repository holds the ontology, the results of testing it, models of what its own ingredients do, and the code. Two results carry the most weight. **Three quantities that CDT leaves free, and tunes by hand, are fixed by the ontology** — exactly and in any dimension, at a viable point in 2+1, and at a point measured to lie outside CDT's semiclassical phase in 3+1. And **modelled one layer down, as discrete events rather than continuous amounts, ED's own rules put matter at the bottom of a clock well** — clocks slowed where matter sits and recovering shell by shell outward, with no metric and no field equation in the model.
+This repository holds the ontology, models of its own discrete rules, the results of testing them, and the code. **Three findings carry the most weight, and all three come from running the rules as discrete events rather than continuous amounts.**
+
+1. **Clocks run slow at the bottom of a well.** Matter has to keep committing to stay what it is, so it spends the possibility its neighbours would have used — and in an engine with **no metric and no field equation in it**, that alone slows the clocks around it, deepest where the matter sits and recovering shell by shell outward. **A place near matter is not being pulled on. It is going without.**
+2. **A region that began first stays permanently older.** Time here is the count of commitments, not a background everything slides along — so a head start cannot be repaid. Start all the possibility in one ball and let it spread: within a few hundred blinks **every rate matches a world that began uniform**, and the place where becoming began ends **13 to 18 blinks older.** The rates equalise; the age does not.
+3. **Size makes no difference to how hard the gradient pulls.** Matter's own clocks run slow, so its cadence falls behind, and that lag spreads outward — a second consequence of the same spending, still being measured and held in the working record rather than published here. Steered by it, closed loops of 12 and 24 links are pulled **at the same rate — 1.04 ± 0.03 across four couplings** — matching what the bare grid gives. **The response of extended matter to a phase gradient does not depend on its size.** *What this is not yet: free fall.* At the model's own coupling a loop is still pushed **away** from matter, and inward motion needs three to four times that — so the pull is established and the falling is not.
+
+**And one result reaches outside ED:** three quantities that causal dynamical triangulations leaves free and tunes by hand are **fixed by the ontology** — exact algebra, in any dimension, at a viable point in 2+1 and at a point measured to lie outside CDT's semiclassical phase in 3+1.
 
 ---
 
