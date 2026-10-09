@@ -1,6 +1,6 @@
 ﻿# Results from analysis and proof
 
-*Allen Proxmire. Last updated 2026-10-02. Read these first: they are the results in most direct contact with established physics and mathematics — which is not the same as contact with observation, and none of them is a prediction a measurement could contradict. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md).*
+*Allen Proxmire. Last updated 2026-10-02. Read these first: they are the results in most direct contact with established physics and mathematics — which is not the same as contact with observation, and none of them is a prediction a measurement could contradict. What ED's own ingredients do in supplied space is in [MODEL_RESULTS.md](MODEL_RESULTS.md), the results from models; how the work was done is in [../method/HOW_IT_WAS_DONE.md](../method/HOW_IT_WAS_DONE.md). **These five are analysis and proof rather than simulation**; the lattice models' own limits — no momentum, no inertia, no metric — are in [../method/models/README.md](../method/models/README.md).*
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. The central tested result is **3 quantities that CDT leaves free, and tunes by hand, are fixed by the ontology.**
 

@@ -3,6 +3,8 @@
 **What the world is made of, what follows from it, and what has been tested**
 
 Allen Proxmire
+
+> **Scope.** This is an ontology — an account of what the world is made of. **Where it is tested, the tests are discrete lattice models**, and those models have **no momentum, no inertia, no metric and no field equation in them**. A pattern in them drifts while something is biasing its next commitment and stops when that stops, so where this document says matter is *drawn* or *draws together*, **the reading is a rate of drift, not an acceleration, and not an orbit or a free fall.** **Nothing here is general relativity, and nothing here is a prediction a measurement could contradict.** The models' own limits are set out in [../method/models/README.md](../method/models/README.md).
 October 2026
 
 ---
