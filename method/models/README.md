@@ -4,6 +4,20 @@
 
 ---
 
+## What these models are, and what they are not
+
+**These are discrete lattice models.** Places hold possibility, neighbouring places commit together, and matter is a closed pattern that must keep re-committing. **Everything the models do follows from rules written down in the scripts**, and the scripts say which rules are ED's and which are ours.
+
+**Three limits worth stating before anyone reads a result as physics:**
+
+- **There is no momentum and no inertia.** A pattern here does not coast. It moves while something is biasing its next commitment and **stops when that stops** — so what is measured is a **rate of drift, not an acceleration**, and **nothing in these models can produce an orbit or a free fall** in the mechanical sense. That is a property of the rules, not a stage they have not reached yet.
+- **There is no spacetime and no metric.** Which places may be neighbours is handed to every model here rather than produced by one, and there is no field equation anywhere in the code.
+- **The rules that move things are declared, not derived.** The commitment pull (`K = 0.5`, a fraction of the way to the neighbourhood mean) and the cadence step (`DPHI = 0.1`) are **ours** — marked so in the source. **ED says a commitment is mutual and that direction is carried by phase; it does not say in what way.** So a result about how patterns move is a result about those rules.
+
+> **What the models are good for** is showing what ED's own bookkeeping does when it is run exactly: that matter going without slows the clocks around it, that the medium comes into step on its own, that a head start in becoming cannot be repaid. **Those need no steering rule at all** — they come from places spending possibility and committing together.
+
+---
+
 ## The event layer: results 20–25
 
 **[run_event_layer.py](run_event_layer.py)** is self-contained and reproduces the event-layer results of [../../results/EVENT_LAYER.md](../../results/EVENT_LAYER.md). **It runs the final rules and nothing else** — no superseded modes, no options that were tried and dropped — and prints each published figure beside the one it has just measured.
