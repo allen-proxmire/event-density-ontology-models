@@ -4,6 +4,10 @@
 
 ---
 
+**Two things to read alongside this.** **[INPUTS.md](INPUTS.md)** lists every result with what it was given — because some of what follows came out of the rules and some of it came from a rule written to produce it, and you cannot tell by reading. **[SCOPE.md](SCOPE.md)** collects the limits. **The short version: the clock well and the age relic needed nothing added; matter drawing matter together needed a rule we wrote, including how strong it is.**
+
+---
+
 ## The story in one page
 
 **Where it started.** Event Density is an ontology: the world is made of *becoming* before it is made of things, and time only runs one way. The earliest phase of work compared the principles of ED against known physics. That refined the ontology, and more importantly it pointed toward ways to research it. The question became: **what does ED actually establish, when it is tested carefully?**
@@ -85,7 +89,7 @@ Smaller findings: ħ shelters structure, more the harder structure is driven, an
 8. **The arrow of time comes out exactly as the ontology states it.** Pile all the possibility into a ball and leave the rest of space quiet. **Becoming spreads out, the gradient flattens, and within a few hundred ticks the beginning is forgotten** — every rate matches a universe that started uniform, to three decimals. **But one thing never fades: the place where becoming began ends up permanently older, by about 5 blinks.** That is time as ED defines it — accumulated becoming, which can't be repaid. **The rates all even out and the age difference stays.** The lead is there at every speed of possibility; **how big it is depends on how long possibility has to spread**, and at a fifth of the engine's standard speed it reads 13 to 18 blinks instead — the same relic, caught earlier in its evening-out.
 9. **There is one budget, and it is possibility.** No second limit on how many neighbours can commit at once. Where possibility is scarce the medium spends it as fast as it arrives; **where it is plentiful the only ceiling left is ħ** — a place can't commit again until its commitment dissolves — and that ceiling is the ontology's own, with no number of ours in it.
 10. **Matter slows the clocks around it, and this is the one to look at.** A knot of matter has to keep committing to stay what it is, so it spends possibility its neighbours would have had. **Read raw, with no correction of any kind: clocks run slow where the matter sits, and recover by about half per step outward across six steps until they match the background.** Same sign in every run, every box size, every density. **A place near matter is not being pulled on. It is going without.**
-11. **The shortage behind that well has the shape gravity has** — in a rich medium it matches the exact textbook answer for a drain of that size to within a percent. **That shape is not ED's achievement and the document says so plainly:** anything conserved that spreads out in three dimensions falls off that way. **What is ED's is the drain** — that matter eats becoming at all, because it has to keep committing to exist. And one real limit came with it: **a medium whose clocks notice a shortage is also a medium that refills it quickly**, so reach and strength are two sides of one thing and you cannot have both.
+11. **The shortage behind that well has the shape gravity has** — in a rich medium it matches the exact solution for a drain of that size **in a box of that size**, with nothing fitted. **It has since been measured again around a different, much smaller piece of matter at a different density and matches the same unscreened solution to under a percent** — so the shape belongs to the shortage and not to one source. **That shape is not ED's achievement and the document says so plainly:** anything conserved that spreads out in three dimensions falls off that way. **What is ED's is the drain** — that matter eats becoming at all, because it has to keep committing to exist. And one real limit came with it: **the shortage reaches far and the clock's response to it does not.** A commitment needs at least one unit of possibility at each end, so a place's rate of blinking **saturates**: where possibility is plentiful nothing is near that limit and the well nearly vanishes, and where it is scarce the limit is crossed close in and the well is deep. Measured, the well is fifteen times shallower in a rich medium while the shortage keeps the same shape. **So reach and strength are two sides of one thing and you cannot have both** — and that is why.
 12. **Matter does gather — and what gathers it is the lag, not the shortage.** Because matter's clocks run slow, its blinking falls behind its surroundings, and that lag spreads outward. **Let that lag steer which step a place takes next, and two loops of matter alone in a box are drawn together** — nothing held, nothing pinned, no walls and no apparatus of any kind. It takes a certain strength of steering: above about **0.11 for the bigger loops and 0.19 for the smaller**, the motion turns inward, and it did so in **every pairing tried**. **The bigger pair does not just approach — it settles**, sitting about **six places closer than their own bodies alone would put them** and holding that distance for the rest of the run. **So the two halves of this account pull opposite ways: the shortage pushes matter apart, the lag draws it together, and the lag wins once it is strong enough.** *What this is not:* one body falling past another — **both bodies move** — and what is measured is a **drift rather than an acceleration**. **And the steering rule is one we added.** ED says direction is carried by phase; **it does not say in what way**, and the way used here — each place leaning toward whichever neighbour is running behind — **is a rule laid on top of ED's own, with a strength we choose.** **So the gathering shows what that rule does; it is not something ED's bookkeeping produces by itself.**
 
 > **What Part 3 changes.** Phase 2 showed ED's ingredients make a coherent world when space is handed to them. **Phase 3 shows the same thing without averaging anything** — and three claims the ontology leans on hardest, *gravity is the architecture of gradients*, *time is the accumulation of becoming*, and *what bends a path inward is phase rather than plenty*, stopped being claims and became readings.
@@ -123,6 +127,30 @@ Not all results carry the same weight, and they shouldn't be quoted as if they d
 * **Estimates and approximate trends:** the lifetime formula for lone clumps (about a factor of two); ħ's sheltering; the square-root lifetime under spending; the grain model's switch.
 * **The event-layer results (Part 3):** all six are clean, reproduced observations on one ruleset, agreeing across seeds and box sizes — the medium and the arrow to three decimals, the clock well with the same sign in every run. **Two carry stated limits:** the clock well's *reach* was set by the size of the box until the box was made large enough, and the shortage's Newtonian shape is what diffusion in three dimensions gives, so the result there is the drain and not the shape. Everything is at one memory setting.
 * **The later results:** order made by commitment, the polarity field's reach, and the 1/r reach of a mass are clean, reproduced observations; space as a necessary input rests on nine models with their measurements fixed in advance on calibrated instruments; the two ways to cut a region off, and the glass, are observed across many runs and seeds, each with its decisive check (box size and grid size for the surface; unrestricted rearrangement for the glass).
+
+---
+
+## What each result needed put in
+
+**The section above is about how well each result is established. This one is about where it came from.** They are different questions and a result can score well on one and badly on the other.
+
+**Needed nothing beyond the neighbour relation** — which places may be neighbours, handed to every model here:
+
+* **Matter slows the clocks around it.** Matter has to keep committing; committing spends possibility; a place short of possibility gets fewer turns. The well follows. Measured on free matter with nothing held.
+* **A region that began first stays older.** Nothing un-counts a commitment, so a head start cannot be repaid.
+* **Three dimensions, if a particle is an uncuttable knot**, and **no handedness from mirror-symmetric transport.** These are proofs, not runs.
+
+**Needed a rule we wrote, and the rule is ours including its strength:**
+
+* **Matter draws matter together.** The steering weight that does it, and how strong it is, are ours. **Without it, patterns are pushed apart** — the shortage that slows a clock also bars the door. This is the finding that most resembles physics and the one that needed the most supplied.
+* **The medium coming into step.** That committing together *must* pull two places toward agreement is ED's; **the form of that pull and its size are ours.**
+* **The equal response of different-sized patterns.** Real, measured — and in part a property of averaging a pattern's centre, rather than a principle.
+
+**Ours in the mapping, ED's in the laws:**
+
+* **The CDT result.** The identities are textbook and the three conservation laws are ED's. **The dictionary that lines ED's budgets up with CDT's counts is ours**, written down as decisions. And in 3+1 the answer is negative: the point ED fixes is not where CDT's semiclassical phase is.
+
+**Supplied in everything here:** space; the Born rule; the area law; 3+1 dimensions; a starting shape; and **every knot and loop is seeded** — nothing in this work organised itself out of the medium. **Matter's persistence is a rule too**, so the clock well is a consequence of that rule rather than evidence for it.
 
 ---
 

@@ -2,8 +2,6 @@
 
 *Allen Proxmire.*
 
-[![DOI](https://zenodo.org/badge/1366865757.svg)](https://doi.org/10.5281/zenodo.22718511)
-
 **Event Density (ED) is an ontology** — an account of what the world might be made of, under physics. It starts from one conviction: **time only runs one way.** Once something has happened, it can't be undone.
 
 It is a theory of possibilities. It is not a theory of gravity and not a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
@@ -142,6 +140,12 @@ python method/models/run_event_layer.py
 Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about ten.** The arrow and the well average two seeds, each read against its own matched control, and print the per-seed values beside the mean. What is ED's and what is the model's is in the script's own header.
 
 Model results 1–12 and the clock floor can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each. The scripts for results 13–18 are held with the working record and available on request.
+
+## Citing this
+
+Proxmire, A., *Event Density*. DOI [10.5281/zenodo.22718511](https://doi.org/10.5281/zenodo.22718511). **A Zenodo deposit is a timestamp and an archive, not a review** — nothing here has been refereed.
+
+---
 
 ## Further reading
 
