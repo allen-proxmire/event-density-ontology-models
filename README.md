@@ -4,17 +4,35 @@
 
 [![DOI](https://zenodo.org/badge/1366865757.svg)](https://doi.org/10.5281/zenodo.22718511)
 
-**Event Density (ED) is an ontology** — an account of what the world is made of, underneath physics. It starts from one conviction: **time only runs one way.** Once something has happened, it can't be undone.
+**Event Density (ED) is an ontology** — an account of what the world might be made of, under physics. It starts from one conviction: **time only runs one way.** Once something has happened, it can't be undone.
 
-It is a theory of possibilities. It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
+It is a theory of possibilities. It is not a theory of gravity and not a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-This repository holds the ontology, models of its own discrete rules, the results of testing them, and the code. **Three findings carry the most weight, and all three come from running the rules as discrete events rather than continuous amounts.**
+**What this repository contains** is that account, a set of discrete models built from its rules, and what happened when they were run exactly — thirty numbered results, each with its own strength and scope, with the code. **The models are lattices of fifteen to thirty places with no inertia, no metric and no field equation, and nothing here has been compared with an observation of the world.**
+
+## How to read this
+
+**Two pages come before the results.**
+
+* **[INPUTS.md](INPUTS.md)** — every result with what it was given. **Some results here follow from the ontology; others follow from a rule written to make them happen, and the table says which.**
+* **[SCOPE.md](SCOPE.md)** — the limits. No inertia, no metric, no prediction a measurement could contradict, lattices of fifteen to thirty places, and nothing read by anyone outside.
+
+*The author's case for offering an ontology at all is in [ontology/Why_An_Ontology.md](ontology/Why_An_Ontology.md).*
+
+---
+
+## What came out, and what was put in
+
+**Two of the three findings that carry the most weight need nothing beyond the neighbour relation — which places may be neighbours — supplied to every model here.**
 
 1. **Clocks run slow at the bottom of a well.** Matter has to keep committing to stay what it is, so it spends the possibility its neighbours would have used — and in an engine with **no metric and no field equation in it**, that alone slows the clocks around it, deepest where the matter sits and recovering shell by shell outward. **A place near matter is not being pulled on. It is going without.**
 2. **A region that began first stays permanently older.** Time here is the count of commitments, not a background everything slides along — so a head start cannot be repaid. Start all the possibility in one ball and let it spread: within a few hundred blinks **every rate matches a world that began uniform**, and the place where becoming began ends **about 5 blinks older.** The rates equalise; the age does not. **The relic is permanent at every speed of possibility; how big it is depends on how long possibility has to spread**, and the figure above is at the engine's standard setting.
+
+**The third needs a rule written to produce it, and it is the one that most resembles physics.** The steering weight that makes matter draw matter together, and the strength of that weight, are **ours**; without it, loops are pushed apart. The equal response of different-sized patterns is in part a property of averaging a centroid. **Both are reported here as that** — see [INPUTS.md](INPUTS.md) §6.
+
 3. **Free matter gathers, and the pull does not care how big the body is.** Matter's own clocks run slow, so its cadence falls behind, and that lag spreads outward — a second consequence of the same spending, still being measured and held in the working record rather than published here. Steered by it, closed loops of 12 and 24 links are pulled **at the same rate — 1.04 ± 0.03 across four couplings** — matching what the bare grid gives. **The response of extended matter to a phase gradient does not depend on its size.** At weak coupling a loop is still pushed **away** — and that holds between two free loops in an otherwise empty box, with no knot, no walls and no apparatus of any kind, so **the pushing is a property of the rules rather than of the test setup.** **Above a coupling of about 0.11 for loops of 48 links and 0.19 for loops of 24, the sign changes and free matter is drawn together.** Measured in three pairings — two 48s, two 24s, and a 24 beside a 48 — the net motion is inward in **all six cells tried, by between 2.7 and 6.7 standard errors**, with nothing held and nothing pinned. **And the heavier pair does not merely approach — it settles:** two loops of 48 sit **6.2 ± 1.2 closer than their own bodies alone would put them**, within ten places **78% of the time**, holding a standoff of **6.9 ± 0.2**. **So the pull is established, the pushing is established at weak coupling, and above it the gathering is established too.** *What this still is not: free fall.* What is measured is **two bodies drawing together, not a test body falling through a source's field**; it is a rate of **drift, not an acceleration**; and **the coupling is the model's own parameter rather than a derived number.** **The steering rule is declared, not derived:** the ontology says direction is carried by phase, and this model makes that concrete by having each place lean toward whichever neighbour is running behind. **That rule sits on top of the primitives rather than following from them**, so the gathering is what the rule does — **it does not fall out of the bookkeeping on its own.**
 
-**And one result reaches outside ED:** three quantities that causal dynamical triangulations leaves free and tunes by hand are **fixed by the ontology** — exact algebra, in any dimension, at a viable point in 2+1 and at a point measured to lie outside CDT's semiclassical phase in 3+1.
+**And one result reaches outside ED — with a negative verdict in the dimension that matters.** three quantities that causal dynamical triangulations leaves free and tunes by hand are **fixed by the ontology** — exact algebra, in any dimension, at a viable point in 2+1 and at a point measured to lie outside CDT's semiclassical phase in 3+1. **The dictionary that makes the comparison possible is ours, and is recorded as a set of decisions rather than derivations.**
 
 ---
 
@@ -83,24 +101,13 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 
 ---
 
-## How to judge it
-
-ED should be judged as an ontology, not as a new physical theory. Most ontologies, from process philosophy to relational pictures of physics, stay entirely verbal: they describe how the world might be built, and there is nothing to run or check. Judged as an ontology, ED has what most lack:
-
-1. **It is runnable.** Its ideas were turned into exact rules a computer can run: fourteen model builds, then a programme of some forty models in continuous amounts, then a further sixty-odd at the event layer, where every standing result sits on one ruleset. Code here for the results it covers.
-2. **It constrains an established framework.** Its conservation laws fix three numbers that CDT, a working approach to quantum spacetime, tunes by hand — at a viable point in 2+1. In 3+1 the point it fixes has been measured against CDT and lies outside the semiclassical phase.
-3. **It forbids things, from its own content:** one- and two-dimensional worlds, four or more dimensions if a particle is an uncuttable knot, handedness written into mirror-symmetric laws, and a regular grid as the substrate.
-4. **Its concepts behave as claimed when built.** "Nothing accumulates a record of itself": the only memory is the present state. "Every structure is a temporary attractor": the full arc appears. Polarity binds patterns in step and parts them out of step. **And the two claims the ontology leans on hardest now behave too**: *gravity is the architecture of gradients* — matter sits in a clock well its own spending digs; and *time is the accumulation of becoming* — a region that began first stays permanently further along in blinks while every rate equalises. These are behaviours of the rules, not labels on them.
-5. **It is carefully scoped.** Every claim carries its strength and its scope, and the code is here or available on request.
-
-ED supplies, in its own words, *"the conditions of possibility, not the full catalogue of outcomes."* It says what may happen, not where a new event goes — and with space supplied, the models show that "where" costs structure little. Space itself is a necessary input; the natural next extension is what the commitment that makes a place decides about its relations.
-
----
 
 ## What's here
 
 |||
 |-|-|
+|**[INPUTS.md](INPUTS.md)**|**every result with what it was given** — which findings follow from the ontology, and which follow from a rule written to produce them|
+|**[SCOPE.md](SCOPE.md)**|**the limits**, collected: no inertia, no metric, no prediction a measurement could contradict, lattice sizes, and what has been looked for and not found|
 |[ontology/Event\_Density\_An\_Ontology.md](ontology/Event_Density_An_Ontology.md)|**the paper** — what ED is, what follows from it, and what testing established|
 |[PLAIN\_LANGUAGE.md](PLAIN_LANGUAGE.md)|**the whole programme in plain language** — the story, the results, how strongly each stands|
 |[results/RESULTS.md](results/RESULTS.md)|**results from analysis and proof** — five results applying known mathematics to ED's claims; read first|
@@ -112,6 +119,7 @@ ED supplies, in its own words, *"the conditions of possibility, not the full cat
 |[results/Handedness/](results/Handedness/)|the handedness theorem: statement, proof, assumptions, and a script that checks it|
 |[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
 |[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
+|[ontology/Why\_An\_Ontology.md](ontology/Why_An_Ontology.md)|the author's case for offering an ontology at all — moved off the front page|
 |[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–25 and prints the published figures beside the measured ones|
 |[method/models/](method/models/)|the code for model results 1–12 and the clock floor, with a table of which script reproduces which result|
 
