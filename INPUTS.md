@@ -87,7 +87,7 @@
 | **23** | **one budget: possibility is all a commitment draws on** | the single-budget claim | the test that abolished the neighbourhood cap |
 | **24** | **matter slows the clocks around it** | matter must keep re-committing; commitment spends possibility | **the matter's radius and that it is seeded; the wandering speed, which sets the depth** |
 | **25** | **the shape of the shortage, its reach, and the limit on both** | the spending | **the medium's parameters, which set the reach** |
-| **26** | **why those clocks run slow: the well is an identity** | matter's spending; that a clock counts a place's own completed commitments; that a commitment occupies a place for ħ | **nothing new.** Two counters, both readings taken at the moment of choice, consuming no random draw and gating nothing |
+| **26** | **why those clocks run slow: places near matter hold nothing far more often** | matter's spending; that a clock counts a place's own completed commitments; that a commitment occupies a place for ħ | **nothing new.** Two counters, both readings taken at the moment of choice, consuming no random draw and gating nothing |
 
 **Five mechanisms were added in this line and the repository names them:** the two kinds of commitment, the dynamic neighbour relation, **the Relational Entanglement Pull**, the persistence of matter as a reserved internal commitment, and the cadence phase. **The cadence phase has since been grounded as a realisation of P13; the pull has not been grounded in any primitive and is recorded as an addition.**
 

@@ -418,9 +418,10 @@ def bench_well(quick):
     print("\n  RESULT 26 - what makes it. At the moment of choice a place is committed, or free")
     print("  and holding possibility, or free and holding none. A commitment is seen in progress")
     print(f"  on {HBAR - 1} of the {HBAR} ticks it occupies, so the clock rate is the committed share")
-    print(f"  divided by {HBAR - 1} -- an identity, and the check on it is the last column.")
+    print(f"  divided by {HBAR - 1} -- bookkeeping, and the check on it is the last column.")
+    print("  What is measured, and could have come out otherwise, is the rise in holding nothing.")
     print(f"  {'shell':>6}  {'empty: ctrl -> matter':>22}  {'of that rise, from':>20}  "
-          f"{'committed':>10}  {'identity':>9}")
+          f"{'committed':>10}  {'bookkeeping':>11}")
     for k in sorted(states[0]['rate'][0]):
         if k > 7 or any(('c', k) not in st for st in states):
             continue
@@ -434,6 +435,7 @@ def bench_well(quick):
         print(f"  {k:>6}  {ec:>10.3f} -> {ek:<9.3f}  {frm:>19.1f}%  {' ':>10}  {ident:>9.4f}")
     print("  So the clock well is the emptiness well, scaled by the share of the emptiness that")
     print("  comes out of the committed pool. Why that share is what it is, is not accounted for.")
+    print("  The arithmetic alone forces nothing: the rise in holding nothing is the measured part.")
     if wide:
         print("  Reproduction is statistical, not bit-for-bit. Expect the inner shells, the")
         print("  surface and shells 4-6, 8, 10-11 to land on the published figures. Shells 7")

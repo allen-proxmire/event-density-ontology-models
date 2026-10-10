@@ -174,9 +174,9 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 ---
 
-## Result 26. Why those clocks run slow: the well is an identity
+## Result 26. Why those clocks run slow: places near matter hold nothing far more often
 
-**Result 24 reads the well; this reads what makes it.** At the moment of choice every place in the model is in one of three states, and they account for all of its time:
+**Result 24 reads the well; this reads what makes it.** **Two steps, and only one of them is forced:** the relation between a clock's rate and the time its place spends committed is bookkeeping, true whatever the model does; **that places near matter hold nothing far more often is a measurement, and could have come out otherwise.** The well follows from the two together, not from the arithmetic alone. At the moment of choice every place in the model is in one of three states, and they account for all of its time:
 
 | | |
 |---|---|
@@ -222,7 +222,7 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 ## What is ED's and what is the model's
 
-**Every quantity in results 20–26 is one or the other, and the division is stated rather than left implicit.** **Result 26 adds no rule**: its two counters are readings taken at the moment of choice, and ħ, which its identity divides by, is already in the harness column below.
+**Every quantity in results 20–26 is one or the other, and the division is stated rather than left implicit.** **Result 26 adds no rule**: its two counters are readings taken at the moment of choice, and ħ, which the clock-rate relation divides by, is already in the harness column below.
 
 | ED's | the harness's |
 |---|---|
@@ -252,7 +252,7 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 - **The clock well is not shown to be unscreened.** The shortage is, in a rich medium; **the clock profile above the noise floor has not been read beyond about three shells**, and boxes larger than 30 are untested.
 - **A bigger mass does not reach further.** Across matter of radius 2 to 5 the skirt does not widen. **What sets the reach is the medium, not the mass** — which is not how gravity behaves, and is unresolved.
 - **One memory setting only.** Every result here is read at ħ = 5; the longer setting is untested on this engine.
-- **The clock well's size is accounted for; its split is not.** Result 26 shows the well *is* the emptiness well, by identity, but **why about 59% of the extra emptiness comes out of committed time inside the matter and about 40% outside it is unexplained.** That share is what turns a shortage into a rate, so the account is complete in its chain and incomplete in that one number.
+- **The clock well's size is accounted for; its split is not.** **One step of result 26 is forced and the other is measured**, and they should not be run together: *clock rate = committed share ÷ (ħ−1)* is bookkeeping, true whatever the model does, while *places near matter hold nothing far more often* is a measurement that could have come out otherwise. **Nothing here makes the well mathematically inevitable.** And within the measured part, **why about 59% of the extra emptiness comes out of committed time inside the matter and about 40% outside it is unexplained.** That share is what turns a shortage into a rate, so the account is complete in its chain and incomplete in that one number.
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
 - **The polarity phase has no variable here.** P09's U(1) polarity and P11's randomisation of it describe a quantity nothing in this model carries — so this line says nothing about either.
