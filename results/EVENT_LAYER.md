@@ -1,6 +1,6 @@
 # Results from the event layer: what ED's ingredients do when becoming is modelled as events
 
-*Allen Proxmire, 2026-10-05, updated 2026-10-06. **Results 20–25.** The third tier of results, after [RESULTS.md](RESULTS.md) (analysis and proof) and [MODEL_RESULTS.md](MODEL_RESULTS.md) (ED's ingredients in supplied space, run on continuous amounts).*
+*Allen Proxmire, 2026-10-05, updated 2026-10-06. **Results 20–26.** The third tier of results, after [RESULTS.md](RESULTS.md) (analysis and proof) and [MODEL_RESULTS.md](MODEL_RESULTS.md) (ED's ingredients in supplied space, run on continuous amounts).*
 
 > **Scope.** These are results about a **discrete lattice model**, read exactly as the rules run it. **The model has no momentum and no inertia** — a pattern does not coast, it moves while something biases its next commitment and **stops when that stops** — so every motion here is a **rate of drift rather than an acceleration**, and **nothing in it can produce an orbit or a free fall** in the mechanical sense. **There is no metric and no field equation**, and which places may be neighbours is supplied rather than produced. **The rules that move patterns are ours**: ED says a commitment is mutual and that direction is carried by phase, **not in what way**. The slowing, the self-ordering and the age relic need no such rule; the drawing-together does.
 
@@ -174,9 +174,55 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 ---
 
+## Result 26. Why those clocks run slow: the well is an identity
+
+**Result 24 reads the well; this reads what makes it.** At the moment of choice every place in the model is in one of three states, and they account for all of its time:
+
+| | |
+|---|---|
+| **committed** | a commitment in progress |
+| **free and holding** | able to begin one |
+| **free and holding nothing** | unable to begin one at all |
+
+**A commitment occupies its place for ħ ticks and is seen in progress on ħ−1 of them**, the tick it forms on being already past the choice. **So a place's clock rate is its committed share divided by ħ−1** — not a model of the rate but the same quantity counted twice.
+
+**Measured, shell by shell, that ratio reads 0.9993, 1.0000, 0.9996, 0.9999, 0.9999, 1.0000, 1.0000, 1.0000, 0.9999, 1.0000** from the matter's centre outward. **The clock well is therefore the committed-share well.**
+
+**And what moves the committed share is emptiness.** Beside a ball of matter, against a matched control:
+
+| shell | committed | free and holding | **free and holding nothing** |
+|---|---|---|---|
+| the matter's centre | 0.542 → 0.344 | 0.347 → 0.206 | **0.110 → 0.450** |
+| next shell in matter | 0.552 → 0.369 | 0.342 → 0.218 | **0.105 → 0.413** |
+| the surface shell | 0.552 → 0.490 | 0.344 → 0.288 | **0.105 → 0.222** |
+| first shell wholly outside | 0.552 → 0.526 | 0.343 → 0.312 | 0.105 → 0.163 |
+| three shells out | 0.551 → 0.545 | 0.342 → 0.333 | 0.106 → 0.122 |
+
+> **At the matter's centre a place holds nothing on 45% of its ticks against 11% in the control — a fourfold rise — and both of the other two states fall.**
+
+**That rise has to come out of those two states, and the share of it taken from the committed one is the clock well:**
+
+| from the matter's centre outward | | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **taken from committed time** | **58.5%** | 59.7% | 57.0% | 52.7% | 45.4% | 38.9% | 42.4% |
+
+**So the chain is complete, and every link in it is counted rather than fitted:**
+
+> **matter's reserved slot spends a unit from each of its two places every ħ ticks and never returns a blink → places near it hold nothing far more often → fewer of their ticks are spent inside a commitment → the clock, which counts only commitments completed, runs slow.**
+
+**This is what result 24's closing line amounts to, made exact: a place near matter is not being pulled on, it is going without — and "going without" is measurable as the share of its ticks spent holding nothing.**
+
+**Nothing was added to the model to obtain this.** The two counters behind it are readings taken at the moment of choice; they consume no random draw and gate nothing, and the model's behaviour with them is identical to without. **`python run_event_layer.py well` prints the table.**
+
+*Three seeds at the published setting — two units of possibility per place, possibility at the engine's standard speed, a box of 30, matter of radius 3 — each matter run read against its own matched control, both read over the second half. The shipped benchmark prints the same table at its default two seeds.*
+
+**One number in it is unaccounted for.** **Why the share taken from committed time is about 59% inside the matter, and drifts to about 40% outside it, is not explained** — that is a statement about how a drained place divides the time it cannot commit in, and this line does not have it.
+
+---
+
 ## What is ED's and what is the model's
 
-**Every quantity in results 20–25 is one or the other, and the division is stated rather than left implicit.**
+**Every quantity in results 20–26 is one or the other, and the division is stated rather than left implicit.** **Result 26 adds no rule**: its two counters are readings taken at the moment of choice, and ħ, which its identity divides by, is already in the harness column below.
 
 | ED's | the harness's |
 |---|---|
@@ -206,6 +252,7 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 - **The clock well is not shown to be unscreened.** The shortage is, in a rich medium; **the clock profile above the noise floor has not been read beyond about three shells**, and boxes larger than 30 are untested.
 - **A bigger mass does not reach further.** Across matter of radius 2 to 5 the skirt does not widen. **What sets the reach is the medium, not the mass** — which is not how gravity behaves, and is unresolved.
 - **One memory setting only.** Every result here is read at ħ = 5; the longer setting is untested on this engine.
+- **The clock well's size is accounted for; its split is not.** Result 26 shows the well *is* the emptiness well, by identity, but **why about 59% of the extra emptiness comes out of committed time inside the matter and about 40% outside it is unexplained.** That share is what turns a shortage into a rate, so the account is complete in its chain and incomplete in that one number.
 - **The medium is uniform, not structured.** It holds one coherent domain across nearly the whole box; it does not differentiate into distinct regions.
 - **Possibility's flattening is partly supplied.** Near a concentrated source there is a genuine spreading front, but the far region is filled evenly and at once by possibility's return to the whole. **Only the behaviour of *becoming* is a reading.**
 - **The polarity phase has no variable here.** P09's U(1) polarity and P11's randomisation of it describe a quantity nothing in this model carries — so this line says nothing about either.

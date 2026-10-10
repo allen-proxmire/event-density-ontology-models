@@ -118,7 +118,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 |[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
 |[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
 |[ontology/Why\_An\_Ontology.md](ontology/Why_An_Ontology.md)|the author's case for offering an ontology at all — moved off the front page|
-|[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–25 and prints the published figures beside the measured ones|
+|[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–26 and prints the published figures beside the measured ones|
 |[method/models/](method/models/)|the code for model results 1–12 and the clock floor, with a table of which script reproduces which result|
 
 ## Check it yourself
@@ -131,13 +131,13 @@ python results/Handedness/check_result.py
 
 Needs Python with numpy. It tests the theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases.
 
-**The event layer — results 20–25:**
+**The event layer — results 20–26:**
 
 ```
 python method/models/run_event_layer.py
 ```
 
-Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about ten.** The arrow and the well average two seeds, each read against its own matched control, and print the per-seed values beside the mean. What is ED's and what is the model's is in the script's own header.
+Needs Python with numpy and scipy. One self-contained script, the final rules and nothing else, which prints each published figure beside the one it has just measured. `medium`, `arrow` or `well` runs one benchmark on its own; `--quick` gives a faster, smaller look. **The steady medium takes under a minute; all three take about ten.** The arrow and the well average two seeds, each read against its own matched control, and print the per-seed values beside the mean. What is ED's and what is the model's is in the script's own header. **The well benchmark also prints result 26**, the decomposition that says what makes the well: a place's clock rate is its committed share divided by ħ−1, and what moves that share is how often it holds nothing.
 
 Model results 1–12 and the clock floor can be rerun from [method/models/](method/models/) (Python with numpy and scipy); its README lists the script and command for each. The scripts for results 13–18 are held with the working record and available on request.
 

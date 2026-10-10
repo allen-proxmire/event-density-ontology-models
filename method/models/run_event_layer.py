@@ -1,4 +1,4 @@
-"""Event-layer benchmarks: reproduces results 20-25 of results/EVENT_LAYER.md.
+"""Event-layer benchmarks: reproduces results 20-26 of results/EVENT_LAYER.md.
 
 ED says becoming happens in discrete commitments, each holding a place for a while before
 dissolving back into possibility, with a clock at a place counting its own commitments.
@@ -45,6 +45,9 @@ Ours (the model's, not the ontology's):
   * One reserved commitment per matter place, the fixed pairing, and that matter is a ball.
   * PHI_C = 0.3, the window within which two cadences are *reported* as in step. It is a
     reading, not a rule: nothing in the engine gates on it.
+  * Two counters behind result 26 -- the ticks a place spends committed, and the ticks it
+    spends free and holding possibility -- are readings too. They are taken at the moment
+    of choice, consume no random draw and gate nothing.
 
 NOT shown by any of this: how space or the neighbour relation arises (both supplied); that
 matter persists (that is a rule, and the clock well is the consequence of its being paid for);
@@ -82,6 +85,11 @@ class World:
         self.blinks = np.zeros(shape, int)     # the clock: completed commitments
         self.spent = np.zeros(shape, int)      # possibility held inside live commitments
         self.P = np.full(shape, dens, int)     # possibility, in units
+        # result 26, readings only: at the moment of choice, every place is in one of three
+        # states -- committed, free and holding, free and empty -- and they sum to one.
+        self.on_n = np.zeros(shape, int)       # ticks committed
+        self.avail_n = np.zeros(shape, int)    # ticks free and holding (= avail)
+        self.avail_ticks = 0
 
         gx, gy, gz = np.indices(shape)
         c = L // 2
@@ -176,6 +184,9 @@ class World:
         # Born choice: a place proposes to a neighbour with probability proportional to the
         # intensity of the pair's joint amplitude, |sqrt(P_i)e^{i0_i} + sqrt(P_j)e^{i0_j}|^2/4
         avail = ~self.on & (self.P >= 1)
+        self.on_n += self.on                   # result 26, readings only
+        self.avail_n += avail
+        self.avail_ticks += 1
         W = np.zeros((6,) + self.shape)
         for k in range(6):
             ax, sh = DIRS[k]
@@ -241,6 +252,10 @@ class World:
                 break
         return float(np.bincount(lab.ravel()).max() / lab.size)
 
+    def shell_share(self, counts, ticks):
+        """result 26: a counted share by shell from the matter's centre"""
+        return self.shell_rate(counts, ticks)
+
     def shell_rate(self, counts, ticks):
         out = {}
         for k in range(self.L // 2):
@@ -265,6 +280,9 @@ def run(world, ticks, half_from=None, windows=False):
         world.tick()
         if t == half:
             at_half = world.blinks.copy()
+            world.half_on = world.on_n.copy()          # result 26
+            world.half_avail = world.avail_n.copy()
+            world.half_at = world.avail_ticks
         if windows and t % 500 == 0:
             w = world.blinks - prev
             prev = world.blinks.copy()
@@ -360,7 +378,7 @@ def bench_well(quick):
     print("  matter is a ball of radius 3; the profile is raw against a matched control, "
           "with no correction")
 
-    per_seed = []
+    per_seed, states = [], []
     for s in seeds:
         knot = World(L, dens, s, mode="knot", phop=phop)
         ctrl = World(L, dens, s, mode="one", phop=phop)
@@ -369,6 +387,15 @@ def bench_well(quick):
         sk, sc = knot.shell_rate(rk, n), ctrl.shell_rate(rc, n)
         per_seed.append({k: 100.0 * (sc[k] - sk[k]) / sc[k]
                          for k in sk if k in sc and sc[k] > 0})
+        row = {}
+        for w, tag in ((knot, 'k'), (ctrl, 'c')):
+            at = w.avail_ticks - w.half_at
+            cc = w.shell_share(w.on_n - w.half_on, at)
+            hh = w.shell_share(w.avail_n - w.half_avail, at)
+            for k in cc:
+                row[(tag, k)] = (cc[k], hh[k], 1.0 - cc[k] - hh[k])
+        row['rate'] = (sk, sc)
+        states.append(row)
 
     # reference figures for THIS setting (density 2, possibility wandering at 0.99, box 30).
     # Shallower wander gives a deeper interior; those figures are not mixed in here.
@@ -386,6 +413,27 @@ def bench_well(quick):
         spread = ("  " + ", ".join(f"{v:.2f}" for v in vals)) if wide else ""
         print(f"  {k:>6}  {mean:>13.2f}%   {pub.get(k, ''):<18}{spread}{tag}")
     print("  (shells 0-2 are inside the matter, 3 is its surface, 4 and outward are space)")
+
+    # ---- result 26: what makes the well
+    print("\n  RESULT 26 - what makes it. At the moment of choice a place is committed, or free")
+    print("  and holding possibility, or free and holding none. A commitment is seen in progress")
+    print(f"  on {HBAR - 1} of the {HBAR} ticks it occupies, so the clock rate is the committed share")
+    print(f"  divided by {HBAR - 1} -- an identity, and the check on it is the last column.")
+    print(f"  {'shell':>6}  {'empty: ctrl -> matter':>22}  {'of that rise, from':>20}  "
+          f"{'committed':>10}  {'identity':>9}")
+    for k in sorted(states[0]['rate'][0]):
+        if k > 7 or any(('c', k) not in st for st in states):
+            continue
+        ek = sum(st[('k', k)][2] for st in states) / len(states)
+        ec = sum(st[('c', k)][2] for st in states) / len(states)
+        ck = sum(st[('k', k)][0] for st in states) / len(states)
+        cc_ = sum(st[('c', k)][0] for st in states) / len(states)
+        rk_ = sum(st['rate'][0][k] for st in states) / len(states)
+        frm = 100.0 * (cc_ - ck) / (ek - ec) if (ek - ec) > 1e-9 else float('nan')
+        ident = (ck / (HBAR - 1)) / rk_ if rk_ > 0 else float('nan')
+        print(f"  {k:>6}  {ec:>10.3f} -> {ek:<9.3f}  {frm:>19.1f}%  {' ':>10}  {ident:>9.4f}")
+    print("  So the clock well is the emptiness well, scaled by the share of the emptiness that")
+    print("  comes out of the committed pool. Why that share is what it is, is not accounted for.")
     if wide:
         print("  Reproduction is statistical, not bit-for-bit. Expect the inner shells, the")
         print("  surface and shells 4-6, 8, 10-11 to land on the published figures. Shells 7")
@@ -405,7 +453,7 @@ def main():
         print(__doc__)
         return 1
     print("=" * 94)
-    print("Event-layer benchmarks - results 20-25 of results/EVENT_LAYER.md")
+    print("Event-layer benchmarks - results 20-26 of results/EVENT_LAYER.md")
     if quick:
         print("QUICK MODE: smaller boxes and shorter runs. The figures will not match the "
               "published ones.")
