@@ -15,7 +15,7 @@ It is a theory of possibilities. It is not a theory of gravity and not a theory 
 * **[INPUTS.md](INPUTS.md)** — every result with what it was given. **Some results here follow from the ontology; others follow from a rule written to make them happen, and the table says which.**
 * **[SCOPE.md](SCOPE.md)** — the limits. No inertia, no metric, no prediction a measurement could contradict, lattices of fifteen to thirty places, and nothing read by anyone outside.
 
-*The author's case for offering an ontology at all is in [ontology/Why_An_Ontology.md](ontology/Why_An_Ontology.md).*
+*The case for offering an ontology at all is in [ontology/Why_An_Ontology.md](ontology/Why_An_Ontology.md).*
 
 ---
 
