@@ -20,6 +20,8 @@
 
 **Matter's persistence is a rule.** A matter pattern's internal links are reserved for their own partners, so it cannot stop committing. **The clock well is a consequence of that rule**, not evidence for it.
 
+**The ontology's requirement is that the pattern be committed *somewhere* at every moment — not that every link of it be paid at once — and these models meet it, with a floor the published settings sit above.** A link that is briefly unpaid is a link blinking: its slot is held for its own partner while vacant. **Measured at the published density, a pattern's reserved slots are active 55% of the time and the pattern is never once committed nowhere across 3,000 ticks.** Thin the medium and that changes: at half a unit of possibility a place the pattern goes dark on 0.25% of ticks and one of two runs dissolved, and at a quarter unit it dissolves within tens of ticks. **So the matter in these models has a density floor at roughly half a unit a place, and every figure in this repository is measured above it.**
+
 **Nothing has been read by anyone outside.** No one who works on causal dynamical triangulations, on discrete gravity, or on complex systems has reviewed any part of this.
 
 ---
