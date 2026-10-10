@@ -26,7 +26,7 @@
 
 **Every knot and every loop is seeded.** No structure in this repository organised itself out of the medium.
 
-**Matter's persistence is a rule, not a finding.** A matter pattern's internal links are reserved for their own partners, so it cannot stop committing. The clock well is then a consequence of that rule. **And the rule is the permissive form of the ontology's requirement: a slot that cannot pay keeps trying and the pattern stays. Under the strict form it dissolves and the well goes with it — see `SCOPE.md`.**
+**Matter's persistence is a rule, not a finding.** A matter pattern's internal links are reserved for their own partners, so it cannot stop committing. The clock well is then a consequence of that rule.
 
 ---
 
