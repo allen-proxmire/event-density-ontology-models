@@ -96,6 +96,11 @@ class World:
             self.sim_n0 = np.zeros(NB)             # lag 0, neighbours committed ELSEWHERE
             self.sim_f = np.zeros((NB, sim + 1))   # the neighbour at +1 finished L ticks ago
             self.sim_b = np.zeros((NB, sim + 1))   # this place finished L ticks before it
+            # and where the new commitment POINTS: back to the place that just finished,
+            # straight through to the far side, or sideways. With no preference, 1/6 each.
+            self.sim_back = np.zeros((NB, sim + 1))
+            self.sim_thru = np.zeros((NB, sim + 1))
+            self.sim_tot = np.zeros((NB, sim + 1))
             self.sim_g0 = np.zeros(NB)             # THE CONTROL: places TWO apart, which can
             self.sim_g = np.zeros((NB, sim + 1))   # never be partners
             self.sim_pp = np.zeros(NB)             # partner pairs whose lower end finished,
@@ -262,12 +267,19 @@ class World:
             nb = np.roll(d, -1, ax)
             nb2 = np.roll(d, -2, ax)
             self.sim_g0[b] += int((d & nb2).sum())
+            twd, awy = (self.pdir == 1 + ax), (self.pdir == 4 + ax)
+            twd_r, awy_r = np.roll(twd, -1, ax), np.roll(awy, -1, ax)
             for Lg in range(1, min(Lm, len(self.dbuf)) + 1):
                 past = self.dbuf[Lg - 1]
-                self.sim_f[b, Lg] += int((d & np.roll(past, -1, ax)).sum())
-                self.sim_b[b, Lg] += int((np.roll(d, -1, ax) & past).sum())
+                fwd = d & np.roll(past, -1, ax)
+                bwd = np.roll(d, -1, ax) & past
+                self.sim_f[b, Lg] += int(fwd.sum())
+                self.sim_b[b, Lg] += int(bwd.sum())
                 self.sim_g[b, Lg] += int((d & np.roll(past, -2, ax)).sum())
                 self.sim_g[b, Lg] += int((np.roll(d, -2, ax) & past).sum())
+                self.sim_tot[b, Lg] += int(fwd.sum()) + int(bwd.sum())
+                self.sim_back[b, Lg] += int((fwd & twd).sum()) + int((bwd & awy_r).sum())
+                self.sim_thru[b, Lg] += int((fwd & awy).sum()) + int((bwd & twd_r).sum())
             isp = (self.pdir == 1 + ax)
             self.sim_pp[b] += int((d & isp).sum())
             self.sim_qq[b] += int((d & isp & nb).sum())
@@ -516,7 +528,10 @@ def bench_turns(quick):
     """result 27. Do two neighbours blink on the same tick? A reading, not a rule."""
     L, ticks = (15, 3000) if not quick else (12, 600)
     seeds = (1, 2, 3, 4) if not quick else (1,)
-    LMAX, BLEN = 10, 100
+    # the lag range runs to 40 because the NULL for the direction shares is taken from the
+    # far lags, and lags 8-10 are less than two commitment-lengths out - not far enough to
+    # be a plateau in a model whose only timescale is the hold.
+    LMAX, BLEN = (40 if not quick else 20), 100
     print(f"\nRESULT 27 - neighbouring places take turns   (box {L}, one unit of possibility "
           f"a place, possibility wandering at 0.99, {ticks} ticks, "
           f"seeds {', '.join(str(s) for s in seeds)})")
@@ -552,6 +567,9 @@ def bench_turns(quick):
         acc.setdefault("agree", []).append(abs(plat.sum() / (nb * BLEN) - w.sim_chance())
                                            / w.sim_chance())
         acc.setdefault("rate", []).append(float(w.sim_dn.sum()) / w.sim_t / L ** 3)
+        for k in range(1, LMAX + 1):
+            acc.setdefault("bk%d" % k, []).append(jack(w.sim_back[:nb, k], w.sim_tot[:nb, k]))
+            acc.setdefault("th%d" % k, []).append(jack(w.sim_thru[:nb, k], w.sim_tot[:nb, k]))
 
     def mean(k):
         return float(np.mean([x[0] for x in acc[k]]))
@@ -574,6 +592,38 @@ def bench_turns(quick):
           "pair\n  sharing one commitment and so one timer. Neighbours committed elsewhere "
           "blink\n  together about a third as often as chance, and prefer to finish exactly "
           "one\n  commitment apart - one place's commitment beginning as the other's ends.")
+
+    if LMAX >= 40:
+        ctrl = range(30, LMAX + 1)
+        nb_ = float(np.mean([mean("bk%d" % k) for k in ctrl]))
+        nt_ = float(np.mean([mean("th%d" % k) for k in ctrl]))
+        cnd = [mean("th%d" % k) / (1 - mean("bk%d" % k)) for k in ctrl]
+        nc_ = float(np.mean(cnd))
+        print("\n  AND WHERE THE NEW COMMITMENT POINTS. One place finishes; its neighbour's")
+        print("  commitment begins on that tick. Of the six directions it can take, two are")
+        print("  special: BACK to the place that just finished, or straight THROUGH to the far")
+        print("  side. The null is measured at lags 30-40, eight commitment-lengths out.")
+        line("the null, back  (1/6 = 0.1667)", f"{nb_:.4f}", "0.1667")
+        line("the null, through", f"{nt_:.4f}", "0.1667")
+        line("the null, through / (1 - back)", f"{nc_:.4f}", "0.2000")
+        bk5, th5 = mean("bk%d" % HBAR), mean("th%d" % HBAR)
+        line("at the handover: back", f"{bk5:.4f}", "0.2791")
+        line("   which is, against its null", f"{bk5 / nb_:.2f}x", "1.67x")
+        line("at the handover: straight through",
+             f"{th5 / (1 - bk5):.4f}", "0.2058")
+        line("   which is, against its null",
+             f"{100 * ((th5 / (1 - bk5)) / nc_ - 1):+.1f}%", "+2.9%")
+        print("\n  Back is exactly zero at lags 1 to 4 (%.4f, %.4f, %.4f, %.4f) and that is"
+              % tuple(mean("bk%d" % k) for k in (1, 2, 3, 4)))
+        print("  the construction, not a measurement: a commitment's two ends finish together,")
+        print("  so running back needs that place to finish AGAIN this tick, and a place cannot")
+        print("  finish twice inside its hold.")
+        print("\n  So about %.0f%% of the handover is the pair re-committing to each other and"
+              % (100 * bk5))
+        print("  %.0f%% is not; and a handed-on commitment does prefer to carry straight on, by"
+              % (100 * (1 - bk5)))
+        print("  a few per cent. The size belongs with the result: it is not a mechanism for")
+        print("  motion, and nothing in these models moves a pattern.")
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]

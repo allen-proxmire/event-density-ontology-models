@@ -263,6 +263,27 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 **What produces the hole is selection rather than avoidance.** A commitment needs *both* ends free and holding possibility, so a place can only offer to neighbours that are themselves free. **Measured: two free neighbours commit with each other 0.300 of the time at one unit a place, where blind choice among six neighbours would give 0.028** — more than ten times as often, falling to four times at eight units a place. **So "this place committed to someone else" is strong evidence its neighbour was not free**, and that is why the two rarely blink together while committed apart.
 
+### And where the new commitment points
+
+**The line above says one place's commitment begins as its neighbour's ends. That leaves two questions it does not answer: whether the two places simply re-commit to each other, and whether the new commitment has any preference about direction.** Both are readable from the same counters.
+
+**One place finishes; its neighbour's commitment begins on that tick. Of the six directions that commitment can take, two are distinguished — *back* to the place that just finished, or straight *through* to the far side.** With no preference each of the six is equally likely at 1/6.
+
+**The null here is measured, not assumed, and it has to be measured far out.** At lags of thirty to forty ticks — eight commitment-lengths — both shares read **0.1667 ± 0.0003**, which is 1/6 to four decimals. **Lags of eight to ten are not far enough to serve: they are under two commitment-lengths, and in a model whose only timescale is the hold they still carry structure.**
+
+| at the handover lag | measured | against the null |
+|---|---|---|
+| **back** — the two places re-commit to each other | **0.2791 ± 0.0002** | **1.67 ×** |
+| **straight through**, as a share of the five directions that are not back | **0.2058** | **+2.9%** |
+
+**So about 28% of the handover is the pair re-committing to each other and 72% is not** — the effect is not mostly two places bonding. **And a handed-on commitment does prefer to carry straight on, by about three per cent at this density, rising to about six per cent at eight units of possibility a place.**
+
+> **The size belongs with the result. Three per cent is small beside the factor of 3.3 and the 18% above, and it is not a mechanism for motion — nothing in these models moves a pattern.** **What can be said is that the preference is there, that it is reproducible across box sizes, seeds and densities, and that it is unexplained.**
+
+**One figure in the table is arithmetic rather than measurement, and it is worth saying which.** **Back is exactly 0.0000 at lags one to four, in every run.** A commitment's two ends finish together, so for the new commitment to run back to the place that just finished, that place must finish *again* on this tick — and a place cannot finish twice inside its hold. **The channel is unreachable below the hold length by construction.** Above it the share decays as the place's own repeat interval and is back at the null by lag twenty.
+
+**`python run_event_layer.py turns` prints this table too.**
+
 ### Inside matter
 
 **The rhythm inside the matter ball is the same as in the medium around it, to three decimal places: 1.165 ± 0.013 against 1.164 ± 0.001 at the ħ lag.** Only the hole is deeper, **0.311 ± 0.005 against 0.387 ± 0.001** — and that is accounted for by matter being poorer rather than by matter being matter. **A matter place reserves possibility for the internal commitment it must keep, which leaves it 1.122 units of its two; reading the density scan above at 1.122 units predicts 0.310, against 0.311 measured.**
@@ -271,7 +292,7 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 *Four seeds in the medium and two in matter, 3,000 ticks, errors by leave-one-out jackknife over thirty 100-tick blocks so that autocorrelation is carried. Possibility conserved exactly in every run. The commitment hold is ħ = 5 ticks throughout; "lag ħ" means five ticks.*
 
-**What this result does not show.** **Nothing about motion** — nothing here moves a pattern anywhere, and taking turns is a fact about timing, not about direction. **Nothing above the 2.1% floor**, so the small lags and the far plateau carry no information. **And at lags above zero the counts are not divided into partners and others**, so how much of the ħ peak belongs to pairs that were committed to each other at one of the two moments is not measured here.
+**What this result does not show.** **Nothing about motion** — nothing here moves a pattern anywhere, and taking turns is a fact about timing, not about direction. **Nothing above the 2.1% floor**, so the small lags and the far plateau carry no information. **And the directional preference above is unexplained**, so it is quoted with its size and not as a tendency of the model to go straight.
 
 ---
 
