@@ -118,7 +118,7 @@ With space supplied as the ontology declares, ED's own ingredients — flow, clo
 |[method/HOW\_IT\_WAS\_DONE.md](method/HOW_IT_WAS_DONE.md)|how the work was done: meanings, cards, pre-set measurements, calibration, controls, review|
 |[method/STANDARDS.md](method/STANDARDS.md)|the working rules everything here was held to|
 |[ontology/Why\_An\_Ontology.md](ontology/Why_An_Ontology.md)|the author's case for offering an ontology at all — moved off the front page|
-|[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–26 and prints the published figures beside the measured ones|
+|[method/models/run\_event\_layer.py](method/models/run_event_layer.py)|**the event layer, runnable** — one self-contained script that reproduces results 20–27 and prints the published figures beside the measured ones|
 |[method/models/](method/models/)|the code for model results 1–12 and the clock floor, with a table of which script reproduces which result|
 
 ## Check it yourself
@@ -131,7 +131,7 @@ python results/Handedness/check_result.py
 
 Needs Python with numpy. It tests the theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases.
 
-**The event layer — results 20–26:**
+**The event layer — results 20–27:**
 
 ```
 python method/models/run_event_layer.py

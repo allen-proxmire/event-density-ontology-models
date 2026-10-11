@@ -220,9 +220,64 @@ and the lengths fitted to ten measured shortages agree with it **to within about
 
 ---
 
+## Result 27. Neighbouring places take turns: one place's commitment tends to begin on the tick the other's ends
+
+**Result 20 reports how close two neighbours' blink *totals* are. This asks a different question that the earlier results never put: do two neighbours blink on the *same tick*?** It is a reading, not a rule — the model's behaviour is identical with and without it.
+
+**Every figure below is a coincidence count against chance, where chance is built from each place's own measured blink rate.** A second chance level, taken from the profile's own far-lag plateau, agrees with the first to **2.1%** everywhere; that is the systematic floor, and it is wider than most of the statistical errors, so nothing within about 3% of chance is read as anything.
+
+### Together, at the same tick
+
+| neighbouring places, box 15, one unit of possibility each | coincidence / chance |
+|---|---|
+| **all pairs** | **1.870 ± 0.003** |
+| the two ends of **one commitment** | **1.572 ± 0.002** |
+| neighbours committed to **different** partners | **0.299 ± 0.001** |
+
+**Neighbours blink together more often than chance, and all of the excess is the trivial part:** two places sharing a commitment share its timer, so they always finish on the same tick — measured at **exactly 1.0000** of its pairs, in every seed. **That part is arithmetic and can be predicted outright:** given a place has just finished, the chance its partner was this particular one of its six neighbours is one in six, so the ratio must be **1/(6r)** at a blink rate *r*. At the measured r = 0.1083 that is **1.539 against 1.572 observed** — agreement at the systematic floor.
+
+> **What is not trivial is the third line. Two neighbours committed to different partners blink together only about a third as often as chance** — the configuration is suppressed, not favoured.
+
+### And apart, at exactly one commitment's length
+
+| lag in ticks | 0 | 1 | 2 | 3 | 4 | **5 = ħ** | 6 | 7–10 |
+|---|---|---|---|---|---|---|---|---|
+| **neighbours, different partners** | **0.299** | 0.871 | 0.903 | 0.917 | 0.912 | **1.183** | 1.067 | at chance |
+| **places two apart** — the control | 0.842 | 1.017 | 1.023 | 1.025 | 1.026 | **0.978** | 0.985 | at chance |
+
+**A place that finishes at tick *t* committed at *t* − ħ, and a neighbour finishing at *t* + ħ committed at *t*. So the excess at exactly ħ says one place's commitment tends to begin on the very tick the other's ends.**
+
+**Two controls say this is a relation between touching places and nothing more.** **Places two apart are flat at every lag from 1 to 10**, so it is not the whole medium ticking in unison at the hold length — that would have put the same peak in the control. **And at the ħ lag itself the control runs the other way**, mildly avoiding the offset that neighbours prefer.
+
+### The hole and the peak are different in kind
+
+**Possibility is the only budget, so the obvious question is how much of this is competition for it. The answer separates the two features cleanly.**
+
+| units of possibility per place | 1 | 2 | 4 | 8 |
+|---|---|---|---|---|
+| **the hole at lag 0** | **0.299** | 0.388 | 0.457 | **0.478** |
+| **the peak, and where it sits** | 1.183 at ħ | 1.166 at ħ | 1.164 at ħ | **1.168 at ħ** |
+| a place's cycle, hold plus wait, in ticks | 9.01 | 7.23 | — | **6.89** |
+
+**The hole fills in as possibility becomes abundant and then stops, closing about a third of the way.** **The peak does not move at all.** A place's own cycle shortens by a quarter across this range, so **two neighbours merely running in opposition would have their peak slide from 4.5 ticks to 3.4. It stays at ħ, at nearly constant height.** **So the hole is a shortage effect and the peak is structural, fixed by how long a commitment lasts.**
+
+**What produces the hole is selection rather than avoidance.** A commitment needs *both* ends free and holding possibility, so a place can only offer to neighbours that are themselves free. **Measured: two free neighbours commit with each other 0.300 of the time at one unit a place, where blind choice among six neighbours would give 0.028** — more than ten times as often, falling to four times at eight units a place. **So "this place committed to someone else" is strong evidence its neighbour was not free**, and that is why the two rarely blink together while committed apart.
+
+### Inside matter
+
+**The rhythm inside the matter ball is the same as in the medium around it, to three decimal places: 1.165 ± 0.013 against 1.164 ± 0.001 at the ħ lag.** Only the hole is deeper, **0.311 ± 0.005 against 0.387 ± 0.001** — and that is accounted for by matter being poorer rather than by matter being matter. **A matter place reserves possibility for the internal commitment it must keep, which leaves it 1.122 units of its two; reading the density scan above at 1.122 units predicts 0.310, against 0.311 measured.**
+
+> **So a matter place keeps time like a medium place holding one unit instead of two, and matter couples its neighbours' timing no more than the medium does.**
+
+*Four seeds in the medium and two in matter, 3,000 ticks, errors by leave-one-out jackknife over thirty 100-tick blocks so that autocorrelation is carried. Possibility conserved exactly in every run. The commitment hold is ħ = 5 ticks throughout; "lag ħ" means five ticks.*
+
+**What this result does not show.** **Nothing about motion** — nothing here moves a pattern anywhere, and taking turns is a fact about timing, not about direction. **Nothing above the 2.1% floor**, so the small lags and the far plateau carry no information. **And at lags above zero the counts are not divided into partners and others**, so how much of the ħ peak belongs to pairs that were committed to each other at one of the two moments is not measured here.
+
+---
+
 ## What is ED's and what is the model's
 
-**Every quantity in results 20–26 is one or the other, and the division is stated rather than left implicit.** **Result 26 adds no rule**: its two counters are readings taken at the moment of choice, and ħ, which the clock-rate relation divides by, is already in the harness column below.
+**Every quantity in results 20–27 is one or the other, and the division is stated rather than left implicit.** **Results 26 and 27 add no rule**: their counters are readings taken at the moment of choice, and ħ, which the clock-rate relation divides by and which fixes where result 27's peak sits, is already in the harness column below.
 
 | ED's | the harness's |
 |---|---|

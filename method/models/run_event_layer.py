@@ -74,7 +74,8 @@ def wrap(x):
 class World:
     """The discrete event layer. One budget, universal return, Born choice, the pull."""
 
-    def __init__(self, L, dens, seed, mode="one", phop=0.2, radius=3):
+    def __init__(self, L, dens, seed, mode="one", phop=0.2, radius=3,
+                 sim=None, sim_mask="all", sim_blen=100):
         self.L, self.dens, self.phop, self.mode = L, dens, phop, mode
         self.rng = np.random.default_rng(seed)
         shape = (L, L, L)
@@ -82,6 +83,26 @@ class World:
         self.on = np.zeros(shape, bool)        # committed now
         self.timer = np.zeros(shape, int)      # ticks left on the commitment
         self.phi = np.zeros(shape)             # cadence: the One Being start, all in step
+        # RESULT 27, READING ONLY: whether two neighbours blink on the SAME TICK, which is
+        # a different question from result 20's in-step figure - that one compares their blink
+        # TOTALS. sim = the largest lag in ticks, None = inert. Nothing here changes a decision
+        # or consumes a random draw, and the model's behaviour is identical with and without.
+        self.sim, self.sim_mask, self.sim_blen = sim, sim_mask, sim_blen
+        if sim is not None:
+            NB = 1024
+            self.pdir = np.zeros(shape, np.int8)   # 0 none, 1+ax partner at +1, 4+ax at -1
+            self.dbuf = []                         # the last `sim` ticks' completions
+            self.sim_p0 = np.zeros(NB)             # lag 0, the two ends of ONE commitment
+            self.sim_n0 = np.zeros(NB)             # lag 0, neighbours committed ELSEWHERE
+            self.sim_f = np.zeros((NB, sim + 1))   # the neighbour at +1 finished L ticks ago
+            self.sim_b = np.zeros((NB, sim + 1))   # this place finished L ticks before it
+            self.sim_g0 = np.zeros(NB)             # THE CONTROL: places TWO apart, which can
+            self.sim_g = np.zeros((NB, sim + 1))   # never be partners
+            self.sim_pp = np.zeros(NB)             # partner pairs whose lower end finished,
+            self.sim_qq = np.zeros(NB)             # and those whose upper end finished too:
+            self.sim_dn = np.zeros(shape, int)     # equal by construction, one commitment one
+            self.sim_t = 0                         # timer. Per-place counts give the chance
+            self.sim_int = 0                       # level; internal renewals stay separate.
         self.blinks = np.zeros(shape, int)     # the clock: completed commitments
         self.spent = np.zeros(shape, int)      # possibility held inside live commitments
         self.P = np.full(shape, dens, int)     # possibility, in units
@@ -171,6 +192,9 @@ class World:
         self.on[done] = False
         self.blinks[done] += 1
         self.phi[done] += DPHI          # cadence advances on a place's own completed blinks
+        if self.sim is not None:
+            self._sim_step(done)        # result 27, before the partner record is cleared
+            self.pdir[done] = 0
 
         # universal return of what those commitments spent
         self.release(int(self.spent[done].sum()))
@@ -219,8 +243,48 @@ class World:
             fj = np.roll(nphi + K * (mean - nphi), 1, ax)
             self.phi[m] = fi[m]
             self.phi[m2] = fj[m2]
+            if self.sim is not None:        # result 27: which neighbour this commitment is
+                self.pdir[m] = 1 + ax       # with, recorded at formation. The engine already
+                self.pdir[m2] = 4 + ax      # works it out and then throws it away.
 
     # ------------------------------------------------------------------ readings
+    def _sim_step(self, done):
+        """Result 27: coincidence of completed blinks between neighbours, by lag."""
+        Lm = self.sim
+        msk = getattr(self, "knot", None) if self.sim_mask == "knot" else None
+        d = (done & msk) if msk is not None else done
+        b = min(self.sim_t // self.sim_blen, self.sim_p0.size - 1)
+        self.sim_t += 1
+        self.sim_dn += d
+        if getattr(self, "pairs", None):
+            self.sim_int += int(self.int_on.sum())   # kept apart: the internal layer carries
+        for ax in range(3):                          # no cadence phase of its own
+            nb = np.roll(d, -1, ax)
+            nb2 = np.roll(d, -2, ax)
+            self.sim_g0[b] += int((d & nb2).sum())
+            for Lg in range(1, min(Lm, len(self.dbuf)) + 1):
+                past = self.dbuf[Lg - 1]
+                self.sim_f[b, Lg] += int((d & np.roll(past, -1, ax)).sum())
+                self.sim_b[b, Lg] += int((np.roll(d, -1, ax) & past).sum())
+                self.sim_g[b, Lg] += int((d & np.roll(past, -2, ax)).sum())
+                self.sim_g[b, Lg] += int((np.roll(d, -2, ax) & past).sum())
+            isp = (self.pdir == 1 + ax)
+            self.sim_pp[b] += int((d & isp).sum())
+            self.sim_qq[b] += int((d & isp & nb).sum())
+            tog = d & nb
+            if tog.any():
+                np_ = int((tog & isp).sum())
+                self.sim_p0[b] += np_
+                self.sim_n0[b] += int(tog.sum()) - np_
+        self.dbuf.insert(0, d)
+        if len(self.dbuf) > Lm:
+            self.dbuf.pop()
+
+    def sim_chance(self, gap=1):
+        """The chance level: coincidences expected from each place's OWN measured rate."""
+        r = self.sim_dn / max(self.sim_t, 1)
+        return float(sum(float((r * np.roll(r, -gap, ax)).sum()) for ax in range(3)))
+
     def in_step(self):
         return float(np.mean([np.mean(np.abs(wrap(np.roll(self.phi, -1, ax) - self.phi)) < PHI_C)
                               for ax in range(3)]))
@@ -447,15 +511,79 @@ def bench_well(quick):
         print("  QUICK MODE is one seed and a smaller box: the figures will not match.")
 
 
+
+def bench_turns(quick):
+    """result 27. Do two neighbours blink on the same tick? A reading, not a rule."""
+    L, ticks = (15, 3000) if not quick else (12, 600)
+    seeds = (1, 2, 3, 4) if not quick else (1,)
+    LMAX, BLEN = 10, 100
+    print(f"\nRESULT 27 - neighbouring places take turns   (box {L}, one unit of possibility "
+          f"a place, possibility wandering at 0.99, {ticks} ticks, "
+          f"seeds {', '.join(str(s) for s in seeds)})")
+    print("  result 20 compares neighbours' blink TOTALS; this asks whether they blink on the "
+          "SAME TICK")
+
+    def jack(num, den):
+        n, dd = np.asarray(num, float), np.asarray(den, float)
+        if dd.sum() <= 0:
+            return float("nan"), float("nan")
+        th = np.array([(n.sum() - n[i]) / (dd.sum() - dd[i]) for i in range(len(n))
+                       if (dd.sum() - dd[i]) > 0])
+        return float(n.sum() / dd.sum()), float(
+            np.sqrt((len(th) - 1) / len(th) * ((th - th.mean()) ** 2).sum()))
+
+    acc = {}
+    for s in seeds:
+        w = World(L, 1, s, mode="one", phop=0.99, sim=LMAX, sim_blen=BLEN)
+        for _ in range(ticks):
+            w.tick()
+        nb = min(ticks // BLEN, w.sim_p0.size)
+        plat = sum(w.sim_f[:nb, k] + w.sim_b[:nb, k] for k in (8, 9, 10)) / 6.0
+        platg = sum(w.sim_g[:nb, k] for k in (8, 9, 10)) / 6.0
+        acc.setdefault("partner", []).append(jack(w.sim_p0[:nb], plat))
+        acc.setdefault("other", []).append(jack(w.sim_n0[:nb], plat))
+        acc.setdefault("all", []).append(jack(w.sim_n0[:nb] + w.sim_p0[:nb], plat))
+        acc.setdefault("gap2_0", []).append(jack(w.sim_g0[:nb], platg))
+        for k in range(1, LMAX + 1):
+            acc.setdefault("L%d" % k, []).append(jack(w.sim_f[:nb, k] + w.sim_b[:nb, k],
+                                                      2.0 * plat))
+            acc.setdefault("g%d" % k, []).append(jack(w.sim_g[:nb, k], 2.0 * platg))
+        acc.setdefault("exact", []).append(w.sim_qq[:nb].sum() / max(w.sim_pp[:nb].sum(), 1))
+        acc.setdefault("agree", []).append(abs(plat.sum() / (nb * BLEN) - w.sim_chance())
+                                           / w.sim_chance())
+        acc.setdefault("rate", []).append(float(w.sim_dn.sum()) / w.sim_t / L ** 3)
+
+    def mean(k):
+        return float(np.mean([x[0] for x in acc[k]]))
+
+    print("  the two chance levels agree to       "
+          f"{100 * float(np.mean(acc['agree'])):.1f}%   (published 2.1%)")
+    line("both ends of one commitment, exactly",
+         f"{float(np.mean(acc['exact'])):.4f}", "1.0000")
+    line("all neighbouring pairs, same tick", f"{mean('all'):.3f}", "1.870")
+    line("the two ends of one commitment", f"{mean('partner'):.3f}", "1.572")
+    line("   which 1/(6r) predicts",
+         f"{1.0 / (6 * float(np.mean(acc['rate']))):.3f}", "1.539")
+    line("neighbours committed elsewhere", f"{mean('other'):.3f}", "0.299")
+    line("places two apart - the control", f"{mean('gap2_0'):.3f}", "0.842")
+    print("\n  lag |  neighbours committed elsewhere  |  places two apart, the control")
+    for k in range(1, LMAX + 1):
+        tag = "   <- the peak, at the commitment's own length" if k == HBAR else ""
+        print(f"  {k:3d} | {mean('L%d' % k):30.3f}  | {mean('g%d' % k):28.3f}{tag}")
+    print("\n  So neighbours blink together MORE than chance, and all of the excess is the "
+          "pair\n  sharing one commitment and so one timer. Neighbours committed elsewhere "
+          "blink\n  together about a third as often as chance, and prefer to finish exactly "
+          "one\n  commitment apart - one place's commitment beginning as the other's ends.")
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     quick = "--quick" in sys.argv
     which = (args[0] if args else "all").lower()
-    if which not in ("medium", "arrow", "well", "all"):
+    if which not in ("medium", "arrow", "well", "turns", "all"):
         print(__doc__)
         return 1
     print("=" * 94)
-    print("Event-layer benchmarks - results 20-26 of results/EVENT_LAYER.md")
+    print("Event-layer benchmarks - results 20-27 of results/EVENT_LAYER.md")
     if quick:
         print("QUICK MODE: smaller boxes and shorter runs. The figures will not match the "
               "published ones.")
@@ -466,6 +594,8 @@ def main():
         bench_arrow(quick)
     if which in ("well", "all"):
         bench_well(quick)
+    if which in ("turns", "all"):
+        bench_turns(quick)
     print("\nWhat is ED's and what is the model's is in this file's header, and in "
           "results/EVENT_LAYER.md.")
     return 0

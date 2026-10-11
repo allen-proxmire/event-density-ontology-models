@@ -18,15 +18,16 @@
 
 ---
 
-## The event layer: results 20–25
+## The event layer: results 20–27
 
 **[run_event_layer.py](run_event_layer.py)** is self-contained and reproduces the event-layer results of [../../results/EVENT_LAYER.md](../../results/EVENT_LAYER.md). **It runs the final rules and nothing else** — no superseded modes, no options that were tried and dropped — and prints each published figure beside the one it has just measured.
 
 ```
-python run_event_layer.py            all three benchmarks (about ten minutes)
+python run_event_layer.py            all four benchmarks (about fifteen minutes)
 python run_event_layer.py medium     result 20: the steady medium (under a minute)
 python run_event_layer.py arrow      result 22: the arrow and the age relic, 2 seeds (2 minutes)
 python run_event_layer.py well       results 24-25: the clock well, 2 seeds (about 6 minutes)
+python run_event_layer.py turns      result 27: who blinks with whom, 4 seeds (4 minutes)
 python run_event_layer.py well --quick     one seed, smaller and shorter; the figures will not match
 ```
 
